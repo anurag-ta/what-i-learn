@@ -1,1 +1,0 @@
-testcaseid: 2 event_type: 8 file_name: genresp_ack_fcs_invalid.txt output: 0 

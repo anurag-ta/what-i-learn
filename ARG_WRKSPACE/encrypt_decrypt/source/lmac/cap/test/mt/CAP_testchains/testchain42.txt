@@ -1,1 +1,0 @@
-@TEST CAP_testchains/idle_invalid.txt

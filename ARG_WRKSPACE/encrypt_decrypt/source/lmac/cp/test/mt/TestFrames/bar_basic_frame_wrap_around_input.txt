@@ -1,2 +1,0 @@
-84|00|0f|00|fc|f8|f0|10|20|02|fc|f8|f0|10|20|04|01|00|10|00|ff|ff|ff|ff|
-@@ ba frame rq with compressed ba(sq.no.is 1)

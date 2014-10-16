@@ -1,1 +1,0 @@
-@TEST CP_testfiles/Rx_ps_related_testcases.txt

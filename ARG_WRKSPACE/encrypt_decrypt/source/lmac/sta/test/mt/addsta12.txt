@@ -1,9 +1,0 @@
-#bandwidth is CBW40
-aid = 10
-bndwidth = 1 
-addr[0] = 22
-addr[1] = 22
-addr[2] = 22
-addr[3] = 22
-addr[4] = 22
-addr[5] = 12

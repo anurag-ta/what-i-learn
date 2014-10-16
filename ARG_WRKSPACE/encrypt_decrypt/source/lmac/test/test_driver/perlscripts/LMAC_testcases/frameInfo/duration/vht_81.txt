@@ -1,2 +1,0 @@
-FORMAT 3
-AC 3

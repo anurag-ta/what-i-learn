@@ -1,4 +1,0 @@
-testcaseid: 2 testcategory: 4 input: frame_info: tx_vector.txt frame: beacon.txt      rts_cts_frame: rts_frame1.txt nav: 1000 duration: 100 qos: 1 output: 0
-testcaseid: 2 testcategory: 4 input: frame_info: tx_vector.txt frame: qosdata.txt     rts_cts_frame: rts_frame1.txt nav: 1000 duration: 100 qos: 1 output: 0
-testcaseid: 2 testcategory: 4 input: frame_info: tx_vector.txt frame: qosdata_ack.txt rts_cts_frame: rts_frame1.txt nav: 1000 duration: 100 qos: 1 output: 0
-

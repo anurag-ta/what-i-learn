@@ -1,4 +1,0 @@
-#testcase for receiving of multicast frame which has umac filter as multicast_frames_allowed
-@TEST rx_testfiles/testcase_start_multi.txt
-@TEST rx_testfiles/testcase_ack_multi.txt
-@TEST rx_testfiles/testcase_ret0_ff2.txt

@@ -1,1 +1,0 @@
-cap_testcase_id1 ev_type: 6 ac: 0 qos: 0 pre_timer_tick_count: 0 post_timer_tick_count: 0 no.of_frames: 0 frame_input_file: no_file.txt frame_info_file: frame_info.txt input: status: 1 channel_list: 1 precondition: nav: 0 nav_reset_timer: 0 main_state: 0 supp_state: 0 postcondition: nav: 0 nav_reset_timer: 0 main_state: 4 supp_state: 0

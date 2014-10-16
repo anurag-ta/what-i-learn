@@ -1,3 +1,0 @@
-FORMAT 2
-AC 2
-MCS 35

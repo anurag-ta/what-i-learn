@@ -1,2 +1,0 @@
-QOS_MODE 1
-CWMIN_AC[3] 15

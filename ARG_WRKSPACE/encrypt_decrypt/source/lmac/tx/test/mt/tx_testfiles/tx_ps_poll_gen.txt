@@ -1,3 +1,0 @@
-#testcase for generation and transmission of ps_poll frame 
-testcaseid: 2 testcategory: 8 input: retry: 0 frame_info: tx_vector.txt frame: qosdata.txt nav: 1000 duration: 100 qos: 1 output: 0
-#testcaseid: 2 testcategory: 8 input: retry: 0 frame_info: tx_vector.txt frame: qosdata.txt nav: 1000 duration: 100 qos: 1 output: 0

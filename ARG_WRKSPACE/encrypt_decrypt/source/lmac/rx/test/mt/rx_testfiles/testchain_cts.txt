@@ -1,4 +1,0 @@
-#testcase for receiving of cts frame which has filter as filter_cts_frames
-@TEST rx_testfiles/testcase_nonagg_ctl.txt
-@TEST rx_testfiles/testcase_cts.txt
-@TEST rx_testfiles/testcase_ret0.txt

@@ -1,7 +1,0 @@
-testcaseid: 2 testcategory: 3 input: seqnos: 5d 5e ff frame_info: tx_vector_agg_ht.txt    frame: qosdata.txt      frame: beacon.txt frame: beacon_txop.txt nav: 1000 duration: 100 qos: 1 output: 0
-testcaseid: 2 testcategory: 3 input: seqnos: 5d 5e 5f frame_info: tx_vector_agg_ht.txt    frame: qosdata.txt      frame: beacon.txt frame: beacon_txop.txt nav: 1000 duration: 100 qos: 1 output: 0
-testcaseid: 2 testcategory: 3 input: seqnos: ff ff ff frame_info: tx_vector_agg_nonht.txt frame: qosdata.txt      frame: beacon.txt frame: beacon_txop.txt nav: 1000 duration: 100 qos: 1 output: 0
-testcaseid: 2 testcategory: 3 input: seqnos: 5d 5e 5f frame_info: tx_vector_agg_ht.txt    frame: qosdata_frag.txt frame: beacon.txt frame: beacon_txop.txt nav: 1000 duration: 100 qos: 1 output: 0
-testcaseid: 2 testcategory: 3 input: seqnos: 5d 5e ff frame_info: tx_vector_agg.txt       frame: qosdata.txt      frame: beacon.txt frame: beacon_txop.txt nav: 1000 duration: 100 qos: 1 output: 0
-testcaseid: 2 testcategory: 3 input: seqnos: ff 5e ff frame_info: tx_vector_agg.txt       frame: qosdata.txt      frame: beacon.txt frame: beacon_txop.txt nav: 1000 duration: 100 qos: 1 output: 0
-testcaseid: 2 testcategory: 3 input: seqnos: 5d 5e 5f frame_info: tx_vector_agg.txt       frame: qosdata.txt      frame: beacon.txt frame: beacon_txop.txt nav: 1000 duration: 100 qos: 1 output: 0

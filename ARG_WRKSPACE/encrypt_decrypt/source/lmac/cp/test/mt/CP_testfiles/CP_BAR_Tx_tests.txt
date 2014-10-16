@@ -1,1 +1,0 @@
-@TEST CP_testfiles/gen_bar_frame_testcases.txt

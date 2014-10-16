@@ -1,4 +1,0 @@
-#testcase for receiving data frame which has no_umac_filter 
-@TEST rx_testfiles/testcase_nonagg_data_len.txt
-@TEST rx_testfiles/testcase_bss.txt
-@TEST rx_testfiles/testcase_ret0.txt

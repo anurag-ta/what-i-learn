@@ -1,2 +1,0 @@
-#testcase for retransmission of one frame 
-testcaseid: 2 testcategory: 1 input: retry: 1 frame_info: tx_vector.txt frame: qosdata.txt nav: 1000 duration: 100 qos: 1 output: 0

@@ -1,4 +1,0 @@
-/* This text file is used in Perl script to end the test case. */
-
-Endcase
-END

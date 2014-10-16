@@ -1,6 +1,0 @@
-#idle-contend for aco by tx_ready
-@TEST CAP_testfiles/idle5.txt
-#contend-receving by phy_energy
-@TEST CAP_testfiles/contend1.txt
-#receving-eifs by phy_err
-@TEST CAP_testfiles/receving3.txt

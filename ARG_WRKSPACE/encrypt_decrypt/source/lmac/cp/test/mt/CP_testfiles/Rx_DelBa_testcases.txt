@@ -1,8 +1,0 @@
-#Deliting BA session.
-#array[0], &rq_type, 
-#array[1], &tid, &dir, &addr[0], &addr[1], &addr[2], &addr[3], &addr[4], &addr[5], 
-#array[2], 
-#array[3], 
-#array[4], 
-#array[5], &return_value
-uu_wlan_cp_mt_3_id0 3 input: 0 0 fc f8 f0 10 20 04 precondition: postcondition: output: return_value: 0

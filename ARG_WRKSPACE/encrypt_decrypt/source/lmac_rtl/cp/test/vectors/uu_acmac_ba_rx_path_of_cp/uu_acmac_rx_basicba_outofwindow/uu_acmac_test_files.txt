@@ -1,6 +1,0 @@
-uu_wlan_cp_mt_1_id66 1 input: 0 1 0 0 0 0 0 TestFrames/qos_frame_under_ba21.txt 0 precondition: postcondition: output: return: 0
-uu_wlan_cp_mt_1_id67 1 input: 0 1 0 0 0 0 0 TestFrames/qos_frame_under_ba22.txt 0 precondition: postcondition: output: return: 0
-uu_wlan_cp_mt_1_id68 1 input: 0 1 0 0 0 0 0 TestFrames/qos_frame_under_ba23.txt 0 precondition: postcondition: output: return: 0
-uu_wlan_cp_mt_1_id69 1 input: 0 1 0 0 0 0 0 TestFrames/qos_frame_under_ba24.txt 0 precondition: postcondition: output: return: 0
-uu_wlan_cp_mt_1_id70 1 input: 0 1 0 0 0 0 0 TestFrames/bar_basic_frame_input_withseqno15.txt 0 precondition: postcondition: output: return: ff1
-uu_wlan_cp_mt_1_id71 1 input: 0 1 0 0 0 0 0 TestFrames/bar_basic_invalid_frame_input.txt 0 precondition: postcondition: output: return: ff0fefff

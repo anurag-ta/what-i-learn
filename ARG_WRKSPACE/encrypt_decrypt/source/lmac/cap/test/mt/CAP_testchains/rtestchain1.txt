@@ -1,5 +1,0 @@
-#idle(energy)-receiving(energylow)-idle
-#idle-energy even
-@TEST CAP_testchains/idle_energy_high.txt
-#receving_energy is low
-@TEST CAP_testchains/receving_energy_low.txt

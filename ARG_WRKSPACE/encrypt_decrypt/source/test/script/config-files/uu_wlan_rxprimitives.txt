@@ -1,5 +1,0 @@
-PHY-IND UU_PHY_CCA_IND 1
-PHY-IND UU_PHY_RXSTART_IND -TF ./uu_wlan_rxvector_format.txt
-PHY-IND UU_PHY_DATA_IND -TF ./gen.txt
-PHY-IND UU_PHY_RXEND_IND 0
-~     

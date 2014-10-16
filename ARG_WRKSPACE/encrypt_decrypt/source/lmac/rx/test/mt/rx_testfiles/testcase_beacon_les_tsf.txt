@@ -1,1 +1,0 @@
-testcaseid: 2 event_type: 7 file_name: vector_data_len_tsf.txt umac_filter: 64 output: 0 

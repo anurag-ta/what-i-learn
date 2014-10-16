@@ -1,3 +1,0 @@
-uu_wlan_cp_mt_1_id18 1 input: 0 1 0 0 0 1 0 TestFrames/ba_basic_frame_input.txt 0 precondition: postcondition: output: return: ff5
-uu_wlan_cp_mt_1_id19 1 input: 0 1 0 0 0 1 0 TestFrames/ba_basic_invalid_frame_input.txt 0 precondition: postcondition: output: return: ff0fefff
-uu_wlan_cp_mt_1_id20 1 input: 0 1 0 0 0 0 0 TestFrames/ba_basic_frame_input.txt 0 precondition: postcondition: output: return: ff7

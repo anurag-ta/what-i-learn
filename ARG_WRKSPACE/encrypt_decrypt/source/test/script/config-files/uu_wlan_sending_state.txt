@@ -1,8 +1,0 @@
-/* This text file is used in the Perl script which behaves as a sending state. */
-
-
-PHY-IND UU_PHY_CCA_IND 1
-PHY-IND UU_PHY_RXSTART_IND -TF ./uu_wlan_rxvector_generatedframe.txt
-PHY-IND UU_PHY_DATA_IND -TF ./uu_wlan_generatedframe.txt
-PHY-IND UU_PHY_RXEND_IND 0
-~     

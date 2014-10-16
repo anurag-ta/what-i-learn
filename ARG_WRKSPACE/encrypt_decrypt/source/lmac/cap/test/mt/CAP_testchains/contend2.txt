@@ -1,1 +1,0 @@
-cap_testcase_id2 ev_type: 2 ac: 2 qos: 1 pre_timer_tick_count: 0 post_timer_tick_count: 0 no.of_frames: 1 frame_input_file: ba_frame_input2.txt frame_info_file: frame_info.txt input: status: 0 tx_ready_ac: 0 precondition: nav: 0 nav_reset_timer: 0 main_state: 2 supp_state: 0 postcondition: nav: 0 nav_reset_timer: 0 main_state: 2 supp_state: 0

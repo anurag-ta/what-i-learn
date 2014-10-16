@@ -1,4 +1,0 @@
-#testcase for receiving of fcs-errored frame which has no filter
-@TEST rx_testfiles/testcase_nonagg.txt
-@TEST rx_testfiles/testcase_ack_fcs_invalid.txt
-@TEST rx_testfiles/testcase_ret0_ff0.txt

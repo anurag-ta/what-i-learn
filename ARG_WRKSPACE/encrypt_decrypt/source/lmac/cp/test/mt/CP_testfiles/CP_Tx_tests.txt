@@ -1,1 +1,0 @@
-@TEST CP_testfiles/tx_path_testcases.txt

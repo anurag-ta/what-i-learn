@@ -1,6 +1,0 @@
-#idle-energy event
-@TEST CAP_testchains/idle_tx_ready_multicast.txt
-#contend_timer tick
-@TEST CAP_testchains/contend_timer_tick.txt
-#txop_tx_start event
-@TEST CAP_testchains/txop_tx_start_for_multicast.txt

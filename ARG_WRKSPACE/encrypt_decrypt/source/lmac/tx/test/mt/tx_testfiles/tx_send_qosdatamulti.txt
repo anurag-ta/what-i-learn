@@ -1,2 +1,0 @@
-#sending of two frames in which one frame has TODS bit set
-testcaseid: 1 testcategory: 2 input: frame_info: tx_vector.txt frame: qosdata_tods.txt frame_info: tx_vector_beacon.txt frame: beacon_txop.txt rts_cts_frame: rts_frame1.txt nav: 1000 duration: 100 qos: 1 output: 0 

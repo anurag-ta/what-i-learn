@@ -1,4 +1,0 @@
-#testcase for receiving of agg-packet with fcs err
-@TEST rx_testfiles/testcase_agg.txt
-@TEST rx_testfiles/testcase_agg_err.txt
-@TEST rx_testfiles/testcase_ret0.txt

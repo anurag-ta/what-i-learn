@@ -1,1 +1,0 @@
-rts_frame_input.txt

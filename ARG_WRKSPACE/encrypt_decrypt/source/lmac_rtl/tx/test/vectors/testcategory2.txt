@@ -1,7 +1,0 @@
-testcaseid: 1 testcategory: 2 input: frame_info: tx_vector.txt        frame: qosdata_multi.txt frame_info: tx_vector_beacon.txt       frame: beacon_txop.txt  rts_cts_frame: rts_frame1.txt nav: 1000 duration: 100 qos: 1 output: 0 
-testcaseid: 2 testcategory: 2 input: frame_info: tx_vector.txt        frame: qosdata_multi.txt frame_info: tx_vector_beacon.txt       frame: beacon.txt       rts_cts_frame: rts_frame1.txt nav: 1000 duration: 100 qos: 1 output: 0
-testcaseid: 1 testcategory: 2 input: frame_info: tx_vector_beacon.txt frame: beacon_txop.txt   frame_info: tx_vector.txt              frame: qosdata_frag.txt rts_cts_frame: rts_frame1.txt nav: 1000 duration: 100 qos: 1 output: 0 
-testcaseid: 1 testcategory: 2 input: frame_info: tx_vector.txt        frame: qosdata.txt       frame_info: tx_vector_beacon.txt       frame: beacon.txt       rts_cts_frame: rts_frame1.txt nav: 1000 duration: 100 qos: 1 output: 0 
-testcaseid: 1 testcategory: 2 input: frame_info: tx_vector.txt        frame: qosdata_tods.txt  frame_info: tx_vector_beacon.txt       frame: beacon_txop.txt  rts_cts_frame: rts_frame1.txt nav: 1000 duration: 100 qos: 1 output: 0 
-testcaseid: 1 testcategory: 2 input: frame_info: tx_vector_retry.txt  frame: qosdata.txt       frame_info: tx_vector_beacon_retry.txt frame: qosdata.txt      rts_cts_frame: rts_frame1.txt  nav: 1000 duration: 100 qos: 1 output: 0 
-

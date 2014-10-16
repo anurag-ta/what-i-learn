@@ -1,6 +1,0 @@
-#idle-rx by phy_energy
-@TEST CAP_testfiles/idle6.txt
-#receving-eifs by phy_err
-@TEST CAP_testfiles/receving4.txt
-#eifs-rx by phy_energy
-@TEST CAP_testfiles/eifs1.txt

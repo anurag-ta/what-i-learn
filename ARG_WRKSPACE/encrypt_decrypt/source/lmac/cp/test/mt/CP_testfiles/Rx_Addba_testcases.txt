@@ -1,7 +1,0 @@
-#array[0], &rq_type,
-#array[1], &buff_size, &tid, &ba_type, &seq_num, &dir, &addr[0], &addr[1], &addr[2], &addr[3], &addr[4], &addr[5], 
-#array[2],
-#array[3],
-#array[4],
-#array[5], &return_value);
-uu_wlan_cp_mt_2_id0 2 input: 10 0 0 10 0 fc f8 f0 10 20 04 precondition: postcondition: output: return_value: 0

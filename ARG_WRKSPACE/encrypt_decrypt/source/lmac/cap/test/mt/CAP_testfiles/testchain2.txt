@@ -1,6 +1,0 @@
-#to make ac3 as contend
-@TEST CAP_testfiles/idle2.txt
-#to make ac 2 as contend
-@TEST CAP_testfiles/contend2.txt
-#contend-txop by giving timer-ticks on multiple acs
-@TEST CAP_testfiles/contend3.txt

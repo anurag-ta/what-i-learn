@@ -1,2 +1,0 @@
-#testcase for testing re-aggregation multiple times till get successfully aggregated
-testcaseid: 2 testcategory: 5 input: seqnos: seq_file.txt frame_info: tx_vector_agg_ht.txt frame: qosdata.txt frame: beacon.txt frame: beacon_txop.txt nav: 1000 duration: 100 qos: 1 output: 0

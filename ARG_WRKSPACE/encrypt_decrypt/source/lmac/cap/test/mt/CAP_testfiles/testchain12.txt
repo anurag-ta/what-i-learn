@@ -1,4 +1,0 @@
-#idle-rx by phy_energy
-@TEST CAP_testfiles/idle10.txt
-#receving-contend by timer-ticks
-@TEST CAP_testfiles/receving7.txt

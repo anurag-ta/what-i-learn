@@ -1,9 +1,0 @@
-Testcase 1
-
-GENERATE BEACON
-
-recv
-GENERATE RESPONSE
-Endcase
-
-END

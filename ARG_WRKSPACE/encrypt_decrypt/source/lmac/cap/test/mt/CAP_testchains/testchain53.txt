@@ -1,6 +1,0 @@
-@TEST CAP_testchains/idle_rx_energy.txt
-@TEST CAP_testchains/receving_rx_tx_ready.txt
-@TEST CAP_testchains/rx_startind.txt
-@TEST CAP_testchains/rx_dataind.txt
-@TEST CAP_testchains/rx_endind.txt
-@TEST CAP_testchains/contend15.txt

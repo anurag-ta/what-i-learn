@@ -1,2 +1,0 @@
-#string_type[0], event_type, ac, qos_mode, pre_event_timer_tick_count, post_event_timer_tick_count, input_frames_num, frames_file, string_type[1], status, tx_ready_ac, string_type[1], precondition[0], precondition[1], precondition[2], precondition[3],string_type[2], postcondition[0], postcondition[1], postcondition[2], postcondition[3]
-cap_testcase_id5 1 0 1 65535 0 0 ack_frame_input.txt input: 0 0 precondition: 0 0 0 0 postcondition: 0 0 0 0

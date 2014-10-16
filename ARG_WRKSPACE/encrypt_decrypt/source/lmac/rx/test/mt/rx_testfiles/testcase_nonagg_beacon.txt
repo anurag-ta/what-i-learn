@@ -1,1 +1,0 @@
-testcaseid: 1 event_type: 7 filename: vector_data_len.txt umac_filter: 64 output: 0 

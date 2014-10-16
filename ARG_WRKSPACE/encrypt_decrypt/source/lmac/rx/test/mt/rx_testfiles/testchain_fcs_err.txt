@@ -1,4 +1,0 @@
-#receiving of non-aggregated frame which has fcs err which has invalid umac_filter 
-@TEST rx_testfiles/testcase_fcs_err.txt
-@TEST rx_testfiles/testcase_ack_fcs_invalid.txt
-@TEST rx_testfiles/testcase_ret0_ff0.txt

@@ -1,4 +1,0 @@
-/* This text file is used in the perl script to recv PHY_CCARESET_REQ from the AP and send PHY_CCARESET_CONf to the AP. */
-
-recv
-PHY-IND UU_PHY_CCARESET_CONF

@@ -1,8 +1,0 @@
-#idle-rx by phy_energy
-@xEST CAP_testfiles/idle14.txt
-#rx-contend by timer_ticks
-@TEST CAP_testfiles/receving11.txt
-#contend-txop by timer_ticks
-@TEST CAP_testfiles/contend9.txt
-#txop_init-wait_for_rx by txop_tx_Start
-@TEST CAP_testfiles/txop20.txt

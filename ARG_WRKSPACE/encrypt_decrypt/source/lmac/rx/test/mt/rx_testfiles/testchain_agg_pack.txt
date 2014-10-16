@@ -1,4 +1,0 @@
-#testcase for receiving of aggregated packet of fomat ht_mf with no err
-@TEST rx_testfiles/testcase_agg_ht.txt
-@TEST rx_testfiles/testcase_agg_pack.txt
-@TEST rx_testfiles/testcase_ret0.txt

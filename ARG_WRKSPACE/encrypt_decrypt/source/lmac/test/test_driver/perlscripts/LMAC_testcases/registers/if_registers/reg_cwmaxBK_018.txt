@@ -1,2 +1,0 @@
-CWMAX_AC[1] 63
-QOS_MODE 1

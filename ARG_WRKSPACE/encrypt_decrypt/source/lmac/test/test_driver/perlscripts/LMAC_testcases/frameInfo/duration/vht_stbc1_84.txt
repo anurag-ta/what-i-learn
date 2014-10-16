@@ -1,3 +1,0 @@
-FORMAT 3
-AC 0
-STBC 1

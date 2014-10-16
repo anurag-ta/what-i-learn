@@ -1,1 +1,0 @@
-CWMAX_VALUE 31

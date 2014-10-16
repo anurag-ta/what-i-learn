@@ -1,4 +1,0 @@
-libnl_3 {
-global:
-	*;
-};

@@ -1,1 +1,0 @@
-cap_testcase_id3 ev_type: 1 ac: 0 qos: 0 pre_timer_tick_count: 65535 post_timer_tick_count: 0 no.of_frames: 0 frame_input_file: ack_frame_input.txt frame_info_file: frame_info_collision_retry.txt input: status: 0 tx_ready_ac: 1 precondition: nav: 0 nav_reset_timer: 0 main_state: 2 supp_state: 0 postcondition: nav: 0 nav_reset_timer: 0 main_state: 3 supp_state: 0

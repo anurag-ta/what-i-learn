@@ -1,2 +1,0 @@
-FORMAT 1
-AC 0

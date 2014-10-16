@@ -1,3 +1,0 @@
-version.lo: version.c ../include/netlink/version.h
-
-../include/netlink/version.h:

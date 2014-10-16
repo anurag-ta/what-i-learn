@@ -1,5 +1,0 @@
-#idle-contend-receving by tx_ready,phy_energy
-@TEST CAP_testchains/idle_contend_tx_ready.txt
-@TEST CAP_testchains/contend_rx_energy.txt
-@TEST CAP_testchains/receving_contend_low_energy.txt
-@TEST CAP_testchains/contend_idle_timer_ticks.txt

@@ -1,6 +1,0 @@
-@TEST CAP_testchains/idle_rx_energy.txt
-@TEST CAP_testchains/receving_eifs_err.txt
-@TEST CAP_testchains/eifs_tx_ready.txt
-@TEST CAP_testchains/eifs_rx_energy.txt
-@TEST CAP_testchains/receving_contend_low_energy.txt
-@TEST CAP_testchains/contend15.txt

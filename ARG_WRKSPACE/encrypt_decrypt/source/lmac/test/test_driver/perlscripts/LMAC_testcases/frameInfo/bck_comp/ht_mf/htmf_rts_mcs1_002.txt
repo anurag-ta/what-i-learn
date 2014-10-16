@@ -1,3 +1,0 @@
-FORMAT 1
-AC 3
-MCS 1

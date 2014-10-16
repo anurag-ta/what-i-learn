@@ -1,2 +1,0 @@
-#testcase for wrap-around case
-testcaseid: 2 testcategory: 6 input: frame_info: tx_buf_frameinfo.txt frame: tx_buf_frame.txt frame_info: tx_buf_frameinfo1.txt frame: tx_buf_frame1.txt nav: 1000 duration: 100 qos: 1 output: 0

@@ -1,4 +1,0 @@
-#testcase for receiving header_invalid frame type
-@TEST rx_testfiles/testcase_nonagg.txt
-@TEST rx_testfiles/testcase_header_ver_invalid.txt
-@TEST rx_testfiles/testcase_ret0_ff0.txt

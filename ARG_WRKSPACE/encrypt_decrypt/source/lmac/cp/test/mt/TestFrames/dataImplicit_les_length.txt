@@ -1,2 +1,0 @@
-88|00|0f|00|11|11|11|11|11|11|22|22|22|22|22|22|33|33|33|33|33|33|00|00|00|
-@@     data under implicit with length < min_frame_length.

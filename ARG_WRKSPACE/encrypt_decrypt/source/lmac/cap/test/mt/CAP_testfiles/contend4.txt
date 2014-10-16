@@ -1,2 +1,0 @@
-cap_testcase_id5 6 0 0 0 0 0 null input: 1 precondition: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 postcondition: 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 4 0 output: -1 return_value: -1
-
