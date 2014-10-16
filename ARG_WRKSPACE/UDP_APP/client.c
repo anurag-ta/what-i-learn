@@ -27,11 +27,6 @@ int main(void)
     int ret, delay, iTos = 64,bk=0,be=64,vi=128,vo=192;
     int so_priority = 128;
 
-    //printf("Enter no: of packets : \t-",np);
-    //scanf("%d",np);
-    //printf("Enter delay (in ms) b/w : \t-",delay);
-    //scanf("%d",delay);
-	
     if ((s=socket(AF_INET, SOCK_DGRAM, IPPROTO_UDP))==-1)
       diep("socket");
 
@@ -43,7 +38,7 @@ int main(void)
       exit(1);
     }
 
-//ret = setsockopt(s, IPPROTO_IP, IP_TOS, (char *)&iTos, sizeof(iTos));
+    //ret = setsockopt(s, IPPROTO_IP, IP_TOS, (char *)&iTos, sizeof(iTos));
 
     int opt = so_priority << 5;	
  //   setsockopt(mysocks[i], SOL_UDP, IP_TOS, &opt, sizeof(opt));
