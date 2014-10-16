@@ -1,0 +1,3 @@
+@TEST CAP_testfiles/idle3.txt
+@TEST CAP_testfiles/receving5.txt
+@TEST CAP_testfiles/contend5.txt

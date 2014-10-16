@@ -1,0 +1,32 @@
+cap_testcase_id1 2 0 0 0 0 0 null input: 0 precondition: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 postcondition: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 output: -1 return_value: -1
+cap_testcase_id2 2 0 0 0 0 0 null input: 0 precondition: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 postcondition: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 output: -1 return_value: -1
+cap_testcase_id3 6 0 0 0 0 0 null input: 1 precondition: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 postcondition: 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 4 0 output: -1 return_value: -1
+cap_testcase_id4 6 0 0 0 0 0 null input: 0 precondition: 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 4 0 postcondition: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 output: -1 return_value: -1
+cap_testcase_id5 6 0 10 0 0 0 ack input: 0 precondition: 0 0 0 0 0 0 0 0 0 0 0 10 0 1 0 4 0 postcondition: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 output: -1 return_value: -1
+cap_testcase_id6 10 0 0 0 0 0 NULL input: 0 precondition: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 postcondition: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 output: -1 return_value: -1
+cap_testcase_id7 10 0 10 0 0 0 null input: 0 precondition: 0 0 0 0 0 0 0 0 0 0 0 10 0 0 0 4 0 postcondition: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 output: -1 return_value: -1
+cap_testcase_id8 10 0 8 0 2 0 0 input: 0 precondition: 0 0 0 0 0 0 0 0 0 0 0 8 0 0 0 4 0 postcondition: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 output: -1 return_value: -1
+cap_testcase_id9 10 0 8 2 0 0 0 input: 0 precondition: 0 0 0 0 0 0 0 0 0 0 0 8 0 0 0 4 0 postcondition: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 output: -1 return_value: -1
+cap_testcase_id10 10 0 8 1 0 0 0 input: 0 precondition: 1 7 0 0 0 0 0 0 0 0 0 8 0 0 0 4 0 postcondition: 1 7 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 output: -1 return_value: -1
+cap_testcase_id11 10 0 8 1 1 0 0 input: 0 precondition: 0 0 0 0 0 0 0 0 0 0 0 8 0 0 0 4 0 postcondition: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 output: -1 return_value: -1
+cap_testcase_id12 10 0 8 1 1 0 ack input: 0 precondition: 0 0 0 0 0 0 0 0 0 0 0 8 0 0 0 4 0 postcondition: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 output: -1 return_value: -1
+cap_testcase_id13 6 0 8 0 2 0 ack input: 0 precondition: 0 0 0 0 0 0 0 0 0 0 0 8 0 0 0 4 0 postcondition: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 output: -1 return_value: -1
+cap_testcase_id14 6 0 8 0 2 0 ack input: 0 precondition: 1 0 0 0 0 0 0 0 0 0 0 8 0 0 0 4 0 postcondition: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 output: -1 return_value: -1
+cap_testcase_id15 2 0 8 0 2 0 ack input: 0 precondition: 0 7 0 0 0 0 0 0 0 0 0 8 0 0 0 4 0 postcondition: 1 5 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 output: -1 return_value: -1
+cap_testcase_id16 2 3 8 1 0 0 0 input: 0 precondition: 1 7 10 0 0 0 0 0 0 0 0 8 0 0 0 4 0 postcondition: 1 7 10 0 0 0 0 0 0 0 0 0 0 0 0 2 0 output: -1 return_value: -1
+cap_testcase_id17 6 0 8 1 1 1 ack_frame_input.txt input: 1 precondition: 1 0 0 0 0 0 0 0 0 0 0 8 0 0 0 4 0 postcondition: 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 3 0 output: -1 return_value: -1
+cap_testcase_id18 7 0 0 0 0 1 ack_frame_input.txt input: ack_les_length.txt precondition: 0 0 0 0 0 0 0 0 0 0 0 9 10 0 0 4 0 postcondition: 0 0 0 0 0 0 0 0 0 0 0 9 0 0 0 4 0 output: -1 return_value: -1
+cap_testcase_id19 9 0 0 0 0 1 ack_frame_input.txt input: 1 0xff1 precondition: 0 0 0 0 0 0 0 0 0 0 0 0 10 0 0 4 0 postcondition: 0 0 0 0 0 0 0 0 0 0 0 0 10 0 0 2 0 output: -1 return_value: -1
+cap_testcase_id20 9 0 0 0 0 1 ack_frame_input.txt input: 0 0xff0 precondition: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 postcondition: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 output: -1 return_value: -1
+cap_testcase_id21 8 0 0 0 0 1 ack_frame_input.txt input: ack_les_length.txt precondition: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 postcondition: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 output: -1 return_value: -1
+cap_testcase_id22 8 0 0 0 0 0 ack_frame_input.txt input: 0 precondition: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 postcondition: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 output: -1 return_value: -1
+cap_testcase_id23 6 0 9 0 1 1 ack_frame_input.txt input: 1 precondition: 1 0 0 0 0 0 0 0 0 0 0 9 0 0 0 4 0 postcondition: 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 3 0 output: -1  return_value: -1
+cap_testcase_id24 6 0 9 0 1 1 ack_frame_input.txt input: 1 precondition: 1 0 0 0 0 0 0 0 0 0 0 8 0 0 0 4 0 postcondition: 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 3 0 output: -1   return_value: -1
+cap_testcase_id25 11 0 0 0 0 0 null input: 0 precondition: 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 4 0 postcondition: 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 4 0 output: -1 return_value: -1
+cap_testcase_id26 10 0 0 0 0 0 NULL input: 0 precondition: 0 0 0 0 0 0 0 0 0 0 10 0 0 0 0 4 0 postcondition: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 output: -1 return_value: -1
+cap_testcase_id27 10 0 10 0 0 0 null input: 0 precondition: 0 0 0 0 0 0 0 0 0 0 10 0 0 0 0 4 0 postcondition: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 output: -1 return_value: -1
+cap_testcase_id28 9 0 0 0 0 0 null input: 0 0xff0 precondition: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 postcondition: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 output: -1 return_value: -1
+cap_testcase_id29 9 0 0 0 0 0 null input: 0 0xff3 precondition: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 postcondition: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 output: -1 return_value: -1
+cap_testcase_id30 7 0 1 0 0 1 ack_frame_input.txt input: ack_les_length.txt precondition: 0 0 0 0 0 0 0 0 0 0 0 9 10 0 0 4 0 postcondition: 0 0 0 0 0 0 0 0 0 0 0 8 0 0 0 4 0 output: -1 return_value: -1
+cap_testcase_id31 7 0 0 1 0 1 ack_frame_input.txt input: ack_les_length.txt precondition: 0 0 0 0 0 0 0 0 0 0 0 9 10 0 0 4 0 postcondition: 0 0 0 0 0 0 0 0 0 0 0 8 0 0 0 4 0 output: -1 return_value: -1
+cap_testcase_id32 7 0 0 0 1 1 ack_frame_input.txt input: ack_les_length.txt precondition: 0 0 0 0 0 0 0 0 0 0 0 9 10 0 0 4 0 postcondition: 0 0 0 0 0 0 0 0 0 0 0 8 0 0 0 4 0 output: -1 return_value: -1

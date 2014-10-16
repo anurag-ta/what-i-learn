@@ -1,0 +1,8 @@
+#receiving of dtim frame which has more_data_bit set
+@TEST rx_testfiles/testcase_nonagg_tim.txt
+@TEST rx_testfiles/testcase_beacon_dtim.txt
+@TEST rx_testfiles/testcase_ret0_more_data.txt
+#receiving of data frame which has no more_data_ bit
+@TEST rx_testfiles/testcase_nonagg_data_len.txt
+@TEST rx_testfiles/testcase_with_no_more_data.txt
+@TEST rx_testfiles/testcase_ret0_no_more_data.txt

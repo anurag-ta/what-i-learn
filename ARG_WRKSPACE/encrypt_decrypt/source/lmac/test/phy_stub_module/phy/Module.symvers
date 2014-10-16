@@ -1,0 +1,7 @@
+0xdcf0bc0f	uu_wlan_phy_data_req	/home/uurmi/ARG_WRKSPACE/encrypt_decrypt/source/lmac/test/phy_stub_module/phy/phy_stub_nl	EXPORT_SYMBOL
+0x2692830d	uu_phy_stub_nl_send_frame	/home/uurmi/ARG_WRKSPACE/encrypt_decrypt/source/lmac/test/phy_stub_module/phy/phy_stub_nl	EXPORT_SYMBOL_GPL
+0x65411270	uu_phy_stub_nl_dereg_ops	/home/uurmi/ARG_WRKSPACE/encrypt_decrypt/source/lmac/test/phy_stub_module/phy/phy_stub_nl	EXPORT_SYMBOL_GPL
+0x79d37a4e	uu_wlan_phy_txend_req	/home/uurmi/ARG_WRKSPACE/encrypt_decrypt/source/lmac/test/phy_stub_module/phy/phy_stub_nl	EXPORT_SYMBOL
+0xfcec61c6	uu_wlan_phy_txstart_req	/home/uurmi/ARG_WRKSPACE/encrypt_decrypt/source/lmac/test/phy_stub_module/phy/phy_stub_nl	EXPORT_SYMBOL
+0xa0817aef	uu_phy_stub_nl_reg_ops	/home/uurmi/ARG_WRKSPACE/encrypt_decrypt/source/lmac/test/phy_stub_module/phy/phy_stub_nl	EXPORT_SYMBOL_GPL
+0xdcf029d8	uu_wlan_phy_ccareset_req	/home/uurmi/ARG_WRKSPACE/encrypt_decrypt/source/lmac/test/phy_stub_module/phy/phy_stub_nl	EXPORT_SYMBOL

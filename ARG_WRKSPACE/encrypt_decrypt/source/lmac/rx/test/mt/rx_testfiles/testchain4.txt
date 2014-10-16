@@ -1,0 +1,4 @@
+#testcase for receiving of non-aggregated frame which is not for us
+@TEST rx_testfiles/testcase_nonagg.txt
+@TEST rx_testfiles/testcase_ack.txt
+@TEST rx_testfiles/testcase_ret2.txt

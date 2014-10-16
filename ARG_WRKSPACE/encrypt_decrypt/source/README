@@ -1,0 +1,91 @@
+The following document will tell you the exact procedure to perform end-to-end testing of TPC and DSF
+
+/** AP AND STATION MODE (THE CHANNEL SWITCHING ANNOCEMENT FRAME WORKS FOR KERNEL VERSIONS LOWER THAN 3.6/*Still Yet to be Implimented for higher kernel versions*/)*/
+In UMAC the following have to be ensured of
+1.In the Makefile, the following have to be enabled
+  a. CFLAGS_MODULE += -DUU_WLAN_TPC
+  b. CFLAGS_MODULE += -DUU_WLAN_DFS
+  c. CFLAGS_MODULE += -DUU_TPC_HRTIMER_CONST
+  d. Enable one of the following rates at which you want to work with
+	 CFLAGS_MODULE += -DUU_WLAN_DATA_20
+       	 CFLAGS_MODULE += -DUU_WLAN_DATA_40
+	 CFLAGS_MODULE += -DUU_WLAN_DATA_80
+	 CFLAGS_MODULE += -DUU_WLAN_DATA_160
+  e.CFLAGS_MODULE += -DUU_WLAN_TSF
+  f.CFLAGS_MODULE += -DUU_WLAN_BQID
+  g.CFLAGS_MODULE += -DUU_WLAN_IBSS
+
+2.In the file umac/src/uu_mac_fwk_cb.c, in line number 890 the member (ampdu_action) should be uncommented.
+
+3.In the lmac/test/phy_stub_module/phy Makefile "CFLAGS_MODULE +=  -DUU_WLAN_TPC" should be uncommented
+
+4.In the AP(hostapd) side the following command should be run sudo ./hostapd 11n5_nit -ddd
+
+5.In the Station(wpa_supplicant) side the following command should be run sudo ./wpa_supplicant -Dnl80211 -iwlan0 -c11a.conf -ddd
+
+6.After Association assign the IP's using the following command 
+ a)sudo ifconfig wlan0 "IP Address"
+
+
+/** MESH MODE (MESH WORKS FOR KERNEL VERSIONS THAT ARE HIGHER THAN 3.11.3)**/
+1.In UMAC the following have to be commented
+  a. CFLAGS_MODULE += -DUU_WLAN_TPC
+  b. CFLAGS_MODULE += -DUU_WLAN_DFS
+  c. CFLAGS_MODULE += -DUU_TPC_HRTIMER_CONST
+  d. CFLAGS_MODULE += -DUU_WLAN_VHT_FRAME
+  e. Enable one of the following rates at which you want to work with
+	 CFLAGS_MODULE += -DUU_WLAN_DATA_20
+       	 CFLAGS_MODULE += -DUU_WLAN_DATA_40
+	 CFLAGS_MODULE += -DUU_WLAN_DATA_80
+	 CFLAGS_MODULE += -DUU_WLAN_DATA_160
+  f.CFLAGS_MODULE += -DUU_WLAN_TSF
+  g.CFLAGS_MODULE += -DUU_WLAN_BQID
+  h.CFLAGS_MODULE += -DUU_WLAN_IBSS
+
+2.In the file umac/src/uu_mac_fwk_cb.c, in line number 890 the member (ampdu_action) should be commented.
+
+3.In the lmac/test/phy_stub_module/phy Makefile "CFLAGS_MODULE +=  -DUU_WLAN_TPC" should be commented.
+
+4.In both the systems the following command is to entered
+  a)sudo iw dev wlan0 interface add mesh0 type mp mesh_id uurmi
+
+5. Assign different IP's using the following command 
+  a)sudo ifconfig mesh0 "IP address".
+
+
+/** IBSS MODE **/
+1.In UMAC the following have to be commented
+  a. CFLAGS_MODULE += -DUU_WLAN_TPC
+  b. CFLAGS_MODULE += -DUU_WLAN_DFS
+  c. CFLAGS_MODULE += -DUU_TPC_HRTIMER_CONST
+  d. CFLAGS_MODULE += -DUU_WLAN_VHT_FRAME
+  e. Enable one of the following rates at which you want to work with
+	 CFLAGS_MODULE += -DUU_WLAN_DATA_20
+       	 CFLAGS_MODULE += -DUU_WLAN_DATA_40
+	 CFLAGS_MODULE += -DUU_WLAN_DATA_80
+	 CFLAGS_MODULE += -DUU_WLAN_DATA_160
+2.The following have to be uncommented
+  a.CFLAGS_MODULE += -DUU_WLAN_TSF
+  b.CFLAGS_MODULE += -DUU_WLAN_BQID
+  c.CFLAGS_MODULE += -DUU_WLAN_IBSS
+
+3.In the file umac/src/uu_mac_fwk_cb.c, in line number 890 the member (ampdu_action) should be commented.
+
+4.In the lmac/test/phy_stub_module/phy Makefile "CFLAGS_MODULE +=  -DUU_WLAN_TPC" should be commented.
+
+5.The following commands have to be entered 
+/* Master */
+sudo ifconfig wlan0 down; sudo rfkill unblock wifi; sudo iw dev wlan0
+set type ibss; sudo ifconfig wlan0 up
+sudo iw dev wlan0 ibss join NITESH 2462 basic-rates 1; sudo ifconfig
+wlan0 1.2.3.
+
+/* Slave */
+sudo ifconfig wlan0 down; sudo rfkill unblock wifi; sudo iw dev wlan0
+set type ibss; sudo ifconfig wlan0 up
+sudo iw dev wlan0 scan | less
+sudo iw dev wlan0 ibss join NITESH 2462; sudo ifconfig wlan0 1.2.3.5
+
+
+
+

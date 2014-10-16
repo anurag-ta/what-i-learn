@@ -1,0 +1,8 @@
+#receiving of tim which has only aid0 is set(i.e ap has only group addressed frames)
+@TEST rx_testfiles/testcase_nonagg_tim.txt
+@TEST rx_testfiles/testcase_beacon_tim_bcast.txt
+@TEST rx_testfiles/testcase_ret0_more_data.txt
+#receiving of data frame with no more_data_bit
+@TEST rx_testfiles/testcase_nonagg_data_len.txt
+@TEST rx_testfiles/testcase_with_no_more_data.txt
+@TEST rx_testfiles/testcase_ret0_no_more_data.txt

@@ -1,0 +1,10 @@
+#single protection frame duration calculation including rts and cts.
+#array[0], &rq_type, 
+#array[1], &format, &mcs, &modulation, &l_datarate, &l_length, &ht_length, &stbc, &ch_bw, &is_short_gi, 
+#                        &apep_length, &num_ext_ss, &is_long_preamble, &exp_frame_length,  
+#array[2], 
+#array[3], 
+#array[4], 
+#array[5], &return_value);
+#caluculating duration for broad cast frame .
+uu_wlan_duration_mt_3_id30 3 input: 0 0 0 13 0 0 0 0 0 0 0 0 34 precondition: postcondition: output: return_value: 0 

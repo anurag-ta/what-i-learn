@@ -1,0 +1,34 @@
+#idle-receving by phy_energy
+@TEST CAP_testchains/idle_rx_energy.txt
+#receving-receving by tx_ready
+@TEST CAP_testchains/receving_rx_tx_ready.txt
+#making to idle
+@TEST CAP_testchains/receving_contend_low_energy.txt
+#@TEST CAP_testchains/contend_idle_timer_ticks.txt
+@TEST CAP_testchains/contend16.txt
+@TEST CAP_testchains/txop29.txt
+@TEST CAP_testchains/wait_for_rxsuccess_timer_tick.txt
+#receving_start indication
+@TEST CAP_testchains/rx_start_ind_in_wait_for_rx.txt
+#receving_data indication
+@TEST CAP_testchains/rx_data_ind_in_wait_for_rx.txt
+#receving_end indication
+@TEST CAP_testchains/rx_end_ind_ack_rcvdi_nq.txt
+#rx_end_ind.txt
+#@TEST CAP_testchains/contend15.txt
+##wait for tx nav timer tick to eifs
+#@TEST CAP_testchains/wait_tx_nav_end_timer_tick_to_eifs.txt
+##EIFS TO CONTEND
+##@TEST CAP_testchains/eifs_time_tick_to_contend.txt
+##contend_timer tick
+#@TEST CAP_testchains/contend_timer_tick.txt
+##txop_tx_start event
+#@TEST CAP_testchains/txop_tx_start.txt
+##txop_wait_for_rx timer tick with success case
+#@TEST CAP_testchains/wait_for_rxsuccess_timer_tick.txt
+##receving_start indication
+#@TEST CAP_testchains/rx_start_ind_in_wait_for_rx.txt
+##receving_data indication
+#@TEST CAP_testchains/rx_data_ind_in_wait_for_rx.txt
+##receving_end indication
+#@TEST CAP_testchains/rx_end_ind_ack_rcvd.txt

@@ -1,0 +1,25 @@
+#testcases started here for Tx path cp of process.
+#rts_frame genertion with format is non-HT.
+#testcaseid, rq_type, input, ac, self_cts_flag, format, rate, frame_input_file precondition, postcondition, post_condition[0], post_condition[1], output, return, return_value
+uu_wlan_cp_mt_0_id0 6 input: 0 0 0 1 TestFrames/data_frame_input.txt precondition: postcondition: 0 1 output: return: 0 
+#self cts_frame genertion with format is non-HT.
+#testcaseid, rq_type, input, ac, self_cts_flag, format, rate, frame_input_file precondition, postcondition, post_condition[0], post_condition[1], output, return, return_value
+uu_wlan_cp_mt_0_id1 6 input: 0 1 0 1 TestFrames/data_frame_input.txt precondition: postcondition: 0 1 output: return: 0 
+#rts_frame genertion, with format is HT_MF.
+#testcaseid, rq_type, input, ac, self_cts_flag, format, rate, frame_input_file precondition, postcondition, post_condition[0], post_condition[1], output, return, return_value
+uu_wlan_cp_mt_0_id2 6 input: 0 0 1 1 TestFrames/data_frame_input.txt precondition: postcondition: 0 1 output: return: 0 
+#rts_frame genertion, with format is HT_GF.
+#testcaseid, rq_type, input, ac, self_cts_flag, format, rate, frame_input_file precondition, postcondition, post_condition[0], post_condition[1], output, return, return_value
+uu_wlan_cp_mt_0_id3 6 input: 0 0 2 1 TestFrames/data_frame_input.txt precondition: postcondition: 2 1 output: return: 0 
+#rts_frame genertion, with format is VHT.
+#testcaseid, rq_type, input, ac, self_cts_flag, format, rate, frame_input_file precondition, postcondition, post_condition[0], post_condition[1], output, return, return_value
+uu_wlan_cp_mt_0_id4 6 input: 0 0 3 1 TestFrames/data_frame_input.txt precondition: postcondition: 0 1 output: return: 0 
+#self-cts genertion, with format is HT_MF.
+#testcaseid, rq_type, input, ac, self_cts_flag, format, rate, frame_input_file precondition, postcondition, post_condition[0], post_condition[1], output, return, return_value
+uu_wlan_cp_mt_0_id6 6 input: 0 1 1 1 TestFrames/data_frame_input.txt precondition: postcondition: 0 1 output: return: 0 
+#selfcts genertion, with format is HT_GF.
+#testcaseid, rq_type, input, ac, self_cts_flag, format, rate, frame_input_file precondition, postcondition, post_condition[0], post_condition[1], output, return, return_value
+uu_wlan_cp_mt_0_id7 6 input: 0 1 2 1 TestFrames/data_frame_input.txt precondition: postcondition: 2 1 output: return: 0 
+#selfcts genertion, with format is VHT.
+#testcaseid, rq_type, input, ac, self_cts_flag, format, rate, frame_input_file precondition, postcondition, post_condition[0], post_condition[1], output, return, return_value
+uu_wlan_cp_mt_0_id8 6 input: 0 1 3 1 TestFrames/data_frame_input.txt precondition: postcondition: 0 1 output: return: 0 

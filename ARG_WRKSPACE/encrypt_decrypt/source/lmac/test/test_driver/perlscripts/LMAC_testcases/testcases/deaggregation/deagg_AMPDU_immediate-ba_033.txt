@@ -1,0 +1,23 @@
+Testcase deagg_AMPDU_immediate-ba_033
+STATE 0
+PHY-IND UU_PHY_CCA_IND 11
+PHY-IND UU_PHY_RXSTART_IND -TF ./config_files/rxvector_agg_2frames.txt
+PHY-IND UU_PHY_DATA_IND -TF ./config_files/genresp_aggr_ackpol-blockack.txt
+PHY-IND UU_PHY_RXEND_IND 0
+STATE 1
+recv
+recv
+STATE 0
+PHY-IND UU_PHY_CCA_IND 11
+PHY-IND UU_PHY_RXSTART_IND -TF ./config_files/rxvector_bar.txt
+PHY-IND UU_PHY_DATA_IND -TF ./config_files/genresp_bar.txt
+PHY-IND UU_PHY_RXEND_IND 0
+STATE 0
+recv
+PHY-IND UU_PHY_TXSTART_CONF
+recv
+PHY-IND UU_PHY_DATA_CONF
+recv
+PHY-IND UU_PHY_TXEND_CONF
+Endcase
+END

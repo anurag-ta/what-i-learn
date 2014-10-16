@@ -1,0 +1,12 @@
+#receving of dtim frame in which aid 0 is 1(i.e ap has grou addressed frames) 
+@TEST rx_testfiles/testcase_nonagg_tim.txt
+@TEST rx_testfiles/testcase_beacon_dtim.txt
+@TEST rx_testfiles/testcase_ret0_more_data.txt
+#receving of group addressed frame which has more data bit set
+@TEST rx_testfiles/testcase_start_multi.txt
+@TEST rx_testfiles/testcase_ack.txt
+@TEST rx_testfiles/testcase_ret0_more_data.txt
+#receving of data frame which has no more_data bit
+@TEST rx_testfiles/testcase_nonagg_data_len.txt
+@TEST rx_testfiles/testcase_with_no_more_data.txt
+@TEST rx_testfiles/testcase_ret0_no_more_data.txt

@@ -1,0 +1,4 @@
+#tetscase for receiving of aggregated frame which has 8-bit crc err
+@TEST rx_testfiles/testcase_agg.txt
+@TEST rx_testfiles/testcase_crc8.txt
+@TEST rx_testfiles/testcase_ret0.txt

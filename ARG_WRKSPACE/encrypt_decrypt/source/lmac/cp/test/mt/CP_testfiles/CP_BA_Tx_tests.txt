@@ -1,0 +1,4 @@
+@TEST CP_testfiles/Tx_compBA_testcases.txt
+@TEST CP_testfiles/Tx_basicBA_testcases.txt
+@TEST CP_testfiles/Tx_compBA_OutOfWindow_testcases.txt
+@TEST CP_testfiles/Tx_basicBA_OutOfWindow_testcases.txt

@@ -1,0 +1,16 @@
+Testcase uu_lmac_ifs_qos2_uni_sifs_ack_028
+STATE 1
+GENERATE QOS_DATA
+STATE 0
+recv
+PHY-IND UU_PHY_TXSTART_CONF
+recv
+PHY-IND UU_PHY_DATA_CONF
+recv
+PHY-IND UU_PHY_TXEND_CONF
+PHY-IND UU_PHY_CCA_IND 11
+PHY-IND UU_PHY_RXSTART_IND -TF ./config_files/rxvector_frame_ack.txt
+PHY-IND UU_PHY_DATA_IND -TF ./config_files/genresp_ack.txt
+PHY-IND UU_PHY_RXEND_IND 0
+Endcase
+END

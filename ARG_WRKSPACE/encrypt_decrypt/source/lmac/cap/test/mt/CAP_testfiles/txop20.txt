@@ -1,0 +1,1 @@
+cap_testcase_id12 12 0 0 0 0 1 cts_frame_input.txt input: 0 0 precondition: 0 0 3 0 postcondition: 0 0 3 2

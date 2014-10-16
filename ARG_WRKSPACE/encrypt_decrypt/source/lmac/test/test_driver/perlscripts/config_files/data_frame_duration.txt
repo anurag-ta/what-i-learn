@@ -1,0 +1,160 @@
+
+/********* Comments to understand this file.
+
+In this file we are considering data frame of formats 0,1,2 and 3
+
+For data frame format zero, first column values are datarates and second values are corresponding duration values
+
+Example:: L_datarate   Duration
+            b            3c00
+
+For data frame of formats 1,2 and 3, we are validating according to mcs values and corresponding duration based on given channel_bandwidth and guard_interval
+
+Example:: Ch_bandwidth 0 Guard_inteval 0
+
+            Mcs_value      Duration
+                0           3c00
+
+ **********/
+
+FORMAT 0
+b 3c00
+f 3c00
+a 3000
+e 3000
+9 2c00
+d 2c00
+8 2c00
+c 2c00
+
+FORMAT 1
+CH_BW 0 GI 0
+0 3c00
+16 3c00
+32 3c00
+
+CH_BW 0 GI 1
+0 3c00
+16 3c00
+32 3c00
+
+CH_BW 1 GI 0
+0 3c00
+16 3c00
+32 3c00
+
+CH_BW 1 GI 1
+0 3c00
+16 3c00
+32 3c00
+
+CH_BW 2 GI 0
+0 3c00
+16 3c00
+32 3c00
+
+CH_BW 2 GI 1
+0 3c00
+16 3c00
+32 3c00
+
+CH_BW 3 GI 0
+0 3c00
+16 3c00
+32 3c00
+
+CH_BW 3 GI 1
+0 3c00
+16 3c00
+32 3c00
+
+
+FORMAT 2
+CH_BW 0 GI 0
+0 4400
+16 4400
+32 4400
+
+CH_BW 0 GI 1
+0 4000
+16 4000
+32 4000
+
+CH_BW 1 GI 0
+0 3800
+16 3800
+32 3800
+
+CH_BW 1 GI 1
+0 3800
+16 3800
+32 3800
+
+CH_BW 2 GI 0
+0 4400
+16 4400
+32 4400
+
+CH_BW 2 GI 1
+0 4000
+16 4000
+32 4000
+
+CH_BW 3 GI 0
+0 4400
+16 4400
+32 4400
+
+CH_BW 3 GI 1
+0 4000
+16 4000
+32 4000
+
+FORMAT 3
+CH_BW 0 GI 0
+0 3c00
+1 3000
+9 2c00
+a 3c00
+
+CH_BW 0 GI 1
+0 3c00
+1 3000
+9 2c00
+a 3c00
+
+CH_BW 1 GI 0
+0 3c00
+1 3000
+9 2c00
+a 3c00
+
+CH_BW 1 GI 1
+0 3c00
+1 3000
+9 2c00
+a 3c00
+
+CH_BW 2 GI 0
+0 3c00
+1 3000
+9 2c00
+a 3c00
+
+CH_BW 2 GI 1
+0 3c00
+1 3000
+9 2c00
+a 3c00
+
+CH_BW 3 GI 0
+0 3c00
+1 3000
+9 2c00
+a 3c00
+
+CH_BW 3 GI 1
+0 3c00
+1 3000
+9 2c00
+a 3c00

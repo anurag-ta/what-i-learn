@@ -1,0 +1,4 @@
+#testcase for timestamp updation upon receiving beacon frame with bssid = local_bssid and timestamp < sta's tsf in ibss n/w
+@TEST rx_testfiles/testcase_beacon_les_tsf.txt
+@TEST rx_testfiles/testcase_beacon_bssid.txt
+@TEST rx_testfiles/testcase_ret0_ff2_les_tsf.txt

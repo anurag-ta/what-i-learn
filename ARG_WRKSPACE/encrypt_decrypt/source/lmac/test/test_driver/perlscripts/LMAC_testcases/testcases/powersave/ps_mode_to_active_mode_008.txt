@@ -1,0 +1,34 @@
+Testcase uu_lmac_ps_mode_to_active_mode_008
+STATE 0
+PHY-IND UU_PHY_CCA_IND 11
+PHY-IND UU_PHY_RXSTART_IND -TF ./config_files/rxvector_beacon_dtim.txt
+PHY-IND UU_PHY_DATA_IND -TF ./config_files/genresp_beacon_dtim_aid_zero.txt
+PHY-IND UU_PHY_RXEND_IND 0
+STATE 1
+recv
+STATE 0
+PS_MODE 0
+STATE 1
+GENERATE PS_ZERO
+STATE 0
+recv
+PHY-IND UU_PHY_TXSTART_CONF
+recv
+PHY-IND UU_PHY_DATA_CONF
+recv
+PHY-IND UU_PHY_TXEND_CONF
+PHY-IND UU_PHY_CCA_IND 11
+PHY-IND UU_PHY_RXSTART_IND -TF ./config_files/rxvector_frame_ack.txt
+PHY-IND UU_PHY_DATA_IND -TF ./config_files/genresp_ack.txt
+PHY-IND UU_PHY_RXEND_IND 0
+STATE 0
+PHY-IND UU_PHY_CCA_IND 11
+PHY-IND UU_PHY_RXSTART_IND -TF ./config_files/rxvector_qos_noack_plcy_more_data_one.txt
+PHY-IND UU_PHY_DATA_IND -TF ./config_files/qos_noack_plcy_more_data_one.txt
+PHY-IND UU_PHY_RXEND_IND 0
+STATE 1
+recv
+STATE 0
+recv
+Endcase
+END

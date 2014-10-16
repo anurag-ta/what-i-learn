@@ -1,0 +1,4 @@
+#testcase for receiving of agg-packet wih no err
+@TEST rx_testfiles/testcase_agg.txt
+@TEST rx_testfiles/testcase_agg_pack1.txt
+@TEST rx_testfiles/testcase_ret0.txt

@@ -1,0 +1,1 @@
+testcaseid: 2 event_type: 8 file_name: beacon_dtim_only_bcast.txt output: 0 

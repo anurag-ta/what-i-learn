@@ -1,0 +1,72 @@
+uu_lmac_rx_mpdu-ra-us_001 MPDU/MMPDU_ra_us ./LMAC_testcases/testcases/rx_nonqos/rx_mpdu-ra-us_001.txt ./LMAC_testcases/frameCapabilities/rx_nonqos/rx_mpdu-ra-us_001.txt ./LMAC_testcases/frameInfo/rx_nonqos/rx_mpdu-ra-us_001.txt
+
+uu_lmac_rx_mpdu-ra-others_002 MPDU/MMPDU_ra_others ./LMAC_testcases/testcases/rx_nonqos/rx_mpdu-ra-others_002.txt ./LMAC_testcases/frameCapabilities/rx_nonqos/rx_mpdu-ra-others_002.txt ./LMAC_testcases/frameInfo/rx_nonqos/rx_mpdu-ra-others_002.txt
+
+uu_lmac_rx_mpdu-ra-gcast_003 MPDU/MMPDU_ra_gcast ./LMAC_testcases/testcases/rx_nonqos/rx_mpdu-ra-gcast_003.txt ./LMAC_testcases/frameCapabilities/rx_nonqos/rx_mpdu-ra-gcast_003.txt ./LMAC_testcases/frameInfo/rx_nonqos/rx_mpdu-ra-gcast_003.txt
+
+uu_lmac_rx_rtscts-ra-others_004 RTS/CTS_ra_others ./LMAC_testcases/testcases/rx_nonqos/rx_rtscts-ra-others_004.txt ./LMAC_testcases/frameCapabilities/rx_nonqos/rx_rtscts-ra-others_004.txt ./LMAC_testcases/frameInfo/rx_nonqos/rx_rtscts-ra-others_004.txt
+
+uu_lmac_rx_rts-ra-us_005 RTS_ra_us ./LMAC_testcases/testcases/rx_nonqos/rx_rts-ra-us_005.txt ./LMAC_testcases/frameCapabilities/rx_nonqos/rx_rts-ra-us_005.txt ./LMAC_testcases/frameInfo/rx_nonqos/rx_rts-ra-us_005.txt
+
+uu_lmac_rx_mpdu-9M_006 mpdu_9M ./LMAC_testcases/testcases/rx_nonqos/rx_mpdu-9M_006.txt ./LMAC_testcases/frameCapabilities/rx_nonqos/rx_mpdu-9M_006.txt ./LMAC_testcases/frameInfo/rx_nonqos/rx_mpdu-9M_006.txt
+
+uu_lmac_rx_mpdu-18M_007 mpdu_18M ./LMAC_testcases/testcases/rx_nonqos/rx_mpdu-18M_007.txt ./LMAC_testcases/frameCapabilities/rx_nonqos/rx_mpdu-18M_007.txt ./LMAC_testcases/frameInfo/rx_nonqos/rx_mpdu-18M_007.txt
+
+uu_lmac_rx_mpdu-24M_008 mpdu_rx_24M ./LMAC_testcases/testcases/rx_nonqos/rx_mpdu-24M_008.txt ./LMAC_testcases/frameCapabilities/rx_nonqos/rx_mpdu-24M_008.txt ./LMAC_testcases/frameInfo/rx_nonqos/rx_mpdu-24M_008.txt
+
+uu_lmac_rx_nulldata_009 rx_nulldata ./LMAC_testcases/testcases/rx_nonqos/rx_nulldata_009.txt ./LMAC_testcases/frameCapabilities/rx_nonqos/rx_nulldata_009.txt ./LMAC_testcases/frameInfo/rx_nonqos/rx_nulldata_009.txt
+
+uu_lmac_rx_data-noframebody_010 rx_data_noframebody ./LMAC_testcases/testcases/rx_nonqos/rx_data-noframebody_010.txt ./LMAC_testcases/frameCapabilities/rx_nonqos/rx_data-noframebody_010.txt ./LMAC_testcases/frameInfo/rx_nonqos/rx_data-noframebody_010.txt
+
+uu_lmac_rx_valid-fcs_011 rx_validfcs ./LMAC_testcases/testcases/rx_nonqos/rx_valid-fcs_011.txt ./LMAC_testcases/frameCapabilities/rx_nonqos/rx_valid-fcs_011.txt ./LMAC_testcases/frameInfo/rx_nonqos/rx_valid-fcs_011.txt
+
+uu_lmac_rx_invalid-fcs_012 rx_invalidfcs ./LMAC_testcases/testcases/rx_nonqos/rx_invalid-fcs_012.txt ./LMAC_testcases/frameCapabilities/rx_nonqos/rx_invalid-fcs_012.txt ./LMAC_testcases/frameInfo/rx_nonqos/rx_invalid-fcs_012.txt
+
+uu_lmac_rx_dur-1sifs_013 rx_dur-1sifs ./LMAC_testcases/testcases/rx_nonqos/rx_dur-1sifs_013.txt ./LMAC_testcases/frameCapabilities/rx_nonqos/rx_dur-1sifs_013.txt ./LMAC_testcases/frameInfo/rx_nonqos/rx_dur-1sifs_013.txt
+
+uu_lmac_rx_dur-1sifs1ack_014 rx_dur-1sifs1ack ./LMAC_testcases/testcases/rx_nonqos/rx_dur-1sifs1ack_014.txt ./LMAC_testcases/frameCapabilities/rx_nonqos/rx_dur-1sifs1ack_014.txt ./LMAC_testcases/frameInfo/rx_nonqos/rx_dur-1sifs1ack_014.txt
+
+uu_lmac_rx_dur0_015 rx_dur0 ./LMAC_testcases/testcases/rx_nonqos/rx_dur0_015.txt ./LMAC_testcases/frameCapabilities/rx_nonqos/rx_dur0_015.txt ./LMAC_testcases/frameInfo/rx_nonqos/rx_dur0_015.txt
+
+uu_lmac_rx_dur-max_016 rx_dur-max ./LMAC_testcases/testcases/rx_nonqos/rx_dur-max_016.txt ./LMAC_testcases/frameCapabilities/rx_nonqos/rx_dur-max_016.txt ./LMAC_testcases/frameInfo/rx_nonqos/rx_dur-max_016.txt
+
+uu_lmac_rx_nav_greater_017 rx_nav_greater ./LMAC_testcases/testcases/rx_nonqos/rx_nav_greater_017.txt ./LMAC_testcases/frameCapabilities/rx_nonqos/rx_nav_greater_017.txt ./LMAC_testcases/frameInfo/rx_nonqos/rx_nav_greater_017.txt
+
+uu_lmac_rx_nav_lesser_018 rx_nav_lesser ./LMAC_testcases/testcases/rx_nonqos/rx_nav_lesser_018.txt ./LMAC_testcases/frameCapabilities/rx_nonqos/rx_nav_lesser_018.txt ./LMAC_testcases/frameInfo/rx_nonqos/rx_nav_lesser_018.txt
+
+uu_lmac_rx_nav_recv-rts_019 rx_rts_nav ./LMAC_testcases/testcases/rx_nonqos/rx_nav_recv-rts_019.txt ./LMAC_testcases/frameCapabilities/rx_nonqos/rx_nav_recv-rts_019.txt ./LMAC_testcases/frameInfo/rx_nonqos/rx_nav_recv-rts_019.txt
+
+uu_lmac_rx_nav_recv-data_020 rx_data_nav ./LMAC_testcases/testcases/rx_nonqos/rx_nav_recv-data_020.txt ./LMAC_testcases/frameCapabilities/rx_nonqos/rx_nav_recv-data_020.txt ./LMAC_testcases/frameInfo/rx_nonqos/rx_nav_recv-data_020.txt
+
+uu_lmac_rx_rts_ctstime0_21 rx_rts_ctstime0 ./LMAC_testcases/testcases/rx_nonqos/rx_rts_ctstime0_21.txt ./LMAC_testcases/frameCapabilities/rx_nonqos/rx_rts_ctstime0_21.txt ./LMAC_testcases/frameInfo/rx_nonqos/rx_rts_ctstime0_21.txt
+
+uu_lmac_rx_data_acktime0_22 rx_data_acktime0 ./LMAC_testcases/testcases/rx_nonqos/rx_data_acktime0_22.txt ./LMAC_testcases/frameCapabilities/rx_nonqos/rx_data_acktime0_22.txt ./LMAC_testcases/frameInfo/rx_nonqos/rx_data_acktime0_22.txt
+
+#uu_lmac_rx_send-data_recv-data_023 rx_senddata_recvdata ./LMAC_testcases/testcases/rx_nonqos/rx_send-data_recv-data_023.txt ./LMAC_testcases/frameCapabilities/rx_nonqos/rx_send-data_recv-data_023.txt ./LMAC_testcases/frameInfo/rx_nonqos/rx_send-data_recv-data_023.txt
+
+uu_lmac_rx_invalid-pv_024 rx_invalid_pv ./LMAC_testcases/testcases/rx_nonqos/rx_invalid-pv_024.txt ./LMAC_testcases/frameCapabilities/rx_nonqos/rx_invalid-pv_024.txt ./LMAC_testcases/frameInfo/rx_nonqos/rx_invalid-pv_024.txt
+
+uu_lmac_rx_invalid-type_025 rx_invalid_type ./LMAC_testcases/testcases/rx_nonqos/rx_invalid-type_025.txt ./LMAC_testcases/frameCapabilities/rx_nonqos/rx_invalid-type_025.txt ./LMAC_testcases/frameInfo/rx_nonqos/rx_invalid-type_025.txt
+
+uu_lmac_rx_actionnoack_026 rx_actionnoack ./LMAC_testcases/testcases/rx_nonqos/rx_actionnoack_026.txt ./LMAC_testcases/frameCapabilities/rx_nonqos/rx_actionnoack_026.txt ./LMAC_testcases/frameInfo/rx_nonqos/rx_actionnoack_026.txt
+
+uu_lmac_rx_RXEND-fail_027 rx_RXEND_fail ./LMAC_testcases/testcases/rx_nonqos/rx_RXEND-fail_027.txt ./LMAC_testcases/frameCapabilities/rx_nonqos/rx_RXEND-fail_027.txt ./LMAC_testcases/frameInfo/rx_nonqos/rx_RXEND-fail_027.txt
+
+uu_lmac_rx_gcast-tods1_028 rx_gcast_tods1 ./LMAC_testcases/testcases/rx_nonqos/rx_gcast-tods1_028.txt ./LMAC_testcases/frameCapabilities/rx_nonqos/rx_gcast-tods1_028.txt ./LMAC_testcases/frameInfo/rx_nonqos/rx_gcast-tods1_028.txt
+
+uu_lmac_rx_gcast-tods1-bssid-others_029 rx_gcast_tods1_bssid-others ./LMAC_testcases/testcases/rx_nonqos/rx_gcast-tods1-bssid-others_029.txt ./LMAC_testcases/frameCapabilities/rx_nonqos/rx_gcast-tods1-bssid-others_029.txt ./LMAC_testcases/frameInfo/rx_nonqos/rx_gcast-tods1-bssid-others_029.txt
+
+uu_lmac_rx_protect1_030 rx_data_protect ./LMAC_testcases/testcases/rx_nonqos/rx_protect1_030.txt ./LMAC_testcases/frameCapabilities/rx_nonqos/rx_protect1_030.txt ./LMAC_testcases/frameInfo/rx_nonqos/rx_protect1_030.txt
+
+#uu_lmac_rx_ta-ap_031 rx_data_ta-ap ./LMAC_testcases/testcases/rx_nonqos/rx_ta-ap_031.txt ./LMAC_testcases/frameCapabilities/rx_nonqos/rx_ta-ap_031.txt ./LMAC_testcases/frameInfo/rx_nonqos/rx_ta-ap_031.txt
+
+
+
+
+
+
+
+
+
+
+

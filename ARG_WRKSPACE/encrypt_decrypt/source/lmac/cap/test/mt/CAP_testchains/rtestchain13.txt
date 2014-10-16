@@ -1,0 +1,78 @@
+#idle-contend-txop-txop_wait_for_rx-idle
+#idle-tx_ready
+@TEST CAP_testchains/idle_tx_ready.txt
+#contend_timer tick
+@TEST CAP_testchains/contend_timer_tick.txt
+#txop_tx_start event
+@TEST CAP_testchains/txop_tx_start.txt
+#txop_wait_for_rx timer tick with success case
+@TEST CAP_testchains/wait_for_rxsuccess_timer_tick.txt
+#receving_start indication
+@TEST CAP_testchains/rx_start_ind_in_wait_for_rx.txt
+#receving_data indication
+@TEST CAP_testchains/rx_data_ind_in_wait_for_rx.txt
+#receving_end indication with send response
+@TEST CAP_testchains/wait_for_rx_txnavend_rx_end_ind.txt
+#@TEST CAP_testchains/wait_for_rx_rx_end_ind_send_resp.txt 
+###contend_timer tick
+#@TEST CAP_testchains/contend_timer_tick.txt
+###txop_tx_start event
+#@TEST CAP_testchains/txop_tx_start.txt
+###txop_wait_for_rx timer tick with success case
+#@TEST CAP_testchains/wait_for_rxsuccess_timer_tick.txt
+###receving_start indication
+#@TEST CAP_testchains/rx_start_ind_in_wait_for_rx.txt
+###receving_data indication
+#@TEST CAP_testchains/rx_data_ind_in_wait_for_rx.txt
+###receving_end indication
+#@TEST CAP_testchains/rx_end_ind_ack_rcvd.txt
+#@TEST CAP_testchains/wait_for_rx_txnavend_rx_end_ind.txt
+@TEST CAP_testchains/wait_tx_nav_end_timer_tick.txt
+#@TEST CAP_testchains/contend16.txt
+##wait_tx_nav_end_timer_tick_to_idle.txt
+##@TEST CAP_testchains/wait_tx_nav_end_timer_tick_ampdu.txt
+@TEST CAP_testchains/contend17.txt
+@TEST CAP_testchains/txop_tx_start.txt
+@TEST CAP_testchains/wait_for_rxsuccess_timer_tick.txt
+###receving_start indication
+@TEST CAP_testchains/rx_start_ind_in_wait_for_rx.txt
+###receving_data indication
+@TEST CAP_testchains/rx_data_ind_in_wait_for_rx.txt
+@TEST CAP_testchains/wait_for_rx_txnavend_rx_end_ind.txt
+@TEST CAP_testchains/wait_tx_nav_end_timer_tick.txt
+##@TEST CAP_testchains/wait_tx_nav_end_timer_tick_ampdu.txt
+@TEST CAP_testchains/contend17.txt
+@TEST CAP_testchains/txop_tx_start.txt
+@TEST CAP_testchains/wait_for_rxsuccess_timer_tick.txt
+###receving_start indication
+@TEST CAP_testchains/rx_start_ind_in_wait_for_rx.txt
+###receving_data indication
+@TEST CAP_testchains/rx_data_ind_in_wait_for_rx.txt
+@TEST CAP_testchains/wait_for_rx_txnavend_rx_end_ind.txt
+@TEST CAP_testchains/wait_tx_nav_end_timer_tick.txt
+##@TEST CAP_testchains/wait_tx_nav_end_timer_tick_ampdu.txt
+@TEST CAP_testchains/contend17.txt
+@TEST CAP_testchains/txop_tx_start.txt
+@TEST CAP_testchains/wait_for_rxsuccess_timer_tick.txt
+###receving_start indication
+@TEST CAP_testchains/rx_start_ind_in_wait_for_rx.txt
+###receving_data indication
+@TEST CAP_testchains/rx_data_ind_in_wait_for_rx.txt
+@TEST CAP_testchains/wait_for_rx_txnavend_rx_end_ind.txt
+@TEST CAP_testchains/wait_tx_nav_end_timer_tick.txt
+##@TEST CAP_testchains/wait_tx_nav_end_timer_tick_ampdu.txt
+@TEST CAP_testchains/contend15.txt
+##receving_end indication with send response
+##@TEST CAP_testchains/wait_for_rx_rx_end_ind_send_resp.txt 
+###contend_timer tick
+##@TEST CAP_testchains/contend_timer_tick.txt
+###txop_tx_start event
+#@TEST CAP_testchains/txop_tx_start.txt
+####txop_wait_for_rx timer tick with success case
+#@TEST CAP_testchains/wait_for_rxsuccess_timer_tick.txt
+####receving_start indication
+#@TEST CAP_testchains/rx_start_ind_in_wait_for_rx.txt
+####receving_data indication
+#@TEST CAP_testchains/rx_data_ind_in_wait_for_rx.txt
+####receving_end indication
+#@TEST CAP_testchains/rx_end_ind_ack_rcvd.txt

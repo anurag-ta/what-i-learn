@@ -1,0 +1,10 @@
+Testcase 024
+STATE 0
+PHY-IND UU_PHY_CCA_IND 11
+PHY-IND UU_PHY_RXSTART_IND -TF ./config_files/rxvector_frame_data.txt
+PHY-IND UU_PHY_DATA_IND -TF ./config_files/data_invalid-pv.txt
+PHY-IND UU_PHY_RXEND_IND 0
+STATE 0
+recv
+Endcase
+END

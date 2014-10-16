@@ -1,0 +1,8 @@
+#array[0], &rq_type, 
+#array[1], &addr[0], &addr[1], &addr[2], &addr[3], &addr[4], &addr[5], &scf, &tid, duration, bartype, 
+#array[2], 
+#array[3], 
+#array[4], 
+#array[5], &return_value);
+#testcase for generationg bar frame
+uu_wlan_cp_mt_5_id1 5 input: fc f8 f0 10 20 04 0xb0 3 0xff 0x05 precondition: postcondition: output: return_value: 24 

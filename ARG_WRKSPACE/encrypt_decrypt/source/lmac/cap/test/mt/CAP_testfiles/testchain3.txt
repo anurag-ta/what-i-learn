@@ -1,0 +1,4 @@
+#idle-receving by phy-energy
+@TEST CAP_testfiles/idle3.txt
+#receving-eifs by giving phy-rx-error 
+@TEST CAP_testfiles/receving1.txt

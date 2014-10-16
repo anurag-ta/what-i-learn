@@ -1,0 +1,1 @@
+cap_testcase_id12 14 2 1 65535 0 1 ba_frame_input1.txt input: 0 0 precondition: 0 0 3 2 postcondition: 0 0 3 3 

@@ -1,0 +1,12 @@
+#type indicates immediate BA and dir indicates RX
+tid = 2 
+dir = 0
+ssn = 0
+type = 1 
+bufsz = 40
+addr[0] = 22
+addr[1] = 22
+addr[2] = 22
+addr[3] = 22
+addr[4] = 22
+addr[5] = 14

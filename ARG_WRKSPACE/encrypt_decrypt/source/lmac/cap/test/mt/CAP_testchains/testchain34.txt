@@ -1,0 +1,1 @@
+@TEST CAP_testchains/idle_rx_low_energy.txt

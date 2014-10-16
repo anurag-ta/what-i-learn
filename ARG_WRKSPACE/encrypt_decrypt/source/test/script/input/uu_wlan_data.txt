@@ -1,0 +1,19 @@
+/* This Testcase is used to test the data flow between the STA and AP. (Number 003 is used in perlscript to terminate the testcase after data frame is received) 
+     On successful establishment of authentication and association,the data frame is transmitted from STA to AP and on successful transmission of the data frame the 
+	acknowledgment frame is generated and is transmitted to STA from AP. */
+
+
+
+Testcase 003
+recv
+PHY-IND UU_PHY_TXSTART_CONF
+recv
+PHY-IND UU_PHY_DATA_CONF
+recv
+PHY-IND UU_PHY_TXEND_CONF
+
+GENERATE RESPONSE
+
+Endcase
+
+END

@@ -1,0 +1,10 @@
+/* This text file is used as a configuration file to fill out the details of the frame. */
+
+1054
+ffffffffffff
+020202020202
+040404040404
+040404040404
+c01d
+263ab64e20
+0.102400

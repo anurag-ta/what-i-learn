@@ -1,0 +1,4 @@
+#idle-receving by phy_energy
+@TEST CAP_testfiles/idle4.txt
+#receving-receving by tx_ready
+@TEST CAP_testfiles/receving2.txt

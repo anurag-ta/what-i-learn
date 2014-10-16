@@ -1,0 +1,4 @@
+#testcase for receiving of agg-packet of format ht_gf with no err
+@TEST rx_testfiles/testcase_agg_format1.txt
+@TEST rx_testfiles/testcase_agg_packet.txt
+@TEST rx_testfiles/testcase_ret0.txt

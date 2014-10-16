@@ -1,0 +1,2 @@
+#In idle, receive phy energy indication with status as idle.
+@TEST CAP_testchains/idle_rx_energy_low.txt

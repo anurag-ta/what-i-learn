@@ -1,0 +1,27 @@
+uu_lmac_nht_80bw_ofdm_001 legacy ./LMAC_testcases/testcases/bck_comp/legacy/nht_80bw_ofdm_001.txt ./LMAC_testcases/frameCapabilities/bck_comp/legacy/nht_80bw_ofdm_001.txt ./LMAC_testcases/frameInfo/bck_comp/legacy/nht_80bw_ofdm_001.txt ./LMAC_testcases/registers/bck_comp/legacy/nht_80bw_ofdm_001.txt
+
+uu_lmac_nht_80bw_ofdm_rts_002 legacy_rts ./LMAC_testcases/testcases/bck_comp/legacy/nht_80bw_ofdm_rts_002.txt ./LMAC_testcases/frameCapabilities/bck_comp/legacy/nht_80bw_ofdm_rts_002.txt ./LMAC_testcases/frameInfo/bck_comp/legacy/nht_80bw_ofdm_rts_002.txt ./LMAC_testcases/registers/bck_comp/legacy/nht_80bw_ofdm_rts_002.txt
+
+uu_lmac_nht_80bw_ofdm_48mbps_003 leg_48mb ./LMAC_testcases/testcases/bck_comp/legacy/nht_80bw_ofdm_48mbps_003.txt ./LMAC_testcases/frameCapabilities/bck_comp/legacy/nht_80bw_ofdm_48mbps_003.txt ./LMAC_testcases/frameInfo/bck_comp/legacy/nht_80bw_ofdm_48mbps_003.txt ./LMAC_testcases/registers/bck_comp/legacy/nht_80bw_ofdm_48mbps_003.txt
+
+uu_lmac_nht_80bw_bcast_36mbps_004 bcst_36 ./LMAC_testcases/testcases/bck_comp/legacy/nht_80bw_bcast_36mbps_004.txt ./LMAC_testcases/frameCapabilities/bck_comp/legacy/nht_80bw_bcast_36mbps_004.txt ./LMAC_testcases/frameInfo/bck_comp/legacy/nht_80bw_bcast_36mbps_004.txt ./LMAC_testcases/registers/bck_comp/legacy/nht_80bw_bcast_36mbps_004.txt
+
+uu_lmac_nht_80bw_ofdm_bcast_tods1_005 tods1 ./LMAC_testcases/testcases/bck_comp/legacy/nht_80bw_ofdm_bcast_tods1_005.txt ./LMAC_testcases/frameCapabilities/bck_comp/legacy/nht_80bw_ofdm_bcast_tods1_005.txt ./LMAC_testcases/frameInfo/bck_comp/legacy/nht_80bw_ofdm_bcast_tods1_005.txt ./LMAC_testcases/registers/bck_comp/legacy/nht_80bw_ofdm_bcast_tods1_005.txt
+
+uu_lmac_ass_req_nht_80bw_ofdm_006 ass_req ./LMAC_testcases/testcases/bck_comp/legacy/ass_req_nht_80bw_ofdm_006.txt ./LMAC_testcases/frameCapabilities/bck_comp/legacy/ass_req_nht_80bw_ofdm_006.txt ./LMAC_testcases/frameInfo/bck_comp/legacy/ass_req_nht_80bw_ofdm_006.txt ./LMAC_testcases/registers/bck_comp/legacy/ass_req_nht_80bw_ofdm_006.txt
+
+uu_lmac_rtx_48mbps_007 rtx_48mb ./LMAC_testcases/testcases/bck_comp/legacy/rtx_48mbps_007.txt ./LMAC_testcases/frameCapabilities/bck_comp/legacy/rtx_48mbps_007.txt ./LMAC_testcases/frameInfo/bck_comp/legacy/rtx_48mbps_007.txt ./LMAC_testcases/registers/bck_comp/legacy/rtx_48mbps_007.txt
+
+uu_lmac_rtx_54mbps_008 rtx_54mb ./LMAC_testcases/testcases/bck_comp/legacy/rtx_54mbps_008.txt ./LMAC_testcases/frameCapabilities/bck_comp/legacy/rtx_54mbps_008.txt ./LMAC_testcases/frameInfo/bck_comp/legacy/rtx_54mbps_008.txt ./LMAC_testcases/registers/bck_comp/legacy/rtx_54mbps_008.txt
+
+uu_lmac_36mbps_rp_009 36mbpd_rp ./LMAC_testcases/testcases/bck_comp/legacy/36mbps_rp_009.txt ./LMAC_testcases/frameCapabilities/bck_comp/legacy/36mbps_rp_009.txt ./LMAC_testcases/frameInfo/bck_comp/legacy/36mbps_rp_009.txt ./LMAC_testcases/registers/bck_comp/legacy/36mbps_rp_009.txt
+
+uu_lmac_bcast_6mbps_rp_010 bcast_6mbps_rp ./LMAC_testcases/testcases/bck_comp/legacy/bcast_6mbps_rp_010.txt ./LMAC_testcases/frameCapabilities/bck_comp/legacy/bcast_6mbps_rp_010.txt ./LMAC_testcases/frameInfo/bck_comp/legacy/bcast_6mbps_rp_010.txt ./LMAC_testcases/registers/bck_comp/legacy/bcast_6mbps_rp_010.txt
+
+uu_lmac_bcast_tods1_54mb_rp_011 bcst_tods1 ./LMAC_testcases/testcases/bck_comp/legacy/bcast_tods1_54mb_rp_011.txt ./LMAC_testcases/frameCapabilities/bck_comp/legacy/bcast_tods1_54mb_rp_011.txt ./LMAC_testcases/frameInfo/bck_comp/legacy/bcast_tods1_54mb_rp_011.txt ./LMAC_testcases/registers/bck_comp/legacy/bcast_tods1_54mb_rp_011.txt
+
+uu_lmac_24mbps_40bw_rp_012 24mb_40bw ./LMAC_testcases/testcases/bck_comp/legacy/24mbps_40bw_rp_012.txt ./LMAC_testcases/frameCapabilities/bck_comp/legacy/24mbps_40bw_rp_012.txt ./LMAC_testcases/frameInfo/bck_comp/legacy/24mbps_40bw_rp_012.txt ./LMAC_testcases/registers/bck_comp/legacy/24mbps_40bw_rp_012.txt
+
+uu_lmac_9mbps_20bw_rp_013 9mb_20bw ./LMAC_testcases/testcases/bck_comp/legacy/9mbps_20bw_rp_013.txt ./LMAC_testcases/frameCapabilities/bck_comp/legacy/9mbps_20bw_rp_013.txt ./LMAC_testcases/frameInfo/bck_comp/legacy/9mbps_20bw_rp_013.txt ./LMAC_testcases/registers/bck_comp/legacy/9mbps_20bw_rp_013.txt
+
+uu_lmac_prbreq_12mbps_20bw_rp_014 prbreq_rp ./LMAC_testcases/testcases/bck_comp/legacy/prbreq_12mbps_20bw_rp_014.txt ./LMAC_testcases/frameCapabilities/bck_comp/legacy/prbreq_12mbps_20bw_rp_014.txt ./LMAC_testcases/frameInfo/bck_comp/legacy/prbreq_12mbps_20bw_rp_014.txt

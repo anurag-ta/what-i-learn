@@ -1,0 +1,51 @@
+uu_lmac_ps_mode_001 ps_mode ./LMAC_testcases/testcases/powersave/ps_mode_001.txt ./LMAC_testcases/frameCapabilities/powersave/ps_mode_001.txt ./LMAC_testcases/frameInfo/powersave/ps_mode_001.txt ./LMAC_testcases/registers/powersave/ps_mode_001.txt
+
+uu_lmac_ps_mode_not_initiate_002 ps_mode_nt_intiated ./LMAC_testcases/testcases/powersave/ps_mode_not_initiate_002.txt ./LMAC_testcases/frameCapabilities/powersave/ps_mode_not_initiate_002.txt ./LMAC_testcases/frameInfo/powersave/ps_mode_not_initiate_002.txt ./LMAC_testcases/registers/powersave/ps_mode_not_initiate_002.txt
+
+uu_lmac_ps_mode_recv_dtim_003 recv_dtim ./LMAC_testcases/testcases/powersave/ps_mode_recv_dtim_003.txt ./LMAC_testcases/frameCapabilities/powersave/ps_mode_recv_dtim_003.txt ./LMAC_testcases/frameInfo/powersave/ps_mode_recv_dtim_003.txt ./LMAC_testcases/registers/powersave/ps_mode_recv_dtim_003.txt
+
+uu_lmac_ps_mode_recv_tim_bcon_004 recv_tim_bcon ./LMAC_testcases/testcases/powersave/ps_mode_recv_tim_bcon_004.txt ./LMAC_testcases/frameCapabilities/powersave/ps_mode_recv_tim_bcon_004.txt ./LMAC_testcases/frameInfo/powersave/ps_mode_recv_tim_bcon_004.txt ./LMAC_testcases/registers/powersave/ps_mode_recv_tim_bcon_004.txt
+
+uu_lmac_ps_mode_doze_to_awake_005 doze_to_awake_transmit ./LMAC_testcases/testcases/powersave/ps_mode_doze_to_awake_005.txt ./LMAC_testcases/frameCapabilities/powersave/ps_mode_doze_to_awake_005.txt ./LMAC_testcases/frameInfo/powersave/ps_mode_doze_to_awake_005.txt ./LMAC_testcases/registers/powersave/ps_mode_doze_to_awake_005.txt
+
+uu_lmac_ps_mode_awake_retrans_006 awake_retrans ./LMAC_testcases/testcases/powersave/ps_mode_awake_retrans_006.txt ./LMAC_testcases/frameCapabilities/powersave/ps_mode_awake_retrans_006.txt ./LMAC_testcases/frameInfo/powersave/ps_mode_awake_retrans_006.txt ./LMAC_testcases/registers/powersave/ps_mode_awake_retrans_006.txt
+
+uu_lmac_ps_mode_qos_noack_policy_007 legacy_noack_policy ./LMAC_testcases/testcases/powersave/ps_mode_qos_noack_policy_007.txt ./LMAC_testcases/frameCapabilities/powersave/ps_mode_qos_noack_policy_007.txt ./LMAC_testcases/frameInfo/powersave/ps_mode_qos_noack_policy_007.txt ./LMAC_testcases/registers/powersave/ps_mode_qos_noack_policy_007.txt
+
+uu_lmac_ps_mode_to_active_mode_008 ps_to_active ./LMAC_testcases/testcases/powersave/ps_mode_to_active_mode_008.txt ./LMAC_testcases/frameCapabilities/powersave/ps_mode_to_active_mode_008.txt ./LMAC_testcases/frameInfo/powersave/ps_mode_to_active_mode_008.txt ./LMAC_testcases/registers/powersave/ps_mode_to_active_mode_008.txt
+
+uu_lmac_ps_mode_no_recv_sleep_009 no_recv_in_slp ./LMAC_testcases/testcases/powersave/ps_mode_no_recv_sleep_009.txt ./LMAC_testcases/frameCapabilities/powersave/ps_mode_no_recv_sleep_009.txt ./LMAC_testcases/frameInfo/powersave/ps_mode_no_recv_sleep_009.txt ./LMAC_testcases/registers/powersave/ps_mode_no_recv_sleep_009.txt
+
+uu_lmac_ps_mode_ignored_010 ps_bit_ignored ./LMAC_testcases/testcases/powersave/ps_mode_ignored_010.txt ./LMAC_testcases/frameCapabilities/powersave/ps_mode_ignored_010.txt ./LMAC_testcases/frameInfo/powersave/ps_mode_ignored_010.txt ./LMAC_testcases/registers/powersave/ps_mode_ignored_010.txt
+
+uu_lmac_ps_mode_poll_single_frame_011 poll_single_frame ./LMAC_testcases/testcases/powersave/ps_mode_poll_single_frame_011.txt ./LMAC_testcases/frameCapabilities/powersave/ps_mode_poll_single_frame_011.txt ./LMAC_testcases/frameInfo/powersave/ps_mode_poll_single_frame_011.txt ./LMAC_testcases/registers/powersave/ps_mode_poll_single_frame_011.txt
+
+uu_lmac_ps_mode_awake_recv_bu_012 awake_recv_bu ./LMAC_testcases/testcases/powersave/ps_mode_awake_recv_bu_012.txt ./LMAC_testcases/frameCapabilities/powersave/ps_mode_awake_recv_bu_012.txt ./LMAC_testcases/frameInfo/powersave/ps_mode_awake_recv_bu_012.txt ./LMAC_testcases/registers/powersave/ps_mode_awake_recv_bu_012.txt
+
+uu_lmac_ps_mode_awake_tim_aid_zero_013 awake_till_tim_zero ./LMAC_testcases/testcases/powersave/ps_mode_awake_tim_aid_zero_013.txt ./LMAC_testcases/frameCapabilities/powersave/ps_mode_awake_tim_aid_zero_013.txt ./LMAC_testcases/frameInfo/powersave/ps_mode_awake_tim_aid_zero_013.txt ./LMAC_testcases/registers/powersave/ps_mode_awake_tim_aid_zero_013.txt
+
+uu_lmac_ps_mode_poll_tim_aid_one_014 poll_tim_one ./LMAC_testcases/testcases/powersave/ps_mode_poll_tim_aid_one_014.txt ./LMAC_testcases/frameCapabilities/powersave/ps_mode_poll_tim_aid_one_014.txt ./LMAC_testcases/frameInfo/powersave/ps_mode_poll_tim_aid_one_014.txt ./LMAC_testcases/registers/powersave/ps_mode_poll_tim_aid_one_014.txt
+
+uu_lmac_ps_mode_uapsd_on_015 uapsd_on ./LMAC_testcases/testcases/powersave/ps_mode_uapsd_on_015.txt ./LMAC_testcases/frameCapabilities/powersave/ps_mode_uapsd_on_015.txt ./LMAC_testcases/frameInfo/powersave/ps_mode_uapsd_on_015.txt ./LMAC_testcases/registers/powersave/ps_mode_uapsd_on_015.txt
+
+uu_lmac_ps_mode_off_uapsd_on_016 ps_off_uapsd_on ./LMAC_testcases/testcases/powersave/ps_mode_off_uapsd_on_016.txt ./LMAC_testcases/frameCapabilities/powersave/ps_mode_off_uapsd_on_016.txt ./LMAC_testcases/frameInfo/powersave/ps_mode_off_uapsd_on_016.txt ./LMAC_testcases/registers/powersave/ps_mode_off_uapsd_on_016.txt
+
+uu_lmac_ps_mode_uapsd_recv_tim_bcon_017 uapsd_nullqos ./LMAC_testcases/testcases/powersave/ps_mode_uapsd_recv_tim_bcon_017.txt ./LMAC_testcases/frameCapabilities/powersave/ps_mode_uapsd_recv_tim_bcon_017.txt ./LMAC_testcases/frameInfo/powersave/ps_mode_uapsd_recv_tim_bcon_017.txt ./LMAC_testcases/registers/powersave/ps_mode_uapsd_recv_tim_bcon_017.txt
+
+#uu_lmac_ps_mode_bcast_recv_018 recv_bcast ./LMAC_testcases/testcases/powersave/ps_mode_bcast_recv_018.txt ./LMAC_testcases/frameCapabilities/powersave/ps_mode_bcast_recv_018.txt ./LMAC_testcases/frameInfo/powersave/ps_mode_bcast_recv_018.txt ./LMAC_testcases/registers/powersave/ps_mode_bcast_recv_018.txt
+
+uu_lmac_ps_mode_bcon_bcast_aid_one_19 bcon_bcast_aid_1 ./LMAC_testcases/testcases/powersave/ps_mode_bcon_bcast_aid_one_19.txt ./LMAC_testcases/frameCapabilities/powersave/ps_mode_bcon_bcast_aid_one_19.txt ./LMAC_testcases/frameInfo/powersave/ps_mode_bcon_bcast_aid_one_19.txt ./LMAC_testcases/registers/powersave/ps_mode_bcon_bcast_aid_one_19.txt
+
+uu_lmac_ps_mode_uapsd_eosp1_mdb1_020 eosp1_more_data1 ./LMAC_testcases/testcases/powersave/ps_mode_uapsd_eosp1_mdb1_020.txt ./LMAC_testcases/frameCapabilities/powersave/ps_mode_uapsd_eosp1_mdb1_020.txt ./LMAC_testcases/frameInfo/powersave/ps_mode_uapsd_eosp1_mdb1_020.txt ./LMAC_testcases/registers/powersave/ps_mode_uapsd_eosp1_mdb1_020.txt
+
+uu_lmac_ps_mode_awake_mdb0_eosp1_021 awake_mdb0_eosp1 ./LMAC_testcases/testcases/powersave/ps_mode_awake_mdb0_eosp1_021.txt ./LMAC_testcases/frameCapabilities/powersave/ps_mode_awake_mdb0_eosp1_021.txt ./LMAC_testcases/frameInfo/powersave/ps_mode_awake_mdb0_eosp1_021.txt ./LMAC_testcases/registers/powersave/ps_mode_awake_mdb0_eosp1_021.txt
+
+#uu_lmac_ps_mode_trig_frme_um_022 trig_from_um ./LMAC_testcases/testcases/powersave/ps_mode_trig_frme_um_022.txt ./LMAC_testcases/frameCapabilities/powersave/ps_mode_trig_frme_um_022.txt ./LMAC_testcases/frameInfo/powersave/ps_mode_trig_frme_um_022.txt ./LMAC_testcases/registers/powersave/ps_mode_trig_frme_um_022.txt
+
+#uu_lmac_ps_mode_usp_nrml_noack_plcy_023 usp_nrml_noack_plcy ./LMAC_testcases/testcases/powersave/ps_mode_usp_nrml_noack_plcy_023.txt ./LMAC_testcases/frameCapabilities/powersave/ps_mode_usp_nrml_noack_plcy_023.txt ./LMAC_testcases/frameInfo/powersave/ps_mode_usp_nrml_noack_plcy_023.txt ./LMAC_testcases/registers/powersave/ps_mode_usp_nrml_noack_plcy_023.txt
+
+uu_lmac_ps_mode_active_no_tim_024 active_no_tim ./LMAC_testcases/testcases/powersave/ps_mode_active_no_tim_024.txt ./LMAC_testcases/frameCapabilities/powersave/ps_mode_active_no_tim_024.txt ./LMAC_testcases/frameInfo/powersave/ps_mode_active_no_tim_024.txt ./LMAC_testcases/registers/powersave/ps_mode_active_no_tim_024.txt
+
+uu_lmac_ps_mode_tim_after_dtim_025 dtim_after_tim ./LMAC_testcases/testcases/powersave/ps_mode_tim_after_dtim_025.txt ./LMAC_testcases/frameCapabilities/powersave/ps_mode_tim_after_dtim_025.txt ./LMAC_testcases/frameInfo/powersave/ps_mode_tim_after_dtim_025.txt ./LMAC_testcases/registers/powersave/ps_mode_tim_after_dtim_025.txt
+
+uu_lmac_ps_mode_same_ps_ampdu_026 same_ps_ampdu ./LMAC_testcases/testcases/powersave/ps_mode_same_ps_ampdu_026.txt ./LMAC_testcases/frameCapabilities/powersave/ps_mode_same_ps_ampdu_026.txt ./LMAC_testcases/frameInfo/powersave/ps_mode_same_ps_ampdu_026.txt ./LMAC_testcases/registers/powersave/ps_mode_same_ps_ampdu_026.txt

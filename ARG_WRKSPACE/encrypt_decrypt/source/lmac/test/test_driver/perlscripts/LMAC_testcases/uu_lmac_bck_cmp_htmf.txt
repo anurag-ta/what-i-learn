@@ -1,0 +1,27 @@
+uu_lmac_htmf_rts_001 htmf_rts ./LMAC_testcases/testcases/bck_comp/ht_mf/htmf_rts_001.txt ./LMAC_testcases/frameCapabilities/bck_comp/ht_mf/htmf_rts_001.txt ./LMAC_testcases/frameInfo/bck_comp/ht_mf/htmf_rts_001.txt ./LMAC_testcases/registers/bck_comp/ht_mf/htmf_rts_001.txt
+
+uu_lmac_htmf_rts_mcs1_002 htmf_mcs1 ./LMAC_testcases/testcases/bck_comp/ht_mf/htmf_rts_mcs1_002.txt ./LMAC_testcases/frameCapabilities/bck_comp/ht_mf/htmf_rts_mcs1_002.txt ./LMAC_testcases/frameInfo/bck_comp/ht_mf/htmf_rts_mcs1_002.txt ./LMAC_testcases/registers/bck_comp/ht_mf/htmf_rts_mcs1_002.txt
+
+uu_lmac_htmf_rts_mcs7_003 htmf_mcs7 ./LMAC_testcases/testcases/bck_comp/ht_mf/htmf_rts_mcs7_003.txt ./LMAC_testcases/frameCapabilities/bck_comp/ht_mf/htmf_rts_mcs7_003.txt ./LMAC_testcases/frameInfo/bck_comp/ht_mf/htmf_rts_mcs7_003.txt ./LMAC_testcases/registers/bck_comp/ht_mf/htmf_rts_mcs7_003.txt
+
+uu_lmac_htmf_rts_mcs15_004 htmf_mcs15 ./LMAC_testcases/testcases/bck_comp/ht_mf/htmf_rts_mcs15_004.txt ./LMAC_testcases/frameCapabilities/bck_comp/ht_mf/htmf_rts_mcs15_004.txt ./LMAC_testcases/frameInfo/bck_comp/ht_mf/htmf_rts_mcs15_004.txt ./LMAC_testcases/registers/bck_comp/ht_mf/htmf_rts_mcs15_004.txt
+
+uu_lmac_htmf_rts_mcs30_40bw_005 mcs30_40bw ./LMAC_testcases/testcases/bck_comp/ht_mf/htmf_rts_mcs30_40bw_005.txt ./LMAC_testcases/frameCapabilities/bck_comp/ht_mf/htmf_rts_mcs30_40bw_005.txt ./LMAC_testcases/frameInfo/bck_comp/ht_mf/htmf_rts_mcs30_40bw_005.txt ./LMAC_testcases/registers/bck_comp/ht_mf/htmf_rts_mcs30_40bw_005.txt
+
+uu_lmac_htmf_rts_80bw_006 80bw ./LMAC_testcases/testcases/bck_comp/ht_mf/htmf_rts_80bw_006.txt ./LMAC_testcases/frameCapabilities/bck_comp/ht_mf/htmf_rts_80bw_006.txt ./LMAC_testcases/frameInfo/bck_comp/ht_mf/htmf_rts_80bw_006.txt ./LMAC_testcases/registers/bck_comp/ht_mf/htmf_rts_80bw_006.txt
+
+uu_lmac_htmf_rts_gi1_40bw_007 gi1_40bw ./LMAC_testcases/testcases/bck_comp/ht_mf/htmf_rts_gi1_40bw_007.txt ./LMAC_testcases/frameCapabilities/bck_comp/ht_mf/htmf_rts_gi1_40bw_007.txt ./LMAC_testcases/frameInfo/bck_comp/ht_mf/htmf_rts_gi1_40bw_007.txt ./LMAC_testcases/registers/bck_comp/ht_mf/htmf_rts_gi1_40bw_007.txt
+
+uu_lmac_htmf_rts_mcs24_gi1_008 gi1_mcs24 ./LMAC_testcases/testcases/bck_comp/ht_mf/htmf_rts_mcs24_gi1_008.txt ./LMAC_testcases/frameCapabilities/bck_comp/ht_mf/htmf_rts_mcs24_gi1_008.txt ./LMAC_testcases/frameInfo/bck_comp/ht_mf/htmf_rts_mcs24_gi1_008.txt ./LMAC_testcases/registers/bck_comp/ht_mf/htmf_rts_mcs24_gi1_008.txt
+
+uu_lmac_htmf_009 htmf ./LMAC_testcases/testcases/bck_comp/ht_mf/htmf_009.txt ./LMAC_testcases/frameCapabilities/bck_comp/ht_mf/htmf_009.txt ./LMAC_testcases/frameInfo/bck_comp/ht_mf/htmf_009.txt ./LMAC_testcases/registers/bck_comp/ht_mf/htmf_009.txt
+
+uu_lmac_htmf_80bw_010 htmf_80bw ./LMAC_testcases/testcases/bck_comp/ht_mf/htmf_80bw_010.txt ./LMAC_testcases/frameCapabilities/bck_comp/ht_mf/htmf_80bw_010.txt ./LMAC_testcases/frameInfo/bck_comp/ht_mf/htmf_80bw_010.txt ./LMAC_testcases/registers/bck_comp/ht_mf/htmf_80bw_010.txt
+
+uu_lmac_htmf_rp_011 htmf_rp ./LMAC_testcases/testcases/bck_comp/ht_mf/htmf_rp_011.txt ./LMAC_testcases/frameCapabilities/bck_comp/ht_mf/htmf_rp_011.txt ./LMAC_testcases/frameInfo/bck_comp/ht_mf/htmf_rp_011.txt ./LMAC_testcases/registers/bck_comp/ht_mf/htmf_rp_011.txt
+
+uu_lmac_htmf_mcs1_rp_012 htmf_rp_mcs1 ./LMAC_testcases/testcases/bck_comp/ht_mf/htmf_mcs1_rp_012.txt ./LMAC_testcases/frameCapabilities/bck_comp/ht_mf/htmf_mcs1_rp_012.txt ./LMAC_testcases/frameInfo/bck_comp/ht_mf/htmf_mcs1_rp_012.txt ./LMAC_testcases/registers/bck_comp/ht_mf/htmf_mcs1_rp_012.txt
+
+uu_lmac_htmf_mcs76_rp_013 mcs76_rp ./LMAC_testcases/testcases/bck_comp/ht_mf/htmf_mcs76_rp_013.txt ./LMAC_testcases/frameCapabilities/bck_comp/ht_mf/htmf_mcs76_rp_013.txt ./LMAC_testcases/frameInfo/bck_comp/ht_mf/htmf_mcs76_rp_013.txt ./LMAC_testcases/registers/bck_comp/ht_mf/htmf_mcs76_rp_013.txt
+
+uu_lmac_htmf_mcs80_rp_014 mcs80_rp ./LMAC_testcases/testcases/bck_comp/ht_mf/htmf_mcs80_rp_014.txt ./LMAC_testcases/frameCapabilities/bck_comp/ht_mf/htmf_mcs80_rp_014.txt ./LMAC_testcases/frameInfo/bck_comp/ht_mf/htmf_mcs80_rp_014.txt ./LMAC_testcases/registers/bck_comp/ht_mf/htmf_mcs80_rp_014.txt

@@ -1,0 +1,1 @@
+testcaseid: 2 event_type: 8 file_name: beacon_no_bssid.txt output: 0 

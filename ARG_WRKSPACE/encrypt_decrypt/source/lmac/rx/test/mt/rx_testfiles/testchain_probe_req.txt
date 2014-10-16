@@ -1,0 +1,4 @@
+#testcase for receiving of probe_req frame which has umac_filter as probe_req allowed
+@TEST rx_testfiles/testcase_nonagg_prreq.txt
+@TEST rx_testfiles/testcase_prreq.txt
+@TEST rx_testfiles/testcase_ret0_ff2.txt

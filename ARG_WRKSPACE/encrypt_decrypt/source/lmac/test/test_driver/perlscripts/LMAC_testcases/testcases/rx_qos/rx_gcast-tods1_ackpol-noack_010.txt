@@ -1,0 +1,12 @@
+Testcase 010
+STATE 0
+PHY-IND UU_PHY_CCA_IND 11
+PHY-IND UU_PHY_RXSTART_IND -TF ./config_files/rxvector_frame_longdata.txt
+PHY-IND UU_PHY_DATA_IND -TF ./config_files/genresp_qos_gcast_tods1_noack.txt
+PHY-IND UU_PHY_RXEND_IND 0
+STATE 1
+recv
+STATE 0
+recv
+Endcase
+END

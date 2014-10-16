@@ -1,0 +1,76 @@
+uu_lmac_rx_qos_rp_001 QoS_ra_us ./LMAC_testcases/testcases/rx_qos/rx_qos_rp_001.txt ./LMAC_testcases/frameCapabilities/rx_qos/rx_qos_rp_001.txt ./LMAC_testcases/frameInfo/rx_qos/rx_qos_rp_001.txt
+
+uu_lmac_rx_mmpdu_txop0_002 MMPDU_TXOP0_us ./LMAC_testcases/testcases/rx_qos/rx_mmpdu_txop0_002.txt ./LMAC_testcases/frameCapabilities/rx_qos/rx_mmpdu_txop0_002.txt ./LMAC_testcases/frameInfo/rx_qos/rx_mmpdu_txop0_002.txt
+
+uu_lmac_rx_rtscts_txop0_003 RTS/CTS_TXOP0_us ./LMAC_testcases/testcases/rx_qos/rx_rtscts_txop0_003.txt ./LMAC_testcases/frameCapabilities/rx_qos/rx_rtscts_txop0_003.txt ./LMAC_testcases/frameInfo/rx_qos/rx_rtscts_txop0_003.txt
+
+uu_lmac_rx_qos-ackpol-normal_004 QoS_ackpol_normal ./LMAC_testcases/testcases/rx_qos/rx_qos-ackpol-normal_004.txt ./LMAC_testcases/frameCapabilities/rx_qos/rx_qos-ackpol-normal_004.txt ./LMAC_testcases/frameInfo/rx_qos/rx_qos-ackpol-normal_004.txt
+
+uu_lmac_rx_qos-ackpol-no_005 QoS_ackpol_no ./LMAC_testcases/testcases/rx_qos/rx_qos-ackpol-no_005.txt ./LMAC_testcases/frameCapabilities/rx_qos/rx_qos-ackpol-no_005.txt ./LMAC_testcases/frameInfo/rx_qos/rx_qos-ackpol-no_005.txt
+
+uu_lmac_rx_qos-ackpol-noexplicit_006 QoS_ackpol_noexplicit ./LMAC_testcases/testcases/rx_qos/rx_qos-ackpol-noexplicit_006.txt ./LMAC_testcases/frameCapabilities/rx_qos/rx_qos-ackpol-noexplicit_006.txt ./LMAC_testcases/frameInfo/rx_qos/rx_qos-ackpol-noexplicit_006.txt
+
+uu_lmac_rx_qos-ackpol-blockack_007 QoS_ackpol_blockack ./LMAC_testcases/testcases/rx_qos/rx_qos-ackpol-blockack_007.txt ./LMAC_testcases/frameCapabilities/rx_qos/rx_qos-ackpol-blockack_007.txt ./LMAC_testcases/frameInfo/rx_qos/rx_qos-ackpol-blockack_007.txt
+
+uu_lmac_rx_multiframes_008 QoS_multiframes_RP ./LMAC_testcases/testcases/rx_qos/rx_multiframes_008.txt ./LMAC_testcases/frameCapabilities/rx_qos/rx_multiframes_008.txt ./LMAC_testcases/frameInfo/rx_qos/rx_multiframes_008.txt
+
+uu_lmac_rx_gcast-ackpol-normal_009 QoS_gcast_ackpol_normal ./LMAC_testcases/testcases/rx_qos/rx_gcast-ackpol-normal_009.txt ./LMAC_testcases/frameCapabilities/rx_qos/rx_gcast-ackpol-normal_009.txt ./LMAC_testcases/frameInfo/rx_qos/rx_gcast-ackpol-normal_009.txt
+
+uu_lmac_rx_gcast-tods1_ackpol-noack_010 QoS_gcast_tods1_ackpol_no ./LMAC_testcases/testcases/rx_qos/rx_gcast-tods1_ackpol-noack_010.txt ./LMAC_testcases/frameCapabilities/rx_qos/rx_gcast-tods1_ackpol-noack_010.txt ./LMAC_testcases/frameInfo/rx_qos/rx_gcast-tods1_ackpol-noack_010.txt
+
+#uu_lmac_rx_cf-end_011 QoS_CF-END_RP ./LMAC_testcases/testcases/rx_qos/rx_cf-end_011.txt ./LMAC_testcases/frameCapabilities/rx_qos/rx_cf-end_011.txt ./LMAC_testcases/frameInfo/rx_qos/rx_cf-end_011.txt
+
+#uu_lmac_rx_cf-end_bssid-ap_012 QoS_CF-END_bssid-ap ./LMAC_testcases/testcases/rx_qos/rx_cf-end_bssid-ap_012.txt ./LMAC_testcases/frameCapabilities/rx_qos/rx_cf-end_bssid-ap_012.txt ./LMAC_testcases/frameInfo/rx_qos/rx_cf-end_bssid-ap_012.txt
+
+#uu_lmac_rx_cf-end_bssid-sta_013 QoS_CF-END_bssid-sta ./LMAC_testcases/testcases/rx_qos/rx_cf-end_bssid-sta_013.txt ./LMAC_testcases/frameCapabilities/rx_qos/rx_cf-end_bssid-sta_013.txt ./LMAC_testcases/frameInfo/rx_qos/rx_cf-end_bssid-sta_013.txt
+
+uu_lmac_rx_valid-fcs_014 QoS_valid_FCS ./LMAC_testcases/testcases/rx_qos/rx_valid-fcs_014.txt ./LMAC_testcases/frameCapabilities/rx_qos/rx_valid-fcs_014.txt ./LMAC_testcases/frameInfo/rx_qos/rx_valid-fcs_014.txt
+
+uu_lmac_rx_invalid-fcs_015 QoS_invalid_FCS ./LMAC_testcases/testcases/rx_qos/rx_invalid-fcs_015.txt ./LMAC_testcases/frameCapabilities/rx_qos/rx_invalid-fcs_015.txt ./LMAC_testcases/frameInfo/rx_qos/rx_invalid-fcs_015.txt
+
+uu_lmac_rx_qosdata_morefrag1_016 QoS_morefrag1 ./LMAC_testcases/testcases/rx_qos/rx_qosdata_morefrag1_016.txt ./LMAC_testcases/frameCapabilities/rx_qos/rx_qosdata_morefrag1_016.txt ./LMAC_testcases/frameInfo/rx_qos/rx_qosdata_morefrag1_016.txt
+
+uu_lmac_rx_qosdata_nav_017 QoS_recvdata_nav_available ./LMAC_testcases/testcases/rx_qos/rx_qosdata_nav_017.txt ./LMAC_testcases/frameCapabilities/rx_qos/rx_qosdata_nav_017.txt ./LMAC_testcases/frameInfo/rx_qos/rx_qosdata_nav_017.txt
+
+uu_lmac_rx_nav_ackpol-noack_018 QoS_recvdata_nav_noack ./LMAC_testcases/testcases/rx_qos/rx_nav_ackpol-noack_018.txt ./LMAC_testcases/frameCapabilities/rx_qos/rx_nav_ackpol-noack_018.txt ./LMAC_testcases/frameInfo/rx_qos/rx_nav_ackpol-noack_018.txt
+
+uu_lmac_rx_qosdata_protect1_019 QoS_protect1 ./LMAC_testcases/testcases/rx_qos/rx_qosdata_protect1_019.txt ./LMAC_testcases/frameCapabilities/rx_qos/rx_qosdata_protect1_019.txt ./LMAC_testcases/frameInfo/rx_qos/rx_qosdata_protect1_019.txt
+
+uu_lmac_rx_format_ht-mf_020 QoS_format_HT-MF ./LMAC_testcases/testcases/rx_qos/rx_format_ht-mf_020.txt ./LMAC_testcases/frameCapabilities/rx_qos/rx_format_ht-mf_020.txt ./LMAC_testcases/frameInfo/rx_qos/rx_format_ht-mf_020.txt
+
+uu_lmac_rx_format_ht-gf_021 QoS_format_HT-GF ./LMAC_testcases/testcases/rx_qos/rx_format_ht-gf_021.txt ./LMAC_testcases/frameCapabilities/rx_qos/rx_format_ht-gf_021.txt ./LMAC_testcases/frameInfo/rx_qos/rx_format_ht-gf_021.txt
+
+uu_lmac_rx_format_vht_022 QoS_format_VHT ./LMAC_testcases/testcases/rx_qos/rx_format_vht_022.txt ./LMAC_testcases/frameCapabilities/rx_qos/rx_format_vht_022.txt ./LMAC_testcases/frameInfo/rx_qos/rx_format_vht_022.txt
+
+uu_lmac_rx_qosdata_txop_023 QoS_txop_filled ./LMAC_testcases/testcases/rx_qos/rx_qosdata_txop_023.txt ./LMAC_testcases/frameCapabilities/rx_qos/rx_qosdata_txop_023.txt ./LMAC_testcases/frameInfo/rx_qos/rx_qosdata_txop_023.txt
+
+uu_lmac_rx_qosdata_tid-7_024 QoS_tid7_rp ./LMAC_testcases/testcases/rx_qos/rx_qosdata_tid-7_024.txt ./LMAC_testcases/frameCapabilities/rx_qos/rx_qosdata_tid-7_024.txt ./LMAC_testcases/frameInfo/rx_qos/rx_qosdata_tid-7_024.txt
+
+uu_lmac_rx_fromds1_025 QoS_fromds1_rp ./LMAC_testcases/testcases/rx_qos/rx_fromds1_025.txt ./LMAC_testcases/frameCapabilities/rx_qos/rx_fromds1_025.txt ./LMAC_testcases/frameInfo/rx_qos/rx_fromds1_025.txt
+
+uu_lmac_rx_qos_RXEND-fail_026 QoS_RXEND_fail_rp ./LMAC_testcases/testcases/rx_qos/rx_qos_RXEND-fail_026.txt ./LMAC_testcases/frameCapabilities/rx_qos/rx_qos_RXEND-fail_026.txt ./LMAC_testcases/frameInfo/rx_qos/rx_qos_RXEND-fail_026.txt
+
+uu_lmac_rx_qosnull_027 QoS_nulldata_rp ./LMAC_testcases/testcases/rx_qos/rx_qosnull_027.txt ./LMAC_testcases/frameCapabilities/rx_qos/rx_qosnull_027.txt ./LMAC_testcases/frameInfo/rx_qos/rx_qosnull_027.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

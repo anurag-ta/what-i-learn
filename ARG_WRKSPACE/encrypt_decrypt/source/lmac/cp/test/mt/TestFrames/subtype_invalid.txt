@@ -1,0 +1,2 @@
+00|00|0f|00|11|11|11|11|11|11|ff|ff|ff|
+@@ invalid frame suntype.  

@@ -1,0 +1,11 @@
+#idle(energy)-receiving(navupdate)-idle
+#idle-energy event
+@TEST CAP_testchains/idle_energy_high.txt
+#receving_start indication
+@TEST CAP_testchains/rx_start_ind.txt
+#receving_data indication
+@TEST CAP_testchains/rx_data_ind.txt
+#receving_data indication
+@TEST CAP_testchains/rx_end_ind_nav_update.txt
+#receving_timer_tick
+@TEST CAP_testchains/receiving_time_tick_to_idle.txt

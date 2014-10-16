@@ -1,0 +1,164 @@
+
+/********* Comments to understand this file
+
+In this file we are considering RTS formats 0,1,2,3 durations
+
+For rts frame format zero, first column values are datarates and second column values are corresponding duration values
+
+Example:: L_datarate   Duration
+	    b	         3c00
+
+For rts frame of formats 1,2 and 3, we are validating according to mcs values and corresponding duration based on given channel_bandwidth and guard_interval
+
+Example:: Ch_bandwidth 0 Guard_inteval 0
+
+	    Mcs_value      Duration
+		0	    3c00
+
+Note :- For duration validation rtscts_rate for all testcases should be 20
+
+**********/
+
+FORMAT 0
+b 3403
+f 8c02
+a 3002
+e dc01
+9 b001
+d 8401
+8 7001
+c 6801
+
+FORMAT 1
+CH_BW 0 GI 0
+0 6802
+16 3801
+32 6802
+
+CH_BW 0 GI 1
+0 4802
+16 2801
+32 0401
+
+CH_BW 1 GI 0
+0 7c01
+16 e800
+32 7c01
+
+CH_BW 1 GI 1
+0 6401
+16 e000
+32 d000
+
+CH_BW 2 GI 0
+0 6802
+16 3801
+32 6802
+
+CH_BW 2 GI 1
+0 4802
+16 2801
+32 0401
+
+CH_BW 3 GI 0
+0 6802
+16 3801
+32 6802
+
+CH_BW 3 GI 1
+0 4802
+16 2801
+32 0401
+
+
+FORMAT 2
+CH_BW 0 GI 0
+0 6c02
+16 3c01
+32 8002
+
+CH_BW 0 GI 1
+0 4802
+16 2801
+32 1401
+
+CH_BW 1 GI 0
+0 7401
+16 e000
+32 7c01
+
+CH_BW 1 GI 1
+0 5c01
+16 d800
+32 d000
+
+CH_BW 2 GI 0
+0 6c02
+16 3c01
+32 8002
+
+CH_BW 2 GI 1
+0 4802
+16 2801
+32 1401
+
+CH_BW 3 GI 0
+0 6c02
+16 3c01
+32 8002
+
+CH_BW 3 GI 1
+0 4802
+16 2801
+32 1401
+
+
+FORMAT 3
+CH_BW 0 GI 0
+0 6c02
+1 7c01
+9 c000
+a 8801 
+
+CH_BW 0 GI 1
+0 4c02
+1 6801
+9 c000
+a 7401
+
+CH_BW 1 GI 0
+0 8001
+1 0401
+9 a400
+a 1001
+
+CH_BW 1 GI 1
+0 6801
+1 f800
+9 a000
+a 0401
+
+CH_BW 2 GI 0
+0 0801
+1 c800
+9 9800
+a d400
+
+CH_BW 2 GI 1
+0 fc00
+1 c400
+9 9800
+a d000
+
+CH_BW 3 GI 0
+0 d400
+1 b000
+9 9400
+a bc00
+
+CH_BW 3 GI 1
+0 d000
+1 ac00
+9 9400
+a b800
+

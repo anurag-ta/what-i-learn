@@ -1,0 +1,2 @@
+@TEST CAP_testchains/idle_energy_high_q.txt
+@TEST CAP_testchains/receving_idle_energy.txt

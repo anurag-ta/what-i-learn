@@ -1,0 +1,1 @@
+testcaseid: 1 testcategory: 2 input: frame_info: tx_vector_retry.txt frame: qosdata.txt frame_info: tx_vector_beacon_retry.txt frame: qosdata.txt nav: 1000 duration: 100 qos: 1 output: 0 

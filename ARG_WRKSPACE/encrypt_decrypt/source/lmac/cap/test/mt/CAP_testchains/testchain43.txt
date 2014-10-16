@@ -1,0 +1,3 @@
+@TEST CAP_testchains/idle_rx_energy.txt
+@TEST CAP_testchains/rx_invalid.txt
+@TEST CAP_testchains/receving_idle_energy.txt

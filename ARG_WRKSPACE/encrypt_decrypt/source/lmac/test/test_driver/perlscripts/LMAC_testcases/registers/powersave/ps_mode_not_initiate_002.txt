@@ -1,0 +1,2 @@
+PS_MODE 1
+SRC 1

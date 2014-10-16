@@ -1,0 +1,28 @@
+#single protection frame duration calculation.
+#array[0], &rq_type, 
+#array[1], &format, &mcs, &modulation, &l_datarate, &l_length, &ht_length, &stbc, &ch_bw, &is_short_gi, 
+#                        &apep_length, &num_ext_ss, &is_long_preamble, &ack_flag, &next_frame_length, 
+#array[2], 
+#array[3], 
+#array[4], 
+#array[5], &return_value);
+#testcase for frame under single protection, and it needs no response frame
+uu_wlan_duration_mt_0_id1 0 input: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 precondition: 0x00 postcondition: output: return_value: 0 
+#expecting ack response frame and bssbasic service set upto 9th bit.
+uu_wlan_duration_mt_0_id2 0 input: 0 0 0 13 0 0 0 0 0 0 0 0 14 0 precondition: 0x03ff postcondition: output: return_value: 40 
+#expecting ack response frame and bssbasic service set upto 9th bit and stbc is set to 0 and next frame length is 100.
+uu_wlan_duration_mt_0_id3 0 input: 0 0 0 13 0 0 1 0 0 0 0 0 14 100 precondition: 0x03ff postcondition: output: return_value: 140 
+#expecting no ack response frame and bssbasic service set upto 9th bit and stbc is set to 0 and next frame length is 100.
+uu_wlan_duration_mt_0_id4 0 input: 0 0 0 13 0 0 1 0 0 0 0 0 0 100 precondition: 0x03ff postcondition: output: return_value: 60 
+#expecting no ack response frame and hwrate is cck rate and long preamble is set.
+#uu_wlan_duration_mt_0_id5 0 input: 0 0 0 138 0 0 1 0 0 0 0 1 0 100 precondition: 0x03ff postcondition: output: return_value: 60 
+#expecting ack response frame and format is non-ht, modulation bpsk, bsssservice set is upto 3rd bit.
+uu_wlan_duration_mt_0_id6 0 input: 0 3 0 11 0 0 0 0 0 0 0 0 14 0 precondition: 0x000f postcondition: output: return_value: 60 
+#expecting ack response frame and format is non-ht, modulation qpsk, bsssservice set is upto 3rd bit.
+uu_wlan_duration_mt_0_id7 0 input: 0 2 0 11 0 0 0 0 0 0 0 0 14 0 precondition: 0x000f postcondition: output: return_value: 60 
+#expecting ack response frame and format is non-ht, and bpsk, bsssservice set is upto 3rd bit.
+uu_wlan_duration_mt_0_id8 0 input: 0 1 0 11 0 0 0 0 0 0 0 0 14 0 precondition: 0x000f postcondition: output: return_value: 60 
+#expecting ack response frame and format is non-ht, and qpsk, bsssservice set is upto 3rd bit.
+uu_wlan_duration_mt_0_id9 0 input: 0 1 0 10 0 0 0 0 0 0 0 0 14 0 precondition: 0x000f postcondition: output: return_value: 48 
+#expecting ack response frame and format is non-ht, and 16qam, bsssservice set is upto 3rd bit.
+uu_wlan_duration_mt_0_id10 0 input: 0 1 0 9 0 0 0 0 0 0 0 0 14 0 precondition: 0x000f postcondition: output: return_value: 44 

@@ -1,0 +1,59 @@
+uu_lmac_agg_1qos_001 Agg_1QoSframe ./LMAC_testcases/testcases/aggregation/agg_1qos_001.txt ./LMAC_testcases/frameCapabilities/aggregation/agg_1qos_001.txt ./LMAC_testcases/frameInfo/aggregation/agg_1qos_001.txt ./LMAC_testcases/registers/aggregation/agg_1qos_001.txt
+
+uu_lmac_agg_rts-cts_002 Agg_rts-cts ./LMAC_testcases/testcases/aggregation/agg_rts-cts_002.txt ./LMAC_testcases/frameCapabilities/aggregation/agg_rts-cts_002.txt ./LMAC_testcases/frameInfo/aggregation/agg_rts-cts_002.txt ./LMAC_testcases/registers/aggregation/agg_rts-cts_002.txt
+
+uu_lmac_agg_2frames_003 Agg_2QoSframe ./LMAC_testcases/testcases/aggregation/agg_2frames_003.txt ./LMAC_testcases/frameCapabilities/aggregation/agg_2frames_003.txt ./LMAC_testcases/frameInfo/aggregation/agg_2frames_003.txt ./LMAC_testcases/registers/aggregation/agg_2frames_003.txt
+
+uu_lmac_agg_3frames_004 Agg_3QoSframe ./LMAC_testcases/testcases/aggregation/agg_3frames_004.txt ./LMAC_testcases/frameCapabilities/aggregation/agg_3frames_004.txt ./LMAC_testcases/frameInfo/aggregation/agg_3frames_004.txt ./LMAC_testcases/registers/aggregation/agg_3frames_004.txt
+
+uu_lmac_agg_4frames_005 Agg_4QoSframe ./LMAC_testcases/testcases/aggregation/agg_4frames_005.txt ./LMAC_testcases/frameCapabilities/aggregation/agg_4frames_005.txt ./LMAC_testcases/frameInfo/aggregation/agg_4frames_005.txt ./LMAC_testcases/registers/aggregation/agg_4frames_005.txt
+
+uu_lmac_agg_qos_normalack_006 Agg_QoS_normalack ./LMAC_testcases/testcases/aggregation/agg_qos_normalack_006.txt ./LMAC_testcases/frameCapabilities/aggregation/agg_qos_normalack_006.txt ./LMAC_testcases/frameInfo/aggregation/agg_qos_normalack_006.txt ./LMAC_testcases/registers/aggregation/agg_qos_normalack_006.txt
+
+uu_lmac_agg_qos_noack_007 Agg_QoS_noack ./LMAC_testcases/testcases/aggregation/agg_qos_noack_007.txt ./LMAC_testcases/frameCapabilities/aggregation/agg_qos_noack_007.txt ./LMAC_testcases/frameInfo/aggregation/agg_qos_noack_007.txt ./LMAC_testcases/registers/aggregation/agg_qos_noack_007.txt
+
+#uu_lmac_agg_qos_blockack_008 Agg_QoS_blockack ./LMAC_testcases/testcases/aggregation/agg_qos_blockack_008.txt ./LMAC_testcases/frameCapabilities/aggregation/agg_qos_blockack_008.txt ./LMAC_testcases/frameInfo/aggregation/agg_qos_blockack_008.txt ./LMAC_testcases/registers/aggregation/agg_qos_blockack_008.txt
+
+uu_lmac_agg_qos_format-nonht_009 Agg_format_nonht ./LMAC_testcases/testcases/aggregation/agg_qos_format-nonht_009.txt ./LMAC_testcases/frameCapabilities/aggregation/agg_qos_format-nonht_009.txt ./LMAC_testcases/frameInfo/aggregation/agg_qos_format-nonht_009.txt ./LMAC_testcases/registers/aggregation/agg_qos_format-nonht_009.txt
+
+uu_lmac_agg_qos_format-ht-mf_010 Agg_format_HT-MF ./LMAC_testcases/testcases/aggregation/agg_qos_format-ht-mf_010.txt ./LMAC_testcases/frameCapabilities/aggregation/agg_qos_format-ht-mf_010.txt ./LMAC_testcases/frameInfo/aggregation/agg_qos_format-ht-mf_010.txt ./LMAC_testcases/registers/aggregation/agg_qos_format-ht-mf_010.txt
+
+uu_lmac_agg_qos_format-ht-gf_011 Agg_format_HT-GF ./LMAC_testcases/testcases/aggregation/agg_qos_format-ht-gf_011.txt ./LMAC_testcases/frameCapabilities/aggregation/agg_qos_format-ht-gf_011.txt ./LMAC_testcases/frameInfo/aggregation/agg_qos_format-ht-gf_011.txt ./LMAC_testcases/registers/aggregation/agg_qos_format-ht-gf_011.txt
+
+uu_lmac_agg_qos_format-vht_012 Agg_format_VHT ./LMAC_testcases/testcases/aggregation/agg_qos_format-vht_012.txt ./LMAC_testcases/frameCapabilities/aggregation/agg_qos_format-vht_012.txt ./LMAC_testcases/frameInfo/aggregation/agg_qos_format-vht_012.txt ./LMAC_testcases/registers/aggregation/agg_qos_format-vht_012.txt
+
+uu_lmac_agg_qos_diff_crc_013 Agg_different_CRC ./LMAC_testcases/testcases/aggregation/agg_qos_diff_crc_013.txt ./LMAC_testcases/frameCapabilities/aggregation/agg_qos_diff_crc_013.txt ./LMAC_testcases/frameInfo/aggregation/agg_qos_diff_crc_013.txt ./LMAC_testcases/registers/aggregation/agg_qos_diff_crc_013.txt
+
+uu_lmac_agg_qos_diff_duration_014 Agg_different_duration ./LMAC_testcases/testcases/aggregation/agg_qos_diff_duration_014.txt ./LMAC_testcases/frameCapabilities/aggregation/agg_qos_diff_duration_014.txt ./LMAC_testcases/frameInfo/aggregation/agg_qos_diff_duration_014.txt ./LMAC_testcases/registers/aggregation/agg_qos_diff_duration_014.txt
+
+uu_lmac_agg_nonqos_015 Agg_nonQoS ./LMAC_testcases/testcases/aggregation/agg_nonqos_015.txt ./LMAC_testcases/frameCapabilities/aggregation/agg_nonqos_015.txt ./LMAC_testcases/frameInfo/aggregation/agg_nonqos_015.txt ./LMAC_testcases/registers/aggregation/agg_nonqos_015.txt
+
+uu_lmac_agg_nonqos_qos_016 Agg_nonQoS_QoS ./LMAC_testcases/testcases/aggregation/agg_nonqos_qos_016.txt ./LMAC_testcases/frameCapabilities/aggregation/agg_nonqos_qos_016.txt ./LMAC_testcases/frameInfo/aggregation/agg_nonqos_qos_016.txt ./LMAC_testcases/registers/aggregation/agg_nonqos_qos_016.txt
+
+#uu_lmac_agg_diff-tid_017 Agg_different_tid ./LMAC_testcases/testcases/aggregation/agg_diff-tid_017.txt ./LMAC_testcases/frameCapabilities/aggregation/agg_diff-tid_017.txt ./LMAC_testcases/frameInfo/aggregation/agg_diff-tid_017.txt ./LMAC_testcases/registers/aggregation/agg_diff-tid_017.txt
+
+uu_lmac_agg_diff-txop_018 Agg_different_txop ./LMAC_testcases/testcases/aggregation/agg_diff-txop_018.txt ./LMAC_testcases/frameCapabilities/aggregation/agg_diff-txop_018.txt ./LMAC_testcases/frameInfo/aggregation/agg_diff-txop_018.txt ./LMAC_testcases/registers/aggregation/agg_diff-txop_018.txt
+
+#uu_lmac_agg_Qosnull_019 Agg_QoSnull ./LMAC_testcases/testcases/aggregation/agg_Qosnull_019.txt ./LMAC_testcases/frameCapabilities/aggregation/agg_Qosnull_019.txt ./LMAC_testcases/frameInfo/aggregation/agg_Qosnull_019.txt ./LMAC_testcases/registers/aggregation/agg_Qosnull_019.txt
+
+#uu_lmac_agg_null_020 Agg_null ./LMAC_testcases/testcases/aggregation/agg_null_020.txt ./LMAC_testcases/frameCapabilities/aggregation/agg_null_020.txt ./LMAC_testcases/frameInfo/aggregation/agg_null_020.txt ./LMAC_testcases/registers/aggregation/agg_null_020.txt
+
+#uu_lmac_agg_qos_diff-ra_021 Agg_diff_RA ./LMAC_testcases/testcases/aggregation/agg_qos_diff-ra_021.txt ./LMAC_testcases/frameCapabilities/aggregation/agg_qos_diff-ra_021.txt ./LMAC_testcases/frameInfo/aggregation/agg_qos_diff-ra_021.txt ./LMAC_testcases/registers/aggregation/agg_qos_diff-ra_021.txt
+
+uu_lmac_agg_qos_protect_022 Agg_QoS_protected ./LMAC_testcases/testcases/aggregation/agg_qos_protect_022.txt ./LMAC_testcases/frameCapabilities/aggregation/agg_qos_protect_022.txt ./LMAC_testcases/frameInfo/aggregation/agg_qos_protect_022.txt ./LMAC_testcases/registers/aggregation/agg_qos_protect_022.txt
+
+#uu_lmac_agg_mgmt_023 Agg_management ./LMAC_testcases/testcases/aggregation/agg_mgmt_023.txt ./LMAC_testcases/frameCapabilities/aggregation/agg_mgmt_023.txt ./LMAC_testcases/frameInfo/aggregation/agg_mgmt_023.txt ./LMAC_testcases/registers/aggregation/agg_mgmt_023.txt
+
+uu_lmac_agg_qos_diff-ackpolicy_024 Agg_diff_ackpol ./LMAC_testcases/testcases/aggregation/agg_qos_diff-ackpolicy_024.txt ./LMAC_testcases/frameCapabilities/aggregation/agg_qos_diff-ackpolicy_024.txt ./LMAC_testcases/frameInfo/aggregation/agg_qos_diff-ackpolicy_024.txt ./LMAC_testcases/registers/aggregation/agg_qos_diff-ackpolicy_024.txt
+
+uu_lmac_agg_qos_ac0_025 Agg_QoS_ac0 ./LMAC_testcases/testcases/aggregation/agg_qos_ac0_025.txt ./LMAC_testcases/frameCapabilities/aggregation/agg_qos_ac0_025.txt ./LMAC_testcases/frameInfo/aggregation/agg_qos_ac0_025.txt ./LMAC_testcases/registers/aggregation/agg_qos_ac0_025.txt
+
+uu_lmac_agg_qos_ac1_026 Agg_QoS_ac1 ./LMAC_testcases/testcases/aggregation/agg_qos_ac1_026.txt ./LMAC_testcases/frameCapabilities/aggregation/agg_qos_ac1_026.txt ./LMAC_testcases/frameInfo/aggregation/agg_qos_ac1_026.txt ./LMAC_testcases/registers/aggregation/agg_qos_ac1_026.txt
+
+uu_lmac_agg_qos_ac2_027 Agg_QoS_ac2 ./LMAC_testcases/testcases/aggregation/agg_qos_ac2_027.txt ./LMAC_testcases/frameCapabilities/aggregation/agg_qos_ac2_027.txt ./LMAC_testcases/frameInfo/aggregation/agg_qos_ac2_027.txt ./LMAC_testcases/registers/aggregation/agg_qos_ac2_027.txt
+
+uu_lmac_agg_qos_ac3_028 Agg_QoS_ac3 ./LMAC_testcases/testcases/aggregation/agg_qos_ac3_028.txt ./LMAC_testcases/frameCapabilities/aggregation/agg_qos_ac3_028.txt ./LMAC_testcases/frameInfo/aggregation/agg_qos_ac3_028.txt ./LMAC_testcases/registers/aggregation/agg_qos_ac3_028.txt
+
+#uu_lmac_agg_qos_recv_ack_029 Recv_ack_AMPDU ./LMAC_testcases/testcases/aggregation/agg_qos_recv_ack_029.txt ./LMAC_testcases/frameCapabilities/aggregation/agg_qos_recv_ack_029.txt ./LMAC_testcases/frameInfo/aggregation/agg_qos_recv_ack_029.txt ./LMAC_testcases/registers/aggregation/agg_qos_recv_ack_029.txt
+
+

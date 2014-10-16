@@ -1,0 +1,4 @@
+#testcase for receiving of ps_poll frame which has umac_filter ps_poll_allowed
+@TEST rx_testfiles/testcase_ps_poll_vector.txt
+@TEST rx_testfiles/testcase_ps_poll.txt
+@TEST rx_testfiles/testcase_ret0_ff2.txt

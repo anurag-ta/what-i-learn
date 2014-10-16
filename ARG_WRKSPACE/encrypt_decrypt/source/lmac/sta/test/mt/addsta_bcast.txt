@@ -1,0 +1,9 @@
+#bandwidth is CBW40
+aid = 16 
+bndwidth = 1 
+addr[0] = ff 
+addr[1] = ff
+addr[2] = ff
+addr[3] = ff
+addr[4] = ff
+addr[5] = ff

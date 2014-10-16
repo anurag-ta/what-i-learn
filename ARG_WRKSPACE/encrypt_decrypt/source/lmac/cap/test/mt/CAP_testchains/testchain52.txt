@@ -1,0 +1,13 @@
+#idle(energy)-receiving(navupdate)-idle
+#idle-energy event
+@TEST CAP_testchains/idle_rx_nq.txt
+@TEST CAP_testchains/receving_rx_tx_ready.txt
+#receving_start indication
+@TEST CAP_testchains/rx_start_ind_nq.txt
+#receving_data indication
+@TEST CAP_testchains/rx_data_ind_nq.txt
+#contend-txop by timer_ticks
+@TEST CAP_testchains/rx_end_ind_nq.txt
+@TEST CAP_testchains/contend_txop_multicast.txt
+@TEST CAP_testchains/txop_contend_txop_tx_start.txt
+@TEST CAP_testchains/contend15.txt

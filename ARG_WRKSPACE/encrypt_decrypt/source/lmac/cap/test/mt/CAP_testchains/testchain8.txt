@@ -1,0 +1,6 @@
+#idle-rx by phy_energy
+@TEST CAP_testchains/idle_rx_energy.txt 
+@TEST CAP_testchains/receving_rx_tx_ready.txt
+#rx-contend by rxend-ind
+@TEST CAP_testchains/rx_contend_end_ind.txt
+@TEST CAP_testchains/contend_idle_timer_ticks.txt

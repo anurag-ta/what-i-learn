@@ -1,0 +1,146 @@
+uu_lmac_reg_slot_001 slot_register ./LMAC_testcases/testcases/if_registers/reg_slot_001.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_slot_001.txt ./LMAC_testcases/frameInfo/if_registers/reg_slot_001.txt ./LMAC_testcases/registers/if_registers/reg_slot_001.txt
+
+uu_lmac_reg_sifs_002 sifs_register ./LMAC_testcases/testcases/if_registers/reg_sifs_002.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_sifs_002.txt ./LMAC_testcases/frameInfo/if_registers/reg_sifs_002.txt ./LMAC_testcases/registers/if_registers/reg_sifs_002.txt
+
+uu_lmac_reg_difs_003 difs_register ./LMAC_testcases/testcases/if_registers/reg_difs_003.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_difs_003.txt ./LMAC_testcases/frameInfo/if_registers/reg_difs_003.txt ./LMAC_testcases/registers/if_registers/reg_difs_003.txt
+
+uu_lmac_reg_rx_start_delay_004 phy_delay ./LMAC_testcases/testcases/if_registers/reg_rx_start_delay_004.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_rx_start_delay_004.txt ./LMAC_testcases/frameInfo/if_registers/reg_rx_start_delay_004.txt ./LMAC_testcases/registers/if_registers/reg_rx_start_delay_004.txt
+
+uu_lmac_reg_ack_timer_005 ack_timer ./LMAC_testcases/testcases/if_registers/reg_ack_timer_005.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_ack_timer_005.txt ./LMAC_testcases/frameInfo/if_registers/reg_ack_timer_005.txt ./LMAC_testcases/registers/if_registers/reg_ack_timer_005.txt
+
+uu_lmac_reg_cts_timer_006 cts_timer ./LMAC_testcases/testcases/if_registers/reg_cts_timer_006.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_cts_timer_006.txt ./LMAC_testcases/frameInfo/if_registers/reg_cts_timer_006.txt ./LMAC_testcases/registers/if_registers/reg_cts_timer_006.txt
+
+uu_lmac_reg_src_007 src_count ./LMAC_testcases/testcases/if_registers/reg_src_007.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_src_007.txt ./LMAC_testcases/frameInfo/if_registers/reg_src_007.txt ./LMAC_testcases/registers/if_registers/reg_src_007.txt
+
+uu_lmac_reg_lrc_008 lrc_count ./LMAC_testcases/testcases/if_registers/reg_lrc_008.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_lrc_008.txt ./LMAC_testcases/frameInfo/if_registers/reg_lrc_008.txt ./LMAC_testcases/registers/if_registers/reg_lrc_008.txt
+
+uu_lmac_reg_rts_thrsh_009 rts_thrshold ./LMAC_testcases/testcases/if_registers/reg_rts_thrsh_009.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_rts_thrsh_009.txt ./LMAC_testcases/frameInfo/if_registers/reg_rts_thrsh_009.txt ./LMAC_testcases/registers/if_registers/reg_rts_thrsh_009.txt
+
+uu_lmac_reg_bi_010 beacon_interval ./LMAC_testcases/testcases/if_registers/reg_bi_010.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_bi_010.txt ./LMAC_testcases/frameInfo/if_registers/reg_bi_010.txt ./LMAC_testcases/registers/if_registers/reg_bi_010.txt
+
+uu_lmac_reg_cwmin_011 cwmin_register ./LMAC_testcases/testcases/if_registers/reg_cwmin_011.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_cwmin_011.txt ./LMAC_testcases/frameInfo/if_registers/reg_cwmin_011.txt ./LMAC_testcases/registers/if_registers/reg_cwmin_011.txt
+
+uu_lmac_reg_cwmax_012 cwmax_register ./LMAC_testcases/testcases/if_registers/reg_cwmax_012.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_cwmax_012.txt ./LMAC_testcases/frameInfo/if_registers/reg_cwmax_012.txt ./LMAC_testcases/registers/if_registers/reg_cwmax_012.txt
+
+uu_lmac_reg_cwminBE_013 cwminBE_reg ./LMAC_testcases/testcases/if_registers/reg_cwminBE_013.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_cwminBE_013.txt ./LMAC_testcases/frameInfo/if_registers/reg_cwminBE_013.txt ./LMAC_testcases/registers/if_registers/reg_cwminBE_013.txt
+
+uu_lmac_reg_cwmaxBE_014 cwmaxbe_reg ./LMAC_testcases/testcases/if_registers/reg_cwmaxBE_014.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_cwmaxBE_014.txt ./LMAC_testcases/frameInfo/if_registers/reg_cwmaxBE_014.txt ./LMAC_testcases/registers/if_registers/reg_cwmaxBE_014.txt
+
+uu_lmac_reg_txopBE_015 txop_be ./LMAC_testcases/testcases/if_registers/reg_txopBE_015.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_txopBE_015.txt ./LMAC_testcases/frameInfo/if_registers/reg_txopBE_015.txt ./LMAC_testcases/registers/if_registers/reg_txopBE_015.txt
+
+uu_lmac_reg_aifsBE_016 aifs_be ./LMAC_testcases/testcases/if_registers/reg_aifsBE_016.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_aifsBE_016.txt ./LMAC_testcases/frameInfo/if_registers/reg_aifsBE_016.txt ./LMAC_testcases/registers/if_registers/reg_aifsBE_016.txt
+
+uu_lmac_reg_cwminBK_017 cwmin_bk ./LMAC_testcases/testcases/if_registers/reg_cwminBK_017.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_cwminBK_017.txt ./LMAC_testcases/frameInfo/if_registers/reg_cwminBK_017.txt ./LMAC_testcases/registers/if_registers/reg_cwminBK_017.txt
+
+uu_lmac_reg_cwmaxBK_018 cwmax_bk ./LMAC_testcases/testcases/if_registers/reg_cwmaxBK_018.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_cwmaxBK_018.txt ./LMAC_testcases/frameInfo/if_registers/reg_cwmaxBK_018.txt ./LMAC_testcases/registers/if_registers/reg_cwmaxBK_018.txt
+
+uu_lmac_reg_txopBK_019 txop_bk ./LMAC_testcases/testcases/if_registers/reg_txopBK_019.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_txopBK_019.txt ./LMAC_testcases/frameInfo/if_registers/reg_txopBK_019.txt ./LMAC_testcases/registers/if_registers/reg_txopBK_019.txt
+
+uu_lmac_reg_aifsBK_020 aifs_bk ./LMAC_testcases/testcases/if_registers/reg_aifsBK_020.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_aifsBK_020.txt ./LMAC_testcases/frameInfo/if_registers/reg_aifsBK_020.txt ./LMAC_testcases/registers/if_registers/reg_aifsBK_020.txt
+
+uu_lmac_reg_cwminVI_021 cwmin_vi ./LMAC_testcases/testcases/if_registers/reg_cwminVI_021.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_cwminVI_021.txt ./LMAC_testcases/frameInfo/if_registers/reg_cwminVI_021.txt ./LMAC_testcases/registers/if_registers/reg_cwminVI_021.txt
+
+uu_lmac_reg_cwmaxVI_022 cwmax_vi ./LMAC_testcases/testcases/if_registers/reg_cwmaxVI_022.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_cwmaxVI_022.txt ./LMAC_testcases/frameInfo/if_registers/reg_cwmaxVI_022.txt ./LMAC_testcases/registers/if_registers/reg_cwmaxVI_022.txt
+
+uu_lmac_reg_txopVI_023 txop_vi ./LMAC_testcases/testcases/if_registers/reg_txopVI_023.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_txopVI_023.txt ./LMAC_testcases/frameInfo/if_registers/reg_txopVI_023.txt ./LMAC_testcases/registers/if_registers/reg_txopVI_023.txt
+
+uu_lmac_reg_aifsVI_024 aifs_vi ./LMAC_testcases/testcases/if_registers/reg_aifsVI_024.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_aifsVI_024.txt ./LMAC_testcases/frameInfo/if_registers/reg_aifsVI_024.txt ./LMAC_testcases/registers/if_registers/reg_aifsVI_024.txt
+
+uu_lmac_reg_cwminVO_025 cwmin_vo ./LMAC_testcases/testcases/if_registers/reg_cwminVO_025.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_cwminVO_025.txt ./LMAC_testcases/frameInfo/if_registers/reg_cwminVO_025.txt ./LMAC_testcases/registers/if_registers/reg_cwminVO_025.txt
+
+uu_lmac_reg_cwmaxVO_026 cwmax_vo ./LMAC_testcases/testcases/if_registers/reg_cwmaxVO_026.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_cwmaxVO_026.txt ./LMAC_testcases/frameInfo/if_registers/reg_cwmaxVO_026.txt ./LMAC_testcases/registers/if_registers/reg_cwmaxVO_026.txt
+
+uu_lmac_reg_txopVO_027 txop_vo ./LMAC_testcases/testcases/if_registers/reg_txopVO_027.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_txopVO_027.txt ./LMAC_testcases/frameInfo/if_registers/reg_txopVO_027.txt ./LMAC_testcases/registers/if_registers/reg_txopVO_027.txt
+
+uu_lmac_reg_aifsVO_028 aifs_vo ./LMAC_testcases/testcases/if_registers/reg_aifsVO_028.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_aifsVO_028.txt ./LMAC_testcases/frameInfo/if_registers/reg_aifsVO_028.txt ./LMAC_testcases/registers/if_registers/reg_aifsVO_028.txt
+
+#uu_lmac_reg_signal_029 signal_extension ./LMAC_testcases/testcases/if_registers/reg_signal_029.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_signal_029.txt ./LMAC_testcases/frameInfo/if_registers/reg_signal_029.txt ./LMAC_testcases/registers/if_registers/reg_signal_029.txt
+
+uu_lmac_reg_qos_mode_030 qos_mode ./LMAC_testcases/testcases/if_registers/reg_qos_mode_030.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_qos_mode_030.txt ./LMAC_testcases/frameInfo/if_registers/reg_qos_mode_030.txt ./LMAC_testcases/registers/if_registers/reg_qos_mode_030.txt
+
+#uu_lmac_reg_op_mode_031 op_mode ./LMAC_testcases/testcases/if_registers/reg_op_mode_031.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_op_mode_031.txt ./LMAC_testcases/frameInfo/if_registers/reg_op_mode_031.txt ./LMAC_testcases/registers/if_registers/reg_op_mode_031.txt
+
+uu_lmac_reg_sta_mac_addr_032 sta_mac_addr ./LMAC_testcases/testcases/if_registers/reg_sta_mac_addr_032.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_sta_mac_addr_032.txt ./LMAC_testcases/frameInfo/if_registers/reg_sta_mac_addr_032.txt ./LMAC_testcases/registers/if_registers/reg_sta_mac_addr_032.txt
+
+#uu_lmac_reg_self_cts_033 self_cts ./LMAC_testcases/testcases/if_registers/reg_self_cts_033.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_self_cts_033.txt ./LMAC_testcases/frameInfo/if_registers/reg_self_cts_033.txt ./LMAC_testcases/registers/if_registers/reg_self_cts_033.txt
+
+#uu_lmac_reg_ack_failure_counter_034 ack_fail ./LMAC_testcases/testcases/if_registers/reg_ack_failure_counter_034.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_ack_failure_counter_034.txt ./LMAC_testcases/frameInfo/if_registers/reg_ack_failure_counter_034.txt ./LMAC_testcases/registers/if_registers/reg_ack_failure_counter_034.txt
+
+#uu_lmac_reg_rts_failure_counter_035 rts_fail ./LMAC_testcases/testcases/if_registers/reg_rts_failure_counter_035.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_rts_failure_counter_035.txt ./LMAC_testcases/frameInfo/if_registers/reg_rts_failure_counter_035.txt ./LMAC_testcases/registers/if_registers/reg_rts_failure_counter_035.txt
+
+uu_lmac_reg_rtssuccess_035 rts_success ./LMAC_testcases/testcases/if_registers/reg_rtssuccess_035.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_rtssuccess_035.txt ./LMAC_testcases/frameInfo/if_registers/reg_rtssuccess_035.txt ./LMAC_testcases/registers/if_registers/reg_rtssuccess_035.txt
+
+uu_lmac_reg_fcserror_036 fcs_error ./LMAC_testcases/testcases/if_registers/reg_fcserror_036.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_fcserror_036.txt ./LMAC_testcases/frameInfo/if_registers/reg_fcserror_036.txt ./LMAC_testcases/registers/if_registers/reg_fcserror_036.txt
+
+uu_lmac_reg_rxframes_037 RX_frames ./LMAC_testcases/testcases/if_registers/reg_rxframes_037.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_rxframes_037.txt ./LMAC_testcases/frameInfo/if_registers/reg_rxframes_037.txt ./LMAC_testcases/registers/if_registers/reg_rxframes_037.txt
+
+uu_lmac_reg_rxframes_raothers_038 RX_raothers ./LMAC_testcases/testcases/if_registers/reg_rxframes_raothers_038.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_rxframes_raothers_038.txt ./LMAC_testcases/frameInfo/if_registers/reg_rxframes_raothers_038.txt ./LMAC_testcases/registers/if_registers/reg_rxframes_raothers_038.txt
+
+uu_lmac_reg_rxmcast_039 RX_mcast ./LMAC_testcases/testcases/if_registers/reg_rxmcast_039.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_rxmcast_039.txt ./LMAC_testcases/frameInfo/if_registers/reg_rxmcast_039.txt ./LMAC_testcases/registers/if_registers/reg_rxmcast_039.txt
+
+uu_lmac_reg_rxbcast_040 RX_bcast ./LMAC_testcases/testcases/if_registers/reg_rxbcast_040.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_rxbcast_040.txt ./LMAC_testcases/frameInfo/if_registers/reg_rxbcast_040.txt ./LMAC_testcases/registers/if_registers/reg_rxbcast_040.txt
+
+uu_lmac_reg_rxframe_us_041 RX_tous ./LMAC_testcases/testcases/if_registers/reg_rxframe_us_041.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_rxframe_us_041.txt ./LMAC_testcases/frameInfo/if_registers/reg_rxframe_us_041.txt ./LMAC_testcases/registers/if_registers/reg_rxframe_us_041.txt
+
+uu_lmac_reg_rxampdu_042 RX_ampdu ./LMAC_testcases/testcases/if_registers/reg_rxampdu_042.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_rxampdu_042.txt ./LMAC_testcases/frameInfo/if_registers/reg_rxampdu_042.txt ./LMAC_testcases/registers/if_registers/reg_rxampdu_042.txt
+
+uu_lmac_reg_rxampdu_subframes_043 RX_ampdu_subframes ./LMAC_testcases/testcases/if_registers/reg_rxampdu_subframes_043.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_rxampdu_subframes_043.txt ./LMAC_testcases/frameInfo/if_registers/reg_rxampdu_subframes_043.txt ./LMAC_testcases/registers/if_registers/reg_rxampdu_subframes_043.txt
+
+uu_lmac_reg_rxphyerr_044 RX_phyerr ./LMAC_testcases/testcases/if_registers/reg_rxphyerr_044.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_rxphyerr_044.txt ./LMAC_testcases/frameInfo/if_registers/reg_rxphyerr_044.txt ./LMAC_testcases/registers/if_registers/reg_rxphyerr_044.txt
+
+uu_lmac_reg_txstat_nonqos_045 TXstat_nonqos ./LMAC_testcases/testcases/if_registers/reg_txstat_nonqos_045.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_txstat_nonqos_045.txt ./LMAC_testcases/frameInfo/if_registers/reg_txstat_nonqos_045.txt ./LMAC_testcases/registers/if_registers/reg_txstat_nonqos_045.txt
+
+uu_lmac_reg_txstat_qosac0_normalack_046 TXstat_qosac0 ./LMAC_testcases/testcases/if_registers/reg_txstat_qosac0_normalack_046.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_txstat_qosac0_normalack_046.txt ./LMAC_testcases/frameInfo/if_registers/reg_txstat_qosac0_normalack_046.txt ./LMAC_testcases/registers/if_registers/reg_txstat_qosac0_normalack_046.txt
+
+uu_lmac_reg_txstat_qosac0_noack_047 TXstat_qosac0_noack ./LMAC_testcases/testcases/if_registers/reg_txstat_qosac0_noack_047.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_txstat_qosac0_noack_047.txt ./LMAC_testcases/frameInfo/if_registers/reg_txstat_qosac0_noack_047.txt ./LMAC_testcases/registers/if_registers/reg_txstat_qosac0_noack_047.txt
+
+uu_lmac_reg_txstat_nonqos_ac1_048 TXstat_nonqosac1 ./LMAC_testcases/testcases/if_registers/reg_txstat_nonqos_ac1_048.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_txstat_nonqos_ac1_048.txt ./LMAC_testcases/frameInfo/if_registers/reg_txstat_nonqos_ac1_048.txt ./LMAC_testcases/registers/if_registers/reg_txstat_nonqos_ac1_048.txt
+
+uu_lmac_reg_txstat_qosac1_normalack_049 TXstat_qosac1 ./LMAC_testcases/testcases/if_registers/reg_txstat_qosac1_normalack_049.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_txstat_qosac1_normalack_049.txt ./LMAC_testcases/frameInfo/if_registers/reg_txstat_qosac1_normalack_049.txt ./LMAC_testcases/registers/if_registers/reg_txstat_qosac1_normalack_049.txt
+
+uu_lmac_reg_txstat_qosac1_noack_050 TXstat_qosac1_noack ./LMAC_testcases/testcases/if_registers/reg_txstat_qosac1_noack_050.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_txstat_qosac1_noack_050.txt ./LMAC_testcases/frameInfo/if_registers/reg_txstat_qosac1_noack_050.txt ./LMAC_testcases/registers/if_registers/reg_txstat_qosac1_noack_050.txt
+
+uu_lmac_reg_txstat_nonqos_ac2_051 TXstat_nonqosac2 ./LMAC_testcases/testcases/if_registers/reg_txstat_nonqos_ac2_051.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_txstat_nonqos_ac2_051.txt ./LMAC_testcases/frameInfo/if_registers/reg_txstat_nonqos_ac2_051.txt ./LMAC_testcases/registers/if_registers/reg_txstat_nonqos_ac2_051.txt
+
+uu_lmac_reg_txstat_qosac2_normalack_052 TXstat_qosac2 ./LMAC_testcases/testcases/if_registers/reg_txstat_qosac2_normalack_052.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_txstat_qosac2_normalack_052.txt ./LMAC_testcases/frameInfo/if_registers/reg_txstat_qosac2_normalack_052.txt ./LMAC_testcases/registers/if_registers/reg_txstat_qosac2_normalack_052.txt
+
+uu_lmac_reg_txstat_qosac2_noack_053 TXstat_qosac2_noack ./LMAC_testcases/testcases/if_registers/reg_txstat_qosac2_noack_053.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_txstat_qosac2_noack_053.txt ./LMAC_testcases/frameInfo/if_registers/reg_txstat_qosac2_noack_053.txt ./LMAC_testcases/registers/if_registers/reg_txstat_qosac2_noack_053.txt
+
+uu_lmac_reg_txstat_nonqos_ac3_054 TXstat_nonqosac3 ./LMAC_testcases/testcases/if_registers/reg_txstat_nonqos_ac3_054.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_txstat_nonqos_ac3_054.txt ./LMAC_testcases/frameInfo/if_registers/reg_txstat_nonqos_ac3_054.txt ./LMAC_testcases/registers/if_registers/reg_txstat_nonqos_ac3_054.txt
+
+uu_lmac_reg_txstat_qosac3_normalack_055 TXstat_qosac3 ./LMAC_testcases/testcases/if_registers/reg_txstat_qosac3_normalack_055.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_txstat_qosac3_normalack_055.txt ./LMAC_testcases/frameInfo/if_registers/reg_txstat_qosac3_normalack_055.txt ./LMAC_testcases/registers/if_registers/reg_txstat_qosac3_normalack_055.txt
+
+uu_lmac_reg_txstat_qosac3_noack_056 TXstat_qosac3_noack ./LMAC_testcases/testcases/if_registers/reg_txstat_qosac3_noack_056.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_txstat_qosac3_noack_056.txt ./LMAC_testcases/frameInfo/if_registers/reg_txstat_qosac3_noack_056.txt ./LMAC_testcases/registers/if_registers/reg_txstat_qosac3_noack_056.txt
+
+uu_lmac_reg_rxstat_nonqos_057 RXstat_nonqos ./LMAC_testcases/testcases/if_registers/reg_rxstat_nonqos_057.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_rxstat_nonqos_057.txt ./LMAC_testcases/frameInfo/if_registers/reg_rxstat_nonqos_057.txt ./LMAC_testcases/registers/if_registers/reg_rxstat_nonqos_057.txt
+
+uu_lmac_reg_rxstat_qos_058 RXstat_qos ./LMAC_testcases/testcases/if_registers/reg_rxstat_qos_058.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_rxstat_qos_058.txt ./LMAC_testcases/frameInfo/if_registers/reg_rxstat_qos_058.txt ./LMAC_testcases/registers/if_registers/reg_rxstat_qos_058.txt
+
+uu_lmac_reg_rxstat_qos_rtscts_059 Rxstat_qos_rtscts ./LMAC_testcases/testcases/if_registers/reg_rxstat_qos_rtscts_059.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_rxstat_qos_rtscts_059.txt ./LMAC_testcases/frameInfo/if_registers/reg_rxstat_qos_rtscts_059.txt ./LMAC_testcases/registers/if_registers/reg_rxstat_qos_rtscts_059.txt
+
+uu_lmac_reg_filter_no_060 Filter_no ./LMAC_testcases/testcases/if_registers/reg_filter_no_060.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_filter_no_060.txt ./LMAC_testcases/frameInfo/if_registers/reg_filter_no_060.txt ./LMAC_testcases/registers/if_registers/reg_filter_no_060.txt
+
+uu_lmac_reg_filter_cntrl_061 Filter_control ./LMAC_testcases/testcases/if_registers/reg_filter_cntrl_061.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_filter_cntrl_061.txt ./LMAC_testcases/frameInfo/if_registers/reg_filter_cntrl_061.txt ./LMAC_testcases/registers/if_registers/reg_filter_cntrl_061.txt
+
+uu_lmac_reg_filter_rtscts_062 Filter_rtscts ./LMAC_testcases/testcases/if_registers/reg_filter_rtscts_062.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_filter_rtscts_062.txt ./LMAC_testcases/frameInfo/if_registers/reg_filter_rtscts_062.txt ./LMAC_testcases/registers/if_registers/reg_filter_rtscts_062.txt
+
+uu_lmac_reg_filter_bcast_063 Filter_bcast ./LMAC_testcases/testcases/if_registers/reg_filter_bcast_063.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_filter_bcast_063.txt ./LMAC_testcases/frameInfo/if_registers/reg_filter_bcast_063.txt ./LMAC_testcases/registers/if_registers/reg_filter_bcast_063.txt
+
+uu_lmac_reg_filter_mcast_064 Filter_mcast ./LMAC_testcases/testcases/if_registers/reg_filter_mcast_064.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_filter_mcast_064.txt ./LMAC_testcases/frameInfo/if_registers/reg_filter_mcast_064.txt ./LMAC_testcases/registers/if_registers/reg_filter_mcast_064.txt
+
+uu_lmac_reg_filter_probereq_065 Filter_probereq ./LMAC_testcases/testcases/if_registers/reg_filter_probereq_065.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_filter_probereq_065.txt ./LMAC_testcases/frameInfo/if_registers/reg_filter_probereq_065.txt ./LMAC_testcases/registers/if_registers/reg_filter_probereq_065.txt
+
+uu_lmac_reg_filter_beacon_066 Filter_beacon ./LMAC_testcases/testcases/if_registers/reg_filter_beacon_066.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_filter_beacon_066.txt ./LMAC_testcases/frameInfo/if_registers/reg_filter_beacon_066.txt ./LMAC_testcases/registers/if_registers/reg_filter_beacon_066.txt
+
+uu_lmac_reg_filter_proberesp_067 Filter_proberesp ./LMAC_testcases/testcases/if_registers/reg_filter_proberesp_067.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_filter_proberesp_067.txt ./LMAC_testcases/frameInfo/if_registers/reg_filter_proberesp_067.txt ./LMAC_testcases/registers/if_registers/reg_filter_proberesp_067.txt
+
+uu_lmac_reg_filter_pspoll_068 Filter_pspoll ./LMAC_testcases/testcases/if_registers/reg_filter_pspoll_068.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_filter_pspoll_068.txt ./LMAC_testcases/frameInfo/if_registers/reg_filter_pspoll_068.txt ./LMAC_testcases/registers/if_registers/reg_filter_pspoll_068.txt
+
+uu_lmac_reg_filter_dropall_069 Filter_dropall ./LMAC_testcases/testcases/if_registers/reg_filter_dropall_069.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_filter_dropall_069.txt ./LMAC_testcases/frameInfo/if_registers/reg_filter_dropall_069.txt ./LMAC_testcases/registers/if_registers/reg_filter_dropall_069.txt
+
+uu_lmac_reg_interrupt_beacon_070 Interrupt_beacon ./LMAC_testcases/testcases/if_registers/reg_interrupt_beacon_070.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_interrupt_beacon_070.txt ./LMAC_testcases/frameInfo/if_registers/reg_interrupt_beacon_070.txt ./LMAC_testcases/registers/if_registers/reg_interrupt_beacon_070.txt
+
+uu_lmac_reg_interrupt_rxind_071 Interrupt_rxind ./LMAC_testcases/testcases/if_registers/reg_interrupt_rxind_071.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_interrupt_rxind_071.txt ./LMAC_testcases/frameInfo/if_registers/reg_interrupt_rxind_071.txt ./LMAC_testcases/registers/if_registers/reg_interrupt_rxind_071.txt
+
+uu_lmac_reg_interrupt_txstatus_072 Interrupt_txstatus ./LMAC_testcases/testcases/if_registers/reg_interrupt_txstatus_072.txt ./LMAC_testcases/frameCapabilities/if_registers/reg_interrupt_txstatus_072.txt ./LMAC_testcases/frameInfo/if_registers/reg_interrupt_txstatus_072.txt ./LMAC_testcases/registers/if_registers/reg_interrupt_txstatus_072.txt
+

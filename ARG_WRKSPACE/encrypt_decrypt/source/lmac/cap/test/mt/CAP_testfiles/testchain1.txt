@@ -1,0 +1,3 @@
+#idle-contend-receving
+@TEST CAP_testfiles/idle1.txt
+@TEST CAP_testfiles/contend1.txt

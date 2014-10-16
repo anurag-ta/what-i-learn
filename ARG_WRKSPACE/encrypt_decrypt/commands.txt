@@ -1,0 +1,8 @@
+wpa supplicant side:
+
+sudo ./wpa_supplicant -Dnl80211 -iwlan0 -ccwpa.conf -ddd
+
+Hostapd side:
+
+sudo ./hostapd hapd.conf -ddd
+

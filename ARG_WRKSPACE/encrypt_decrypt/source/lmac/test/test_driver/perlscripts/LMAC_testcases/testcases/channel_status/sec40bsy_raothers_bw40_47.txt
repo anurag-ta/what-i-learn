@@ -1,0 +1,13 @@
+Testcase sec40busy_raothers_bw40_47
+STATE 0
+PHY-IND UU_PHY_CCA_IND 13
+PHY-IND UU_PHY_RXSTART_IND -TF ./config_files/rxvector_frame_data.txt
+PHY-IND UU_PHY_DATA_IND -TF ./config_files/genresp_data_ra-others.txt
+PHY-IND UU_PHY_RXEND_IND 0
+STATE 1 
+recv
+STATE 0
+recv
+PHY-IND UU_PHY_CCARESET_CONF
+Endcase
+END

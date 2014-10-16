@@ -1,0 +1,1 @@
+cap_testcase_id1 6 0 0 0 0 1 ack_frame_input.txt input: 1 1 precondition: 8 0 0 0 postcondition: 8 0 4 0

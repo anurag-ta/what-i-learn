@@ -1,0 +1,5 @@
+#idle-receving by phy-energy
+@TEST CAP_testchains/idle_rx_nav_energy.txt
+#receving-eifs by giving phy-rx-error and frame_error(ff0) as input from rx
+@TEST CAP_testchains/receving_eifs_err_nav.txt
+@TEST CAP_testchains/eifs_timer_ticks.txt

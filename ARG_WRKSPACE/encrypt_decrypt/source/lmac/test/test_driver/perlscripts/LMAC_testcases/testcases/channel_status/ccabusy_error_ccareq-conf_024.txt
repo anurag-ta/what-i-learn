@@ -1,0 +1,15 @@
+Testcase ccabusy_error_ccareq-conf_024
+STATE 1
+GENERATE DATA
+STATE 0
+recv
+PHY-IND UU_PHY_TXSTART_CONF
+PHY-IND UU_PHY_CCA_IND 11
+PHY-IND UU_PHY_RXSTART_IND -TF ./config_files/rxvector_frame_data.txt
+PHY-IND UU_PHY_DATA_IND -TF ./config_files/genresp_data.txt
+PHY-IND UU_PHY_RXEND_IND 1
+STATE 0
+recv
+PHY-IND UU_PHY_CCARESET_CONF
+Endcase
+END

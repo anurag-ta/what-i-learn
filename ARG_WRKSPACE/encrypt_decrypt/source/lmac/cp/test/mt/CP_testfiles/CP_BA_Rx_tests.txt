@@ -1,0 +1,7 @@
+@TEST CP_testfiles/Rx_compBA_testcases.txt
+@TEST CP_testfiles/Rx_basicBA_testcases.txt
+@TEST CP_testfiles/Rx_compBA_under_Agg_imp_testcases.txt
+@TEST CP_testfiles/Rx_compBA_OutOfwindow_testcases.txt
+@TEST CP_testfiles/Rx_compBA_under_Agg_imp_OutOfWindow_testcases.txt
+@TEST CP_testfiles/Rx_basicBA_OutOfWindow_testcases.txt
+@TEST CP_testfiles/Rx_compBA_special_testcases.txt

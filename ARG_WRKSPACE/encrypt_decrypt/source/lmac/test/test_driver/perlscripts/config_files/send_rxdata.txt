@@ -1,0 +1,5 @@
+PHY-IND UU_PHY_CCA_IND 1
+PHY-IND UU_PHY_RXSTART_IND -TF ./config_files/rxvector_frame.txt
+PHY-IND UU_PHY_DATA_IND -TF ./config_files/genresp.txt
+PHY-IND UU_PHY_RXEND_IND 0
+~     

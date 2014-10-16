@@ -1,0 +1,13 @@
+#idle(energy)-receiving(rxerror)-eifs(energy)-receiving(energy-low)-idle
+#idle-energy event
+input1 ev_type: 6 pre_timer_tick_count: 0 post_timer_tick_count: 0 is_frame_available: 0 no.of_frames: 0 frame_input_file: no_file.txt frame_info_file: no_no_frame_info.txt precondition: main_state: 0 supp_state: 0 postcondition: main_state: 4 supp_state: 0 ac: 0 qos: 0 status: 1 ch_list: 1 vec_file: no_file.txt frame_file: no_file.txt rx_end_ret: -1 phy_end_ret: -1 
+#receving_start indication
+input2 ev_type: 7 pre_timer_tick_count: 0 post_timer_tick_count: 0 is_frame_available: 0 no.of_frames: 0 frame_input_file: no_file.txt frame_info_file: no_frame_info.txt precondition: main_state: 4 supp_state: 0 postcondition: main_state: 4 supp_state: 0 ac: 0 qos: -1 status: -1 ch_list: -1 vec_file: ack_les_length.txt frame_file: no_file.txt rx_end_ret: -1 phy_end_ret: -1 
+#receving_data indication
+input3 ev_type: 8 pre_timer_tick_count: 0 post_timer_tick_count: 0 is_frame_available: 0 no.of_frames: 0 frame_input_file: no_file.txt frame_info_file: no_frame_info.txt precondition: main_state: 4 supp_state: 0 postcondition: main_state: 4 supp_state: 0 ac: 0 qos: -1 status: -1 ch_list: -1 vec_file: no_file.txt frame_file: ack_les_length.txt rx_end_ret: -1 phy_end_ret: -1 
+#receving_end indication
+input4 ev_type: 9 pre_timer_tick_count: 0 post_timer_tick_count: 0 is_frame_available: 0 no.of_frames: 0 frame_input_file: no_file.txt frame_info_file: no_frame_info.txt precondition: main_state: 4 supp_state: 0 postcondition: main_state: 1 supp_state: 0 ac: 0 qos: -1 status: -1 ch_list: -1 vec_file: no_file.txt frame_file: no_file.txt rx_end_ret: ff0 phy_end_ret: -1 
+#eifs energy event
+input5 ev_type: 6 pre_timer_tick_count: 0 post_timer_tick_count: 0 is_frame_available: 0 no.of_frames: 0 frame_input_file: no_file.txt frame_info_file: no_frame_info.txt precondition: main_state: 1 supp_state: 0 postcondition: main_state: 4 supp_state: 0 ac: 0 qos: -1 status: 1 ch_list: 1 vec_file: no_file.txt frame_file: no_file.txt rx_end_ret: -1 phy_end_ret: -1 
+#receving_energy is low
+input6 ev_type: 6 pre_timer_tick_count: 0 post_timer_tick_count: 0 is_frame_available: 0 no.of_frames: 0 frame_input_file: no_file.txt frame_info_file: no_frame_info.txt precondition: main_state: 4 supp_state: 0 postcondition: main_state: 0 supp_state: 0 ac: 0 qos: -1 status: 0 ch_list: 0 vec_file: no_file.txt frame_file: no_file.txt rx_end_ret: -1 phy_end_ret: -1 

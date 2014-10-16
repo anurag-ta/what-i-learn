@@ -1,0 +1,12 @@
+#idle - rx by high energy indication
+input1 ev_type: 6 pre_timer_tick_count: 0 post_timer_tick_count: 0 is_frame_available: 0 no.of_frames: 0 frame_input_file: no_file.txt frame_info_file: frame_info.txt precondition: main_state: 0 supp_state: 0 postcondition: main_state: 4 supp_state: 0 ac: 0 qos: 0 status: 1 ch_list: 1 vec_file: no_file.txt frame_file: no_file.txt rx_end_ret: -1 phy_end_ret: -1 
+#rx - eifs by giving phy_rx_err event with frame_err as return value
+input2 ev_type: 10 pre_timer_tick_count: 0 post_timer_tick_count: 0 is_frame_available: 0 no.of_frames: 0 frame_input_file: no_file.txt frame_info_file: frame_info.txt precondition: main_state: 4 supp_state: 0 postcondition: main_state: 1 supp_state: 0 ac: 0 qos: -1 status: -1 ch_list: -1 vec_file: no_file.txt frame_file: no_file.txt rx_end_ret: -1 phy_end_ret: 0 
+#tx_ready event on eifs state
+input3 ev_type: 2 pre_timer_tick_count: 0 post_timer_tick_count: 0 is_frame_available: 0 no.of_frames: 0 frame_input_file: no_file.txt frame_info_file: frame_info.txt precondition: main_state: 1 supp_state: 0 postcondition: main_state: 1 supp_state: 0 ac: 0 qos: -1 status: -1 ch_list: -1 vec_file: no_file.txt frame_file: no_file.txt rx_end_ret: -1 phy_end_ret: -1 
+#eifs - rx by giving high energy_indication
+input4 ev_type: 6 pre_timer_tick_count: 0 post_timer_tick_count: 0 is_frame_available: 0 no.of_frames: 0 frame_input_file: no_file.txt frame_info_file: frame_info.txt precondition: main_state: 1 supp_state: 0 postcondition: main_state: 4 supp_state: 0 ac: 0 qos: -1 status: 1 ch_list: 1 vec_file: no_file.txt frame_file: no_file.txt rx_end_ret: -1 phy_end_ret: -1 
+#rx - contend by giving low_energy_indication
+input5 ev_type: 6 pre_timer_tick_count: 0 post_timer_tick_count: 0 is_frame_available: 0 no.of_frames: 0 frame_input_file: no_file.txt frame_info_file: frame_info.txt precondition: main_state: 4 supp_state: 0 postcondition: main_state: 2 supp_state: 0 ac: 0 qos: -1 status: 0 ch_list: 0 vec_file: no_file.txt frame_file: no_file.txt rx_end_ret: -1 phy_end_ret: -1 
+#contend - idle by timer_ticks on contend state
+input6 ev_type: 1 pre_timer_tick_count: 65535 post_timer_tick_count: 0 is_frame_available: 0 no.of_frames: 0 frame_input_file: ack_frame_input.txt frame_info_file: frame_info.txt precondition: main_state: 2 supp_state: 0 postcondition: main_state: 0 supp_state: 0 ac: 0 qos: -1 status: -1 ch_list: -1 vec_file: no_file.txt frame_file: no_file.txt rx_end_ret: -1 phy_end_ret: -1 

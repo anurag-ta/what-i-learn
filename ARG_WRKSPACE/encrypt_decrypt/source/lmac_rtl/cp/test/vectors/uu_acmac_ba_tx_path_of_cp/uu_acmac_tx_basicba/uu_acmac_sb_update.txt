@@ -1,0 +1,6 @@
+uu_wlan_cp_mt_4_id1 4 input: fc f8 f0 10 20 04 00b0 0 precondition: postcondition: output: return_value: 0
+uu_wlan_cp_mt_4_id2 4 input: fc f8 f0 10 20 04 00c0 0 precondition: postcondition: output: return_value: 0
+uu_wlan_cp_mt_4_id3 4 input: fc f8 f0 10 20 04 00d0 0 precondition: postcondition: output: return_value: 0
+uu_wlan_cp_mt_4_id4 4 input: fc f8 f0 10 20 04 00e0 0 precondition: postcondition: output: return_value: 0
+uu_wlan_cp_mt_4_id5 4 input: fc f8 f0 10 20 04 00f0 0 precondition: postcondition: output: return_value: 0
+uu_wlan_cp_mt_4_id21 4 input: fc f8 f0 10 20 04 0000 0 precondition: postcondition: output: return_value: -1

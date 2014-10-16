@@ -1,0 +1,4 @@
+#testcase for receiving of frame which has protected bit set
+@TEST rx_testfiles/testcase_nonagg.txt
+@TEST rx_testfiles/testcase_protect.txt
+@TEST rx_testfiles/testcase_ret0.txt

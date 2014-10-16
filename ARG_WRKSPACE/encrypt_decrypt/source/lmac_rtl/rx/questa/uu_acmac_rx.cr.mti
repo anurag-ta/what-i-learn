@@ -1,0 +1,41 @@
+/home/uurmi/lmac_rtl/rx/src/uu_acmac_rx_handler.v {1 {vlog -work work -vopt -sv -nocovercells /home/uurmi/lmac_rtl/rx/src/uu_acmac_rx_handler.v
+** Note: (vlog-1901) OptionFile "/home/uurmi/sreekanth/M_RX/vlog.opt" not found. Ignored.
+QuestaSim vlog 10.0d Compiler 2011.10 Oct 30 2011
+-- Compiling module uu_acmac_rx_handler
+
+Top level modules:
+	uu_acmac_rx_handler
+
+} {} {}} /home/uurmi/lmac_rtl/rx/src/uu_acmac_crc32_8in.v {1 {vlog -work work -vopt -sv -nocovercells /home/uurmi/lmac_rtl/rx/src/uu_acmac_crc32_8in.v
+** Note: (vlog-1901) OptionFile "/home/uurmi/sreekanth/M_RX/vlog.opt" not found. Ignored.
+QuestaSim vlog 10.0d Compiler 2011.10 Oct 30 2011
+-- Compiling module uu_acmac_crc32_8in
+
+Top level modules:
+	uu_acmac_crc32_8in
+
+} {} {}} /home/uurmi/lmac_rtl/rx/test/scripts/uu_acmac_rx_handler_test.v {1 {vlog -work work -vopt -sv -nocovercells /home/uurmi/lmac_rtl/rx/test/scripts/uu_acmac_rx_handler_test.v
+** Note: (vlog-1901) OptionFile "/home/uurmi/sreekanth/M_RX/vlog.opt" not found. Ignored.
+QuestaSim vlog 10.0d Compiler 2011.10 Oct 30 2011
+-- Compiling module uu_acmac_rx_handler_test
+
+Top level modules:
+	uu_acmac_rx_handler_test
+
+} {} {}} /home/uurmi/lmac_rtl/rx/test/tb/uu_acmac_rx_handler_tb.v {1 {vlog -work work -vopt -sv -nocovercells /home/uurmi/lmac_rtl/rx/test/tb/uu_acmac_rx_handler_tb.v
+** Note: (vlog-1901) OptionFile "/home/uurmi/sreekanth/M_RX/vlog.opt" not found. Ignored.
+QuestaSim vlog 10.0d Compiler 2011.10 Oct 30 2011
+-- Compiling module uu_acmac_rx_handler_tb
+
+Top level modules:
+	uu_acmac_rx_handler_tb
+
+} {} {}} /home/uurmi/lmac_rtl/rx/src/uu_acmac_deaggregation.v {1 {vlog -work work -vopt -sv -nocovercells /home/uurmi/lmac_rtl/rx/src/uu_acmac_deaggregation.v
+** Note: (vlog-1901) OptionFile "/home/uurmi/sreekanth/M_RX/vlog.opt" not found. Ignored.
+QuestaSim vlog 10.0d Compiler 2011.10 Oct 30 2011
+-- Compiling module uu_acmac_deaggregation
+
+Top level modules:
+	uu_acmac_deaggregation
+
+} {} {}}

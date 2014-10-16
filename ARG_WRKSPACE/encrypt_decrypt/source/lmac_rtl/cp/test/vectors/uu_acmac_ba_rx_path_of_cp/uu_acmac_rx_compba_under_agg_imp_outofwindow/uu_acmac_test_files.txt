@@ -1,0 +1,7 @@
+uu_wlan_cp_mt_1_id60 1 input: 3 1 1 0 0 0 0 TestFrames/qos_frame_under_impba21.txt 0 precondition: postcondition: output: return: 0
+uu_wlan_cp_mt_1_id61 1 input: 3 1 1 0 0 0 0 TestFrames/qos_frame_under_impba22.txt 0 precondition: postcondition: output: return: 0
+uu_wlan_cp_mt_1_id62 1 input: 3 1 1 0 0 0 0 TestFrames/qos_frame_under_impba23.txt 0 precondition: postcondition: output: return: 0
+uu_wlan_cp_mt_1_id63 1 input: 3 1 1 0 0 0 0 TestFrames/qos_frame_under_impba24.txt 1 precondition: postcondition: output: return: ff1
+uu_wlan_cp_mt_1_id74 1 input: 3 1 1 0 0 0 0 TestFrames/qos_frame_under_impba21.txt 0 precondition: postcondition: output: return: 0
+uu_wlan_cp_mt_1_id64 1 input: 3 1 1 0 0 0 0 TestFrames/qos_frame_under_rxerror_impBa.txt 1 precondition: postcondition: output: return: ff1
+uu_wlan_cp_mt_1_id77 1 input: 3 1 1 0 0 0 0 TestFrames/qos_frame_under_impba21.txt 0 precondition: postcondition: output: return: 0

@@ -1,0 +1,13 @@
+#idle-contend-txop-txop_wait_for_rx-idle
+#idle-tx_ready
+input1 ev_type: 2 pre_timer_tick_count: 0 post_timer_tick_count: 0 is_frame_available: 1 no.of_frames: 1 frame_input_file: ack_frame_input.txt frame_info_file: frame_info.txt precondition: main_state: 0 supp_state: 0 postcondition: main_state: 2 supp_state: 0 ac: 0 qos: 1 status: -1 ch_list: -1 vec_file: no_file.txt frame_file: no_file.txt rx_end_ret: -1 phy_end_ret: -1 
+#contend_timer tick
+input2 ev_type: 1 pre_timer_tick_count: 65535 post_timer_tick_count: 0 is_frame_available: 1 no.of_frames: 0 frame_input_file: no_file.txt frame_info_file: frame_info.txt precondition: main_state: 2 supp_state: 0 postcondition: main_state: 3 supp_state: 2 ac: 0 qos: -1 status: -1 ch_list: -1 vec_file: no_file.txt frame_file: no_file.txt rx_end_ret: -1 phy_end_ret: -1 
+#txop_wait_for_rx timer tick with success case
+input3 ev_type: 1 pre_timer_tick_count: 65534 post_timer_tick_count: 0 is_frame_available: 1 no.of_frames: 0 frame_input_file: no_file.txt frame_info_file: no_frame_info.txt precondition: main_state: 3 supp_state: 2 postcondition: main_state: 3 supp_state: 2 ac: 0 qos: -1 status: -1 ch_list: -1 vec_file: no_file.txt frame_file: no_file.txt rx_end_ret: -1 phy_end_ret: -1 
+#receving_start indication
+input4 ev_type: 7 pre_timer_tick_count: 0 post_timer_tick_count: 0 is_frame_available: 1 no.of_frames: 0 frame_input_file: no_file.txt frame_info_file: frame_info.txt precondition: main_state: 3 supp_state: 2 postcondition: main_state: 3 supp_state: 2 ac: 0 qos: -1 status: -1 ch_list: -1 vec_file: ack_les_length.txt frame_file: no_file.txt rx_end_ret: -1 phy_end_ret: -1 
+#receving_data indication
+input5 ev_type: 8 pre_timer_tick_count: 0 post_timer_tick_count: 0 is_frame_available: 1 no.of_frames: 0 frame_input_file: no_file.txt frame_info_file: frame_info.txt precondition: main_state: 3 supp_state: 2 postcondition: main_state: 3 supp_state: 2 ac: 0 qos: -1 status: -1 ch_list: -1 vec_file: no_file.txt frame_file: ack_les_length.txt rx_end_ret: -1 phy_end_ret: -1 
+#receving_end indication
+input6 ev_type: 9 pre_timer_tick_count: 0 post_timer_tick_count: 0 is_frame_available: 0 no.of_frames: 0 frame_input_file: no_file.txt frame_info_file: no_frame_info.txt precondition: main_state: 3 supp_state: 2 postcondition: main_state: 0 supp_state: 0 ac: 0 qos: -1 status: -1 ch_list: -1 vec_file: no_file.txt frame_file: no_file.txt rx_end_ret: ff3 phy_end_ret: -1 

@@ -1,0 +1,13 @@
+Testcase uu_acmac_time_qos_multi_tods0_slot_006
+STATE 1
+GENERATE DATA_RTS
+STATE 0
+recv
+PHY-IND UU_PHY_TXSTART_CONF
+recv
+PHY-IND UU_PHY_DATA_CONF
+recv
+PHY-IND UU_PHY_TXEND_CONF
+Endcase
+END
+

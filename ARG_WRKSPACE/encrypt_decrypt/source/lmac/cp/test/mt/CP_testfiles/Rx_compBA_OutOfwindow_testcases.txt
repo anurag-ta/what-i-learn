@@ -1,0 +1,30 @@
+#ADD BA testcase at Tx side.
+#array[0], &rq_type,
+#array[1], &buff_size, &tid, &ba_type, &seq_num, &dir, &addr[0], &addr[1], &addr[2], &addr[3], &addr[4], &addr[5], 
+#array[2],
+#array[3],
+#array[4],
+#array[5], &return_value);
+uu_wlan_cp_mt_2_id9 2 input: 10 0 0 10 0 fc f8 f0 10 20 04 precondition: postcondition: output: return_value: 0
+#array[0], rq_type, array[1], format, rate, is_aggregated, modulation, mcs, ac_g, cts_g, frame_input_file, rx_end_ind, array[2], array[3], post_condition[0], post_condition[1], post_condition[2], post_condition[3], post_condition[4], array[4], array[5], return_value.
+uu_wlan_cp_mt_1_id54 1 input: 0 1 0 0 0 0 0 TestFrames/qos_frame_under_ba21.txt 0 precondition: postcondition: output: return: 0 
+#array[0], rq_type, array[1], format, rate, is_aggregated, modulation, mcs, ac_g, cts_g, frame_input_file, rx_end_ind, array[2], array[3], post_condition[0], post_condition[1], post_condition[2], post_condition[3], post_condition[4], array[4], array[5], return_value.
+uu_wlan_cp_mt_1_id55 1 input: 0 1 0 0 0 0 0 TestFrames/qos_frame_under_ba22.txt 0 precondition: postcondition: output: return: 0 
+#array[0], rq_type, array[1], format, rate, is_aggregated, modulation, mcs, ac_g, cts_g, frame_input_file, rx_end_ind, array[2], array[3], post_condition[0], post_condition[1], post_condition[2], post_condition[3], post_condition[4], array[4], array[5], return_value.
+uu_wlan_cp_mt_1_id56 1 input: 0 1 0 0 0 0 0 TestFrames/qos_frame_under_ba23.txt 0 precondition: postcondition: output: return: 0 
+#array[0], rq_type, array[1], format, rate, is_aggregated, modulation, mcs, ac_g, cts_g, frame_input_file, rx_end_ind, array[2], array[3], post_condition[0], post_condition[1], post_condition[2], post_condition[3], post_condition[4], array[4], array[5], return_value.
+uu_wlan_cp_mt_1_id57 1 input: 0 1 0 0 0 0 0 TestFrames/qos_frame_under_ba24.txt 0 precondition: postcondition: output: return: 0 
+#receiving BAR frame. 
+#array[0], rq_type, array[1], format, rate, is_aggregated, modulation, mcs, ac_g, cts_g, frame_input_file, rx_end_ind, array[2], array[3], post_condition[0], post_condition[1], post_condition[2], post_condition[3], post_condition[4], array[4], array[5], return_value.
+uu_wlan_cp_mt_1_id58 1 input: 0 1 0 0 0 0 0 TestFrames/bar_comp_frame_input.txt 0 precondition: postcondition: output: return: ff1
+#BA SESSION IS INVALID
+#array[0], rq_type, array[1], format, rate, is_aggregated, modulation, mcs, ac_g, cts_g, frame_input_file, rx_end_ind, array[2], array[3], post_condition[0], post_condition[1], post_condition[2], post_condition[3], post_condition[4], array[4], array[5], return_value.
+uu_wlan_cp_mt_1_id59 1 input: 0 1 0 0 0 0 0 TestFrames/bar_comp_frame_invalid_input.txt 0 precondition: postcondition: output: return: ff0fefff
+#Deliting BA session.
+#array[0], &rq_type, 
+#array[1], &tid, &dir, &addr[0], &addr[1], &addr[2], &addr[3], &addr[4], &addr[5], 
+#array[2], 
+#array[3], 
+#array[4], 
+#array[5], &return_value
+uu_wlan_cp_mt_3_id9 3 input: 0 0 fc f8 f0 10 20 04 precondition: postcondition: output: return_value: 0

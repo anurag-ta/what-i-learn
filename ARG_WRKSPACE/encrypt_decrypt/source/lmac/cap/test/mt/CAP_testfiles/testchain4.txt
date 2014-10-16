@@ -1,0 +1,4 @@
+#idle-contend for ac0 by tx_ready
+@TEST CAP_testfiles/idle1.txt
+#contend-txop by timer_ticks
+@TEST CAP_testfiles/contend7.txt

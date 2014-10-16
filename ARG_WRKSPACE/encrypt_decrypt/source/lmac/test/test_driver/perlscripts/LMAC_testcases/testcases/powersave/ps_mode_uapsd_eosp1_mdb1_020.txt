@@ -1,0 +1,86 @@
+Testcase uu_lmac_ps_mode_uapsd_eosp1_mdb1_020
+STATE 0
+PHY-IND UU_PHY_CCA_IND 11
+PHY-IND UU_PHY_RXSTART_IND -TF ./config_files/rxvector_beacon_dtim.txt
+PHY-IND UU_PHY_DATA_IND -TF ./config_files/genresp_beacon_dtim_aid_one.txt
+PHY-IND UU_PHY_RXEND_IND 0
+STATE 1
+recv
+STATE 0
+recv
+PHY-IND UU_PHY_TXSTART_CONF
+recv
+PHY-IND UU_PHY_DATA_CONF
+recv
+PHY-IND UU_PHY_TXEND_CONF
+STATE 0
+PHY-IND UU_PHY_CCA_IND 11
+PHY-IND UU_PHY_RXSTART_IND -TF ./config_files/rxvector_frame_ack.txt
+PHY-IND UU_PHY_DATA_IND -TF ./config_files/genresp_ack.txt
+PHY-IND UU_PHY_RXEND_IND 0
+STATE 0
+PHY-IND UU_PHY_CCA_IND 11
+PHY-IND UU_PHY_RXSTART_IND -TF ./config_files/rxvector_qos_noack_plcy_more_data_one.txt
+PHY-IND UU_PHY_DATA_IND -TF ./config_files/qos_noack_plcy_more_data_one.txt
+PHY-IND UU_PHY_RXEND_IND 0
+STATE 1
+recv
+STATE 0
+PHY-IND UU_PHY_CCA_IND 11
+PHY-IND UU_PHY_RXSTART_IND -TF ./config_files/rxvector_qos_noack_plcy_more_data_one.txt
+PHY-IND UU_PHY_DATA_IND -TF ./config_files/qos_noack_plcy_more_data_one.txt
+PHY-IND UU_PHY_RXEND_IND 0
+STATE 1
+recv
+STATE 0
+PHY-IND UU_PHY_CCA_IND 11
+PHY-IND UU_PHY_RXSTART_IND -TF ./config_files/rxvector_qos_noack_plcy_more_data_one.txt
+PHY-IND UU_PHY_DATA_IND -TF ./config_files/qos_noack_plcy_more_data_one.txt
+PHY-IND UU_PHY_RXEND_IND 0
+STATE 1
+recv
+STATE 0
+PHY-IND UU_PHY_CCA_IND 11
+PHY-IND UU_PHY_RXSTART_IND -TF ./config_files/rxvector_qos_noack_plcy_more_data_one.txt
+PHY-IND UU_PHY_DATA_IND -TF ./config_files/qos_noack_plcy_eosp1_mdb1.txt
+PHY-IND UU_PHY_RXEND_IND 0
+STATE 1
+recv
+STATE 0
+recv
+PHY-IND UU_PHY_TXSTART_CONF
+recv
+PHY-IND UU_PHY_DATA_CONF
+recv
+PHY-IND UU_PHY_TXEND_CONF
+STATE 0
+PHY-IND UU_PHY_CCA_IND 11
+PHY-IND UU_PHY_RXSTART_IND -TF ./config_files/rxvector_frame_ack.txt
+PHY-IND UU_PHY_DATA_IND -TF ./config_files/genresp_ack.txt
+PHY-IND UU_PHY_RXEND_IND 0
+STATE 0
+PHY-IND UU_PHY_CCA_IND 11
+PHY-IND UU_PHY_RXSTART_IND -TF ./config_files/rxvector_qos_noack_plcy_more_data_one.txt
+PHY-IND UU_PHY_DATA_IND -TF ./config_files/qos_noack_plcy_eosp1_mdb0.txt
+PHY-IND UU_PHY_RXEND_IND 0
+STATE 1
+recv
+STATE 0
+recv
+PS_MODE 0
+CLEAR_RX
+STATE 1
+GENERATE PS_ZERO
+STATE 0
+recv
+PHY-IND UU_PHY_TXSTART_CONF
+recv
+PHY-IND UU_PHY_DATA_CONF
+recv
+PHY-IND UU_PHY_TXEND_CONF
+PHY-IND UU_PHY_CCA_IND 11
+PHY-IND UU_PHY_RXSTART_IND -TF ./config_files/rxvector_frame_ack.txt
+PHY-IND UU_PHY_DATA_IND -TF ./config_files/genresp_ack.txt
+PHY-IND UU_PHY_RXEND_IND 0
+Endcase
+END

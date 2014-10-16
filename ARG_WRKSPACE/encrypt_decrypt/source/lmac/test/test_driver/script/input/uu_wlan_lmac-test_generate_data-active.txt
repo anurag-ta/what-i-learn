@@ -1,0 +1,7 @@
+Testcase 009
+
+GENERATE RECV_RESPONSE
+
+Endcase
+
+END

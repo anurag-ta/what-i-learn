@@ -1,0 +1,4 @@
+#testcase for receiving of frame which has invalid umac_filter
+@TEST rx_testfiles/testcase_fcs_err.txt
+@TEST rx_testfiles/testcase_ack.txt
+@TEST rx_testfiles/testcase_ret0.txt

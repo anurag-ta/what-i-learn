@@ -1,0 +1,4 @@
+#testcase for receiving of mgt frame which has invalid umac_filter
+@TEST rx_testfiles/testcase_nonagg_assreq.txt
+@TEST rx_testfiles/testcase_mgt.txt
+@TEST rx_testfiles/testcase_ret0.txt

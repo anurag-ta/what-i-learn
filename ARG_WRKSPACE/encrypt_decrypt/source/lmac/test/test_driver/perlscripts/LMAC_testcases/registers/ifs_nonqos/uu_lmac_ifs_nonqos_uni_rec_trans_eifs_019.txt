@@ -1,0 +1,1 @@
+EIFS_TIMER 50

@@ -1,0 +1,1 @@
+CWMIN_VALUE 3

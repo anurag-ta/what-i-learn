@@ -1,0 +1,69 @@
+uu_lmac_deagg_1frame_001 Deagg_1QoSframe ./LMAC_testcases/testcases/deaggregation/deagg_1frame_001.txt ./LMAC_testcases/frameCapabilities/deaggregation/deagg_1frame_001.txt ./LMAC_testcases/frameInfo/deaggregation/deagg_1frame_001.txt ./LMAC_testcases/registers/deaggregation/deagg_1frame_001.txt
+
+uu_lmac_deagg_2frame_002 Deagg_2QoSframe ./LMAC_testcases/testcases/deaggregation/deagg_2frame_002.txt ./LMAC_testcases/frameCapabilities/deaggregation/deagg_2frame_002.txt ./LMAC_testcases/frameInfo/deaggregation/deagg_2frame_002.txt ./LMAC_testcases/registers/deaggregation/deagg_2frame_002.txt
+
+uu_lmac_deagg_3frame_003 Deagg_3QoSframe ./LMAC_testcases/testcases/deaggregation/deagg_3frame_003.txt ./LMAC_testcases/frameCapabilities/deaggregation/deagg_3frame_003.txt ./LMAC_testcases/frameInfo/deaggregation/deagg_3frame_003.txt ./LMAC_testcases/registers/deaggregation/deagg_3frame_003.txt
+
+uu_lmac_deagg_8frame_004 Deagg_8QoSframe ./LMAC_testcases/testcases/deaggregation/deagg_8frame_004.txt ./LMAC_testcases/frameCapabilities/deaggregation/deagg_8frame_004.txt ./LMAC_testcases/frameInfo/deaggregation/deagg_8frame_004.txt ./LMAC_testcases/registers/deaggregation/deagg_8frame_004.txt
+
+uu_lmac_deagg_ackpol-normalack_005 Deagg_ackpol_normalack ./LMAC_testcases/testcases/deaggregation/deagg_ackpol-normalack_005.txt ./LMAC_testcases/frameCapabilities/deaggregation/deagg_ackpol-normalack_005.txt ./LMAC_testcases/frameInfo/deaggregation/deagg_ackpol-normalack_005.txt ./LMAC_testcases/registers/deaggregation/deagg_ackpol-normalack_005.txt
+
+uu_lmac_deagg_ackpol-noack_006 Deagg_ackpol_noack ./LMAC_testcases/testcases/deaggregation/deagg_ackpol-noack_006.txt ./LMAC_testcases/frameCapabilities/deaggregation/deagg_ackpol-noack_006.txt ./LMAC_testcases/frameInfo/deaggregation/deagg_ackpol-noack_006.txt ./LMAC_testcases/registers/deaggregation/deagg_ackpol-noack_006.txt
+
+#uu_lmac_deagg_ackpol-blockack_007 Deagg_ackpol_blockack ./LMAC_testcases/testcases/deaggregation/deagg_ackpol-blockack_007.txt ./LMAC_testcases/frameCapabilities/deaggregation/deagg_ackpol-blockack_007.txt ./LMAC_testcases/frameInfo/deaggregation/deagg_ackpol-blockack_007.txt ./LMAC_testcases/registers/deaggregation/deagg_ackpol-blockack_007.txt
+
+uu_lmac_deagg_invalid32crc_008 Deagg_qos_invalidcrc ./LMAC_testcases/testcases/deaggregation/deagg_invalid32crc_008.txt ./LMAC_testcases/frameCapabilities/deaggregation/deagg_invalid32crc_008.txt ./LMAC_testcases/frameInfo/deaggregation/deagg_invalid32crc_008.txt ./LMAC_testcases/registers/deaggregation/deagg_invalid32crc_008.txt
+
+uu_lmac_deagg_invalid8crc_009 Deagg_qos_invalid8crc ./LMAC_testcases/testcases/deaggregation/deagg_invalid8crc_009.txt ./LMAC_testcases/frameCapabilities/deaggregation/deagg_invalid8crc_009.txt ./LMAC_testcases/frameInfo/deaggregation/deagg_invalid8crc_009.txt ./LMAC_testcases/registers/deaggregation/deagg_invalid8crc_009.txt
+
+uu_lmac_deagg_invalidlength_010 Deagg_qos_invalidlen ./LMAC_testcases/testcases/deaggregation/deagg_invalidlength_010.txt ./LMAC_testcases/frameCapabilities/deaggregation/deagg_invalidlength_010.txt ./LMAC_testcases/frameInfo/deaggregation/deagg_invalidlength_010.txt ./LMAC_testcases/registers/deaggregation/deagg_invalidlength_010.txt
+
+uu_lmac_deagg_format-nonht_011 Deagg_qos_nonht ./LMAC_testcases/testcases/deaggregation/deagg_format-nonht_011.txt ./LMAC_testcases/frameCapabilities/deaggregation/deagg_format-nonht_011.txt ./LMAC_testcases/frameInfo/deaggregation/deagg_format-nonht_011.txt ./LMAC_testcases/registers/deaggregation/deagg_format-nonht_011.txt
+
+uu_lmac_deagg_format-htmf_012 Deagg_qos_htmf ./LMAC_testcases/testcases/deaggregation/deagg_format-htmf_012.txt ./LMAC_testcases/frameCapabilities/deaggregation/deagg_format-htmf_012.txt ./LMAC_testcases/frameInfo/deaggregation/deagg_format-htmf_012.txt ./LMAC_testcases/registers/deaggregation/deagg_format-htmf_012.txt
+
+uu_lmac_deagg_format-htgf_013 Deagg_qos_htgf ./LMAC_testcases/testcases/deaggregation/deagg_format-htgf_013.txt ./LMAC_testcases/frameCapabilities/deaggregation/deagg_format-htgf_013.txt ./LMAC_testcases/frameInfo/deaggregation/deagg_format-htgf_013.txt ./LMAC_testcases/registers/deaggregation/deagg_format-htgf_013.txt
+
+#uu_lmac_deagg_format-vht_014 Deagg_qos_vht ./LMAC_testcases/testcases/deaggregation/deagg_format-vht_014.txt ./LMAC_testcases/frameCapabilities/deaggregation/deagg_format-vht_014.txt ./LMAC_testcases/frameInfo/deaggregation/deagg_format-vht_014.txt ./LMAC_testcases/registers/deaggregation/deagg_format-vht_014.txt
+
+#uu_lmac_deagg_diff-formats_015 Deagg_diffformats ./LMAC_testcases/testcases/deaggregation/deagg_diff-formats_015.txt ./LMAC_testcases/frameCapabilities/deaggregation/deagg_diff-formats_015.txt ./LMAC_testcases/frameInfo/deaggregation/deagg_diff-formats_015.txt ./LMAC_testcases/registers/deaggregation/deagg_diff-formats_015.txt
+
+uu_lmac_deagg_diff-duration_016 Deagg_diff_duration ./LMAC_testcases/testcases/deaggregation/deagg_diff-duration_016.txt ./LMAC_testcases/frameCapabilities/deaggregation/deagg_diff-duration_016.txt ./LMAC_testcases/frameInfo/deaggregation/deagg_diff-duration_016.txt ./LMAC_testcases/registers/deaggregation/deagg_diff-duration_016.txt
+
+#uu_lmac_deagg_diff-lengths_017 Deagg_diff_lengths ./LMAC_testcases/testcases/deaggregation/deagg_diff-lengths_017.txt ./LMAC_testcases/frameCapabilities/deaggregation/deagg_diff-lengths_017.txt ./LMAC_testcases/frameInfo/deaggregation/deagg_diff-lengths_017.txt ./LMAC_testcases/registers/deaggregation/deagg_diff-lengths_017.txt
+
+uu_lmac_deagg_diff-ackpol_018 Deagg_diff_ackpol ./LMAC_testcases/testcases/deaggregation/deagg_diff-ackpol_018.txt ./LMAC_testcases/frameCapabilities/deaggregation/deagg_diff-ackpol_018.txt ./LMAC_testcases/frameInfo/deaggregation/deagg_diff-ackpol_018.txt ./LMAC_testcases/registers/deaggregation/deagg_diff-ackpol_018.txt
+
+uu_lmac_deagg_invalid8crc_valid32crc_019 Deagg_invalidcrc ./LMAC_testcases/testcases/deaggregation/deagg_invalid8crc_valid32crc_019.txt ./LMAC_testcases/frameCapabilities/deaggregation/deagg_invalid8crc_valid32crc_019.txt ./LMAC_testcases/frameInfo/deaggregation/deagg_invalid8crc_valid32crc_019.txt ./LMAC_testcases/registers/deaggregation/deagg_invalid8crc_valid32crc_019.txt
+
+uu_lmac_deagg_valid8crc_invalid32crc_020 Deagg_invalidcrc ./LMAC_testcases/testcases/deaggregation/deagg_valid8crc_invalid32crc_020.txt ./LMAC_testcases/frameCapabilities/deaggregation/deagg_valid8crc_invalid32crc_020.txt ./LMAC_testcases/frameInfo/deaggregation/deagg_valid8crc_invalid32crc_020.txt ./LMAC_testcases/registers/deaggregation/deagg_valid8crc_invalid32crc_020.txt
+
+uu_lmac_deagg_nonqos_format-htmf_021 Deagg_nonqos ./LMAC_testcases/testcases/deaggregation/deagg_nonqos_format-htmf_021.txt ./LMAC_testcases/frameCapabilities/deaggregation/deagg_nonqos_format-htmf_021.txt ./LMAC_testcases/frameInfo/deaggregation/deagg_nonqos_format-htmf_021.txt ./LMAC_testcases/registers/deaggregation/deagg_nonqos_format-htmf_021.txt
+
+uu_lmac_deagg_nonqos_format-nonht_022 Deagg_nonqos ./LMAC_testcases/testcases/deaggregation/deagg_nonqos_format-nonht_022.txt ./LMAC_testcases/frameCapabilities/deaggregation/deagg_nonqos_format-nonht_022.txt ./LMAC_testcases/frameInfo/deaggregation/deagg_nonqos_format-nonht_022.txt ./LMAC_testcases/registers/deaggregation/deagg_nonqos_format-nonht_022.txt
+
+uu_lmac_deagg_same-tid_023 Deagg_sametid ./LMAC_testcases/testcases/deaggregation/deagg_same-tid_023.txt ./LMAC_testcases/frameCapabilities/deaggregation/deagg_same-tid_023.txt ./LMAC_testcases/frameInfo/deaggregation/deagg_same-tid_023.txt ./LMAC_testcases/registers/deaggregation/deagg_same-tid_023.txt
+
+uu_lmac_deagg_diff-tid_024 Deagg_diff-tid ./LMAC_testcases/testcases/deaggregation/deagg_diff-tid_024.txt ./LMAC_testcases/frameCapabilities/deaggregation/deagg_diff-tid_024.txt ./LMAC_testcases/frameInfo/deaggregation/deagg_diff-tid_024.txt ./LMAC_testcases/registers/deaggregation/deagg_diff-tid_024.txt
+
+uu_lmac_deagg_diff-txop_025 Deagg_diff-txop ./LMAC_testcases/testcases/deaggregation/deagg_diff-txop_025.txt ./LMAC_testcases/frameCapabilities/deaggregation/deagg_diff-txop_025.txt ./LMAC_testcases/frameInfo/deaggregation/deagg_diff-txop_025.txt ./LMAC_testcases/registers/deaggregation/deagg_diff-txop_025.txt
+
+#uu_lmac_deagg_qosnull_026 Deagg_qosnull ./LMAC_testcases/testcases/deaggregation/deagg_qosnull_026.txt ./LMAC_testcases/frameCapabilities/deaggregation/deagg_qosnull_026.txt ./LMAC_testcases/frameInfo/deaggregation/deagg_qosnull_026.txt ./LMAC_testcases/registers/deaggregation/deagg_qosnull_026.txt
+
+#uu_lmac_deagg_qosnull_bcast_027 Deagg_qosnull_bcast ./LMAC_testcases/testcases/deaggregation/deagg_qosnull_bcast_027.txt ./LMAC_testcases/frameCapabilities/deaggregation/deagg_qosnull_bcast_027.txt ./LMAC_testcases/frameInfo/deaggregation/deagg_qosnull_bcast_027.txt ./LMAC_testcases/registers/deaggregation/deagg_qosnull_bcast_027.txt
+
+uu_lmac_deagg_dest-others_028 Deagg_dest_others ./LMAC_testcases/testcases/deaggregation/deagg_dest-others_028.txt ./LMAC_testcases/frameCapabilities/deaggregation/deagg_dest-others_028.txt ./LMAC_testcases/frameInfo/deaggregation/deagg_dest-others_028.txt ./LMAC_testcases/registers/deaggregation/deagg_dest-others_028.txt
+
+uu_lmac_deagg_dest-gcast_029 Deagg_bcast ./LMAC_testcases/testcases/deaggregation/deagg_dest-gcast_029.txt ./LMAC_testcases/frameCapabilities/deaggregation/deagg_dest-gcast_029.txt ./LMAC_testcases/frameInfo/deaggregation/deagg_dest-gcast_029.txt ./LMAC_testcases/registers/deaggregation/deagg_dest-gcast_029.txt
+
+uu_lmac_deagg_nonqos_QoS_030 Deagg_nonQoS_QoS ./LMAC_testcases/testcases/deaggregation/deagg_nonqos_QoS_030.txt ./LMAC_testcases/frameCapabilities/deaggregation/deagg_nonqos_QoS_030.txt ./LMAC_testcases/frameInfo/deaggregation/deagg_nonqos_QoS_030.txt ./LMAC_testcases/registers/deaggregation/deagg_nonqos_QoS_030.txt
+
+#uu_lmac_deagg_mgmt_031 Deagg_mgmt ./LMAC_testcases/testcases/deaggregation/deagg_mgmt_031.txt ./LMAC_testcases/frameCapabilities/deaggregation/deagg_mgmt_031.txt ./LMAC_testcases/frameInfo/deaggregation/deagg_mgmt_031.txt ./LMAC_testcases/registers/deaggregation/deagg_mgmt_031.txt
+
+uu_lmac_deagg_ht_032 Deagg_HT ./LMAC_testcases/testcases/deaggregation/deagg_ht_032.txt ./LMAC_testcases/frameCapabilities/deaggregation/deagg_ht_032.txt ./LMAC_testcases/frameInfo/deaggregation/deagg_ht_032.txt ./LMAC_testcases/registers/deaggregation/deagg_ht_032.txt
+
+#uu_lmac_deagg_AMPDU_immediate-ba_033 Deagg_immediateBA ./LMAC_testcases/testcases/deaggregation/deagg_AMPDU_immediate-ba_033.txt ./LMAC_testcases/frameCapabilities/deaggregation/deagg_AMPDU_immediate-ba_033.txt ./LMAC_testcases/frameInfo/deaggregation/deagg_AMPDU_immediate-ba_033.txt ./LMAC_testcases/registers/deaggregation/deagg_AMPDU_immediate-ba_033.txt
+
+#uu_lmac_deagg_AMPDU_delayed-ba_034 Deagg_delayedBA ./LMAC_testcases/testcases/deaggregation/deagg_AMPDU_delayed-ba_034.txt ./LMAC_testcases/frameCapabilities/deaggregation/deagg_AMPDU_delayed-ba_034.txt ./LMAC_testcases/frameInfo/deaggregation/deagg_AMPDU_delayed-ba_034.txt ./LMAC_testcases/registers/deaggregation/deagg_AMPDU_delayed-ba_034.txt
+
+

@@ -1,0 +1,8 @@
+/*rx_end_status is the input for rx_end_ind 
+and tsf_r is the expected output after receving frame*/
+rx_end_status: 0
+tsf_r: 1000000000000000
+ps_enabled: 0 
+dtim_rcvd: 0 
+eosp_g: 0
+more_data: 0

@@ -1,0 +1,2 @@
+#testcase for transmission of beacon frame to check timestamp updation in beacon frame
+testcaseid: 2 testcategory: 1 input: retry: 0 frame_info: tx_vector_beacon_tsf.txt frame: beacon.txt nav: 1000 duration: 100 qos: 1 output: 0

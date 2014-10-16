@@ -1,0 +1,25 @@
+/home/uurmi/lmac_rtl/cap/test/scripts/uu_acmac_states_chain_test.v {1 {vlog -work work -vopt -sv -nocovercells /home/uurmi/lmac_rtl/cap/test/scripts/uu_acmac_states_chain_test.v
+** Note: (vlog-1901) OptionFile "/home/uurmi/sreekanth/M_RX/vlog.opt" not found. Ignored.
+QuestaSim vlog 10.0d Compiler 2011.10 Oct 30 2011
+-- Compiling module uu_acmac_states_chain_test
+
+Top level modules:
+	uu_acmac_states_chain_test
+
+} {} {}} /home/uurmi/lmac_rtl/cap/src/uu_acmac_cap.v {1 {vlog -work work -vopt -sv -nocovercells /home/uurmi/lmac_rtl/cap/src/uu_acmac_cap.v
+** Note: (vlog-1901) OptionFile "/home/uurmi/sreekanth/M_RX/vlog.opt" not found. Ignored.
+QuestaSim vlog 10.0d Compiler 2011.10 Oct 30 2011
+-- Compiling module uu_acmac_cap
+
+Top level modules:
+	uu_acmac_cap
+
+} {} {}} /home/uurmi/lmac_rtl/cap/test/tb/uu_acmac_cap_tb.v {1 {vlog -work work -vopt -sv -nocovercells /home/uurmi/lmac_rtl/cap/test/tb/uu_acmac_cap_tb.v
+** Note: (vlog-1901) OptionFile "/home/uurmi/sreekanth/M_RX/vlog.opt" not found. Ignored.
+QuestaSim vlog 10.0d Compiler 2011.10 Oct 30 2011
+-- Compiling module uu_acmac_cap_tb
+
+Top level modules:
+	uu_acmac_cap_tb
+
+} {} {}}

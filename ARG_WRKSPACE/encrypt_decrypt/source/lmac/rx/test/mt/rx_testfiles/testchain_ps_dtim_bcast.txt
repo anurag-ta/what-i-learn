@@ -1,0 +1,8 @@
+#receiving of dtim frame which has bcast bit set
+@TEST rx_testfiles/testcase_nonagg_tim.txt
+@TEST rx_testfiles/testcase_beacon_dtim_bcast.txt
+@TEST rx_testfiles/testcase_ret0_more_data.txt
+#testcase for receiving of data frame with no more data bit
+@TEST rx_testfiles/testcase_nonagg_data_len.txt
+@TEST rx_testfiles/testcase_with_no_more_data.txt
+@TEST rx_testfiles/testcase_ret0_no_more_data.txt

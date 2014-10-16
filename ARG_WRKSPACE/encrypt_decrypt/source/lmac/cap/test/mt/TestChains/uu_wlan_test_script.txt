@@ -1,0 +1,89 @@
+####################################################################################################
+#
+#               UURMI SYSTEMS
+#
+#  FRAME file Syntax
+#     "|"    -> Used in Frame file. Indicates frame byte delimiter.
+#     "@@"   -> Used in Frame file. Indicates the frame comments and It should be after Frame End.
+#
+#
+#  TEST Script file Syntax
+#     "#"                  -> Indicates comment line.
+#     "@TEST <Filename> "  -> Indicates run the given test file.
+#     <Test case syntax >  -> Test case syntax
+#
+######################################################################################################
+#uncomment and run the application for testing that case
+@TEST cap_testcases/rtestchain7.txt
+@TEST cap_testcases/rtestchain8.txt
+@TEST cap_testcases/testchain1.txt
+@TEST cap_testcases/testchain2.txt
+@TEST cap_testcases/testchain3.txt
+@TEST cap_testcases/testchain4.txt
+@TEST cap_testcases/testchain5.txt
+@TEST cap_testcases/testchain6.txt
+@TEST cap_testcases/testchain7.txt
+@TEST cap_testcases/testchain8.txt
+@TEST cap_testcases/rtestchain4.txt
+@TEST cap_testcases/testchain42.txt
+@TEST cap_testcases/testchain43.txt
+@TEST cap_testcases/testchain44.txt
+@TEST cap_testcases/testchain45.txt
+@TEST cap_testcases/testchain46.txt
+@TEST cap_testcases/testchain29_ampdu.txt
+@TEST cap_testcases/testchain56.txt
+@TEST cap_testcases/testchain57.txt
+@TEST cap_testcases/testchain58.txt
+@TEST cap_testcases/rtestchain1.txt
+@TEST cap_testcases/rtestchain2.txt
+@TEST cap_testcases/rtestchain3.txt
+@TEST cap_testcases/rtestchain9.txt
+@TEST cap_testcases/rtestchain10.txt
+@TEST cap_testcases/testchain30.txt
+@TEST cap_testcases/testchain32.txt
+@TEST cap_testcases/testchain33.txt
+@TEST cap_testcases/testchain34.txt
+@TEST cap_testcases/testchain35.txt
+@TEST cap_testcases/testchain36.txt
+@TEST cap_testcases/testchain37.txt
+@TEST cap_testcases/testchain38.txt
+@TEST cap_testcases/testchain39.txt
+@TEST cap_testcases/rtestchain5.txt
+@TEST cap_testcases/rtestchain12.txt
+@TEST cap_testcases/rtestchain13.txt
+@TEST cap_testcases/testchain47.txt
+@TEST cap_testcases/testchain48.txt
+@TEST cap_testcases/testchain49.txt
+@TEST cap_testcases/testchain_short_retry.txt
+@TEST cap_testcases/testchain_phy_ene_low_idle.txt
+@TEST cap_testcases/testchain_collission_retry.txt
+@TEST cap_testcases/testchain_collission_retry_threshold.txt
+@TEST cap_testcases/rtestchain_bw_80.txt
+@TEST cap_testcases/testchain9.txt
+@TEST cap_testcases/testchain28.txt
+@TEST cap_testcases/testchain53.txt
+@TEST cap_testcases/testchain60.txt
+@TEST cap_testcases/testchain61.txt
+@TEST cap_testcases/testchain62.txt
+@TEST cap_testcases/testchain63.txt
+@TEST cap_testcases/rtestchain_senddatachain.txt
+@TEST cap_testcases/rtestchain_bw_change.txt
+@TEST cap_testcases/rtestchain11.txt
+@TEST cap_testcases/testchain52.txt
+@TEST cap_testcases/testchain_ibss_beacon.txt
+@TEST cap_testcases/testchain_ibss_beacon_q.txt
+@TEST cap_testcases/testchain_beacon.txt
+@TEST cap_testcases/testchain_beacon_q.txt
+@TEST cap_testcases/testchain_ps_poll.txt
+@TEST cap_testcases/testchain_rts_retry.txt
+@TEST cap_testcases/testchain_rts_fallback.txt
+@TEST cap_testcases/testchain_rts_retry_limit.txt
+@TEST cap_testcases/testchain_cts_notforus.txt
+@TEST cap_testcases/testchain_wait_rx_ba_rcvd.txt
+@TEST cap_testcases/testchain_tx_nav.txt
+@TEST cap_testcases/testchain_lessnav_eifs.txt
+@TEST cap_testcases/testchain_cts.txt
+#these three cases will change after bug fixes and can write some more cases
+@TEST cap_testcases/testchain54.txt
+@TEST cap_testcases/testchain_sm_eifs.txt
+@TEST cap_testcases/testchain_tx_exist_nav.txt

@@ -1,0 +1,20 @@
+######################################################################################################
+#
+#               UURMI SYSTEMS
+#
+#  FRAME file Syntax
+#     "|"    -> Used in Frame file. Indicates frame byte delimiter.
+#
+#
+#  TEST Script file Syntax
+#     "#"                  -> Indicates comment line.
+#     "@TEST <Filename> "  -> Indicates run the given test file.
+#     <Test case syntax >  -> Test case syntax
+#
+######################################################################################################
+@TEST CP_testfiles/CP_Tx_tests.txt
+@TEST CP_testfiles/CP_Rx_tests.txt
+@TEST CP_testfiles/CP_BA_Tx_tests.txt
+@TEST CP_testfiles/CP_BA_Rx_tests.txt
+@TEST CP_testfiles/CP_BAR_Tx_tests.txt
+@TEST CP_testfiles/CP_PS_Rx_tests.txt

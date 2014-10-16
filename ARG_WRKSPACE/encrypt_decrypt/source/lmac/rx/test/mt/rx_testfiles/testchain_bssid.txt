@@ -1,0 +1,4 @@
+#testcase for receiving of beacon frame which has bssid != local_bssid and timstamp > sta's tsf in bss n/w
+@TEST rx_testfiles/testcase_nonagg_beacon.txt
+@TEST rx_testfiles/testcase_beacon_no_bssid.txt
+@TEST rx_testfiles/testcase_ret0_ff2.txt

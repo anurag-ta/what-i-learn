@@ -1,0 +1,10 @@
+#idle-rx by phy_energy
+@TEST CAP_testfiles/idle10.txt
+#receving-contend by timer-ticks
+@TEST CAP_testfiles/receving7.txt
+#contend-txop by timer_ticks
+@TEST CAP_testfiles/contend6.txt
+#txop_init - wait_for_rx by txop_tx_start
+@TEST CAP_testfiles/txop10.txt
+#wait_for_rx - eifs by rx_err
+@TEST CAP_testfiles/txop12.txt

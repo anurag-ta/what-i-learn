@@ -1,0 +1,17 @@
+/* This Testcase is used to test the establishment of authentication between the AP and the STA(Perl script).
+     On reception of beacon frame, the authentication request frame is transmitted from STA to Ap and authentication response frame is received from AP to STA. */ 
+
+
+Testcase 002
+recv
+PHY-IND UU_PHY_TXSTART_CONF
+recv
+PHY-IND UU_PHY_DATA_CONF
+recv
+PHY-IND UU_PHY_TXEND_CONF
+
+GENERATE RESPONSE
+
+Endcase
+
+END

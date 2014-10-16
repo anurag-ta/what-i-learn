@@ -1,0 +1,2 @@
+#In idle, receive phy energy indication with status as idle.
+input1 ev_type: 6 pre_timer_tick_count: 0 post_timer_tick_count: 0 is_frame_available: 0 no.of_frames: 0 frame_input_file: no_file.txt frame_info_file: frame_info.txt precondition: main_state: 0 supp_state: 0 postcondition: main_state: 0 supp_state: 0 ac: 0 qos: 1 status: 0 ch_list: 0 vec_file: no_file.txt frame_file: no_file.txt rx_end_ret: -1 phy_end_ret: -1 

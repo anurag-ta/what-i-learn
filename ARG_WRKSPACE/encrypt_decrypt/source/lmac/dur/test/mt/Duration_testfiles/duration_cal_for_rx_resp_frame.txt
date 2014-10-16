@@ -1,0 +1,15 @@
+#single protection frame duration calculation.
+#array[0], &rq_type, 
+#array[1], &format, &mcs, &modulation, &l_datarate, &fc0, &duration, &ctrl_resp_type, &ctrl_resp_len,
+#array[2], 
+#array[3], 
+#array[4], 
+#array[5], &return_value);
+#testcase for responsde frame duration for received frame format non-ht, response length 14, bss service set is 0x1f
+uu_wlan_duration_mt_4_id36 4 input: 0 0 0 10 0x08 100 0 14 precondition: 0x1f postcondition: output: return_value: 60 
+#testcase for responsde frame duration for received frame format ht-mf, response length 14, bss service set is 0x1f
+uu_wlan_duration_mt_4_id37 4 input: 1 5 0 10 0x08 100 0 14 precondition: 0xbf postcondition: output: return_value: 60 
+#testcase for responsde frame duration for received frame format ht-gf, response length 14, bss service set is 0x1f
+uu_wlan_duration_mt_4_id38 4 input: 2 5 0 10 0x08 100 0 14 precondition: 0xbf postcondition: output: return_value: 52 
+#testcase for responsde frame duration for received frame format vht, response length 14, bss service set is 0x1f
+uu_wlan_duration_mt_4_id39 4 input: 3 40 0 10 0x08 100 0 14 precondition: 0xbf postcondition: output: return_value: 60 

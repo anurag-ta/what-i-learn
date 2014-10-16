@@ -1,0 +1,2 @@
+#testcase for reaggregation of three frames
+testcaseid: 2 testcategory: 3 input: seqnos: -1 -1 -1 frame_info: tx_vector_agg_nonht.txt frame: qosdata.txt frame: beacon.txt frame: beacon_txop.txt nav: 1000 duration: 100 qos: 1 output: 0

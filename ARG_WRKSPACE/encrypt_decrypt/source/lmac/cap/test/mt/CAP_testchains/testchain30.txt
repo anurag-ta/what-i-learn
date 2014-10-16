@@ -1,0 +1,39 @@
+#idle(energy)-receiving(navupdate)-idle
+#idle-energy event
+@TEST CAP_testchains/idle_rx_energy_threshold.txt
+@TEST CAP_testchains/receving_rx_tx_ready_threshold.txt
+#receving_start indication
+@TEST CAP_testchains/rx_start_ind_ba.txt
+#receving_data indication
+@TEST CAP_testchains/rx_data_ind_ba.txt
+@TEST CAP_testchains/rx_end_ind_ff2_threshold.txt
+@TEST CAP_testchains/contend16_threshold.txt
+#txop_init to wait_for_rx by txop_tx_start
+@TEST CAP_testchains/txop35.txt
+#wait_for_rx-contend by timer_ticks
+@TEST CAP_testchains/txop44.txt
+#contend-txop by timer_ticks
+@TEST CAP_testchains/contend17_threshold.txt
+#txop_init to wait_for_rx by txop_tx_start
+@TEST CAP_testchains/txop35.txt
+#wait_for_rx-contend by timer_ticks
+@TEST CAP_testchains/txop44.txt
+#contend-txop by timer_ticks
+@TEST CAP_testchains/contend17_threshold.txt
+#txop_init to wait_for_rx by txop_tx_start
+@TEST CAP_testchains/txop35.txt
+#wait_for_rx-contend by timer_ticks
+@TEST CAP_testchains/txop44.txt
+#contend-txop by timer_ticks
+@TEST CAP_testchains/contend17_threshold.txt
+#txop_init to wait_for_rx by txop_tx_start
+@TEST CAP_testchains/txop35.txt
+#wait_for_rx-contend by timer_ticks
+@TEST CAP_testchains/txop44.txt
+#contend-txop by timer_ticks
+@TEST CAP_testchains/contend15_threshold.txt
+###txop_init to wait_for_rx by txop_tx_start
+#@TEST CAP_testchains/txop35.txt
+####wait_for_rx-contend by timer_ticks
+#@TEST CAP_testchains/txop44.txt
+#@TEST CAP_testchains/contend16_threshold.txt

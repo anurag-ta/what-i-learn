@@ -1,0 +1,2 @@
+# Event type 3 is for DEL-STA
+testcaseid: 1 ev_type: 3 filename: delsta2.txt

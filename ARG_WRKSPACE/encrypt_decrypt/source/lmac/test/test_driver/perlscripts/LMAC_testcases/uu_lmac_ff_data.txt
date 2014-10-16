@@ -1,0 +1,88 @@
+uu_lmac_ff_data_001 Data_frame_handling ./LMAC_testcases/testcases/data_ff/data_001.txt ./LMAC_testcases/frameCapabilities/data_ff/data_001.txt ./LMAC_testcases/frameInfo/data_ff/data_001.txt
+
+uu_lmac_ff_data_invalid-pv_UM_002 Data_invalid-PV_UM ./LMAC_testcases/testcases/data_ff/data_invalid-pv_UM_002.txt ./LMAC_testcases/frameCapabilities/data_ff/data_invalid-pv_UM_002.txt ./LMAC_testcases/frameInfo/data_ff/data_invalid-pv_UM_002.txt
+
+uu_lmac_ff_data_tods0_fromds1_UM_003 Data_tods0-fromds1_UM ./LMAC_testcases/testcases/data_ff/data_tods0_fromds1_UM_003.txt ./LMAC_testcases/frameCapabilities/data_ff/data_tods0_fromds1_UM_003.txt ./LMAC_testcases/frameInfo/data_ff/data_tods0_fromds1_UM_003.txt
+
+uu_lmac_ff_data_tods1_fromds0_UM_004 Data_tods1-fromds0_UM ./LMAC_testcases/testcases/data_ff/data_tods1_fromds0_UM_004.txt ./LMAC_testcases/frameCapabilities/data_ff/data_tods1_fromds0_UM_004.txt ./LMAC_testcases/frameInfo/data_ff/data_tods1_fromds0_UM_004.txt
+
+uu_lmac_ff_data_protect1_UM_005 Data_protect1_UM ./LMAC_testcases/testcases/data_ff/data_protect1_UM_005.txt ./LMAC_testcases/frameCapabilities/data_ff/data_protect1_UM_005.txt ./LMAC_testcases/frameInfo/data_ff/data_protect1_UM_005.txt
+
+uu_lmac_ff_data_morefrag1_UM_006 Data_morefrag1_UM ./LMAC_testcases/testcases/data_ff/data_morefrag1_UM_006.txt ./LMAC_testcases/frameCapabilities/data_ff/data_morefrag1_UM_006.txt ./LMAC_testcases/frameInfo/data_ff/data_morefrag1_UM_006.txt
+
+uu_lmac_ff_data_dur-bcast_UM_007 Data_dur-bcast_UM ./LMAC_testcases/testcases/data_ff/data_dur-bcast_UM_007.txt ./LMAC_testcases/frameCapabilities/data_ff/data_dur-bcast_UM_007.txt ./LMAC_testcases/frameInfo/data_ff/data_dur-bcast_UM_007.txt
+
+uu_lmac_ff_data_dur-mcast_UM_008 Data_dur-mcast_UM ./LMAC_testcases/testcases/data_ff/data_dur-mcast_UM_008.txt ./LMAC_testcases/frameCapabilities/data_ff/data_dur-mcast_UM_008.txt ./LMAC_testcases/frameInfo/data_ff/data_dur-mcast_UM_008.txt
+
+uu_lmac_ff_data_dur-unicast_UM_009 Data_dur-unicast_UM ./LMAC_testcases/testcases/data_ff/data_dur-unicast_UM_009.txt ./LMAC_testcases/frameCapabilities/data_ff/data_dur-unicast_UM_009.txt ./LMAC_testcases/frameInfo/data_ff/data_dur-unicast_UM_009.txt
+
+uu_lmac_ff_data_bssid-wildcard_UM_010 Data_wildcard-bssid_UM ./LMAC_testcases/testcases/data_ff/data_bssid-wildcard_UM_010.txt ./LMAC_testcases/frameCapabilities/data_ff/data_bssid-wildcard_UM_010.txt ./LMAC_testcases/frameInfo/data_ff/data_bssid-wildcard_UM_010.txt
+
+uu_lmac_ff_data_framebody-null_UM_011 Data_noframebody_UM ./LMAC_testcases/testcases/data_ff/data_framebody-null_UM_011.txt ./LMAC_testcases/frameCapabilities/data_ff/data_framebody-null_UM_011.txt ./LMAC_testcases/frameInfo/data_ff/data_framebody-null_UM_011.txt
+
+uu_lmac_ff_data_null-data-framebody_UM_012 Data_nulldatawithframebody_UM ./LMAC_testcases/testcases/data_ff/data_null-data-framebody_UM_012.txt ./LMAC_testcases/frameCapabilities/data_ff/data_null-data-framebody_UM_012.txt ./LMAC_testcases/frameInfo/data_ff/data_null-data-framebody_UM_012.txt
+
+uu_lmac_ff_data_valid-fcs_UM_013 Data_validfcs_UM ./LMAC_testcases/testcases/data_ff/data_valid-fcs_UM_013.txt ./LMAC_testcases/frameCapabilities/data_ff/data_valid-fcs_UM_013.txt ./LMAC_testcases/frameInfo/data_ff/data_valid-fcs_UM_013.txt
+
+uu_lmac_ff_data_invalid-fcs_UM_014 Data_invalidfcs_UM ./LMAC_testcases/testcases/data_ff/data_invalid-fcs_UM_014.txt ./LMAC_testcases/frameCapabilities/data_ff/data_invalid-fcs_UM_014.txt ./LMAC_testcases/frameInfo/data_ff/data_invalid-fcs_UM_014.txt
+
+uu_lmac_ff_data_dur_ra-bcast_tods1_UM_015 Data_ra-bcast_tods1_UM ./LMAC_testcases/testcases/data_ff/data_dur_ra-bcast_tods1_UM_015.txt ./LMAC_testcases/frameCapabilities/data_ff/data_dur_ra-bcast_tods1_UM_015.txt ./LMAC_testcases/frameInfo/data_ff/data_dur_ra-bcast_tods1_UM_015.txt
+
+uu_lmac_ff_data_dur_ra-mcast_tods1_UM_016 Data_ra-mcast_tods1_UM ./LMAC_testcases/testcases/data_ff/data_dur_ra-mcast_tods1_UM_016.txt ./LMAC_testcases/frameCapabilities/data_ff/data_dur_ra-mcast_tods1_UM_016.txt ./LMAC_testcases/frameInfo/data_ff/data_dur_ra-mcast_tods1_UM_016.txt
+
+uu_lmac_ff_data_dur_ra-ucast_tods1_UM_017 Data_ra-ucast_tods1_UM ./LMAC_testcases/testcases/data_ff/data_dur_ra-ucast_tods1_UM_017.txt ./LMAC_testcases/frameCapabilities/data_ff/data_dur_ra-ucast_tods1_UM_017.txt ./LMAC_testcases/frameInfo/data_ff/data_dur_ra-ucast_tods1_UM_017.txt
+
+uu_lmac_ff_data_mult-frames_018 Data_mult-frames_ACQ_UM ./LMAC_testcases/testcases/data_ff/data_mult-frames_018.txt ./LMAC_testcases/frameCapabilities/data_ff/data_mult-frames_018.txt ./LMAC_testcases/frameInfo/data_ff/data_mult-frames_018.txt
+
+uu_lmac_ff_data_mult-frames_group_019 Data_mult-frames-group_ACQ_UM ./LMAC_testcases/testcases/data_ff/data_mult-frames_group_019.txt ./LMAC_testcases/frameCapabilities/data_ff/data_mult-frames_group_019.txt ./LMAC_testcases/frameInfo/data_ff/data_mult-frames_group_019.txt
+
+uu_lmac_ff_data_invalid-pv_rp_020 Data_invalid-pv_RP ./LMAC_testcases/testcases/data_ff/data_invalid-pv_rp_020.txt ./LMAC_testcases/frameCapabilities/data_ff/data_invalid-pv_rp_020.txt ./LMAC_testcases/frameInfo/data_ff/data_invalid-pv_rp_020.txt
+
+uu_lmac_ff_data_invalid-type_rp_021 Data_invalid-type_RP ./LMAC_testcases/testcases/data_ff/data_invalid-type_rp_021.txt ./LMAC_testcases/frameCapabilities/data_ff/data_invalid-type_rp_021.txt ./LMAC_testcases/frameInfo/data_ff/data_invalid-type_rp_021.txt
+
+uu_lmac_ff_data_tods1_rp_022 Data_tods1-fromds0_RP ./LMAC_testcases/testcases/data_ff/data_tods1_rp_022.txt ./LMAC_testcases/frameCapabilities/data_ff/data_tods1_rp_022.txt ./LMAC_testcases/frameInfo/data_ff/data_tods1_rp_022.txt
+
+uu_lmac_ff_data_protect1_rp_023 Data_protect1_RP ./LMAC_testcases/testcases/data_ff/data_protect1_rp_023.txt ./LMAC_testcases/frameCapabilities/data_ff/data_protect1_rp_023.txt ./LMAC_testcases/frameInfo/data_ff/data_protect1_rp_023.txt
+
+uu_lmac_ff_data_morefrag1_rp_024 Data_morefrag1_RP ./LMAC_testcases/testcases/data_ff/data_morefrag1_rp_024.txt ./LMAC_testcases/frameCapabilities/data_ff/data_morefrag1_rp_024.txt ./LMAC_testcases/frameInfo/data_ff/data_morefrag1_rp_024.txt
+
+uu_lmac_ff_data_ra-us_rp_025 Data_ra_us_RP ./LMAC_testcases/testcases/data_ff/data_ra-us_rp_025.txt ./LMAC_testcases/frameCapabilities/data_ff/data_ra-us_rp_025.txt ./LMAC_testcases/frameInfo/data_ff/data_ra-us_rp_025.txt
+
+uu_lmac_ff_data_ra-bcast_rp_026 Data_ra_bcast_RP ./LMAC_testcases/testcases/data_ff/data_ra-bcast_rp_026.txt ./LMAC_testcases/frameCapabilities/data_ff/data_ra-bcast_rp_026.txt ./LMAC_testcases/frameInfo/data_ff/data_ra-bcast_rp_026.txt
+
+uu_lmac_ff_data_ra-mcast_rp_027 Data_ra_mcast_RP ./LMAC_testcases/testcases/data_ff/data_ra-mcast_rp_027.txt ./LMAC_testcases/frameCapabilities/data_ff/data_ra-mcast_rp_027.txt ./LMAC_testcases/frameInfo/data_ff/data_ra-mcast_rp_027.txt
+
+uu_lmac_ff_data_ra-others_rp_028 Data_ra_others_RP ./LMAC_testcases/testcases/data_ff/data_ra-others_rp_028.txt ./LMAC_testcases/frameCapabilities/data_ff/data_ra-others_rp_028.txt ./LMAC_testcases/frameInfo/data_ff/data_ra-others_rp_028.txt
+
+#uu_lmac_ff_data_ta-groupcast_029 Data_ta_gcast_RP ./LMAC_testcases/testcases/data_ff/data_ta-groupcast_029.txt ./LMAC_testcases/frameCapabilities/data_ff/data_ta-groupcast_029.txt ./LMAC_testcases/frameInfo/data_ff/data_ta-groupcast_029.txt
+
+#uu_lmac_ff_data_ta-ap_030 Data_ta_ap_RP ./LMAC_testcases/testcases/data_ff/data_ta-ap_030.txt ./LMAC_testcases/frameCapabilities/data_ff/data_ta-ap_030.txt ./LMAC_testcases/frameInfo/data_ff/data_ta-ap_030.txt
+
+uu_lmac_ff_data_dur0_RP_031 Data_dur0_RP ./LMAC_testcases/testcases/data_ff/data_dur0_RP_031.txt ./LMAC_testcases/frameCapabilities/data_ff/data_dur0_RP_031.txt ./LMAC_testcases/frameInfo/data_ff/data_dur0_RP_031.txt
+
+uu_lmac_ff_data_group-tods1-dur0_RP_032 Data_dur0-gcast-tods1_RP ./LMAC_testcases/testcases/data_ff/data_group-tods1-dur0_RP_032.txt ./LMAC_testcases/frameCapabilities/data_ff/data_group-tods1-dur0_RP_032.txt ./LMAC_testcases/frameInfo/data_ff/data_group-tods1-dur0_RP_032.txt
+
+uu_lmac_ff_data_group-tods1-dur_RP_033 Data_dur-gcast-tods1_RP ./LMAC_testcases/testcases/data_ff/data_group-tods1-dur_RP_033.txt ./LMAC_testcases/frameCapabilities/data_ff/data_group-tods1-dur_RP_033.txt ./LMAC_testcases/frameInfo/data_ff/data_group-tods1-dur_RP_033.txt
+
+uu_lmac_ff_data_ucast-tods1-dur_RP_034 Data_dur-ucast-tods1_RP ./LMAC_testcases/testcases/data_ff/data_ucast-tods1-dur_RP_034.txt ./LMAC_testcases/frameCapabilities/data_ff/data_ucast-tods1-dur_RP_034.txt ./LMAC_testcases/frameInfo/data_ff/data_ucast-tods1-dur_RP_034.txt
+
+uu_lmac_ff_data_wildcard-bssid_tods1_RP_035 Data_wcard-bssid-tods1_RP ./LMAC_testcases/testcases/data_ff/data_wildcard-bssid_tods1_RP_035.txt ./LMAC_testcases/frameCapabilities/data_ff/data_wildcard-bssid_tods1_RP_035.txt ./LMAC_testcases/frameInfo/data_ff/data_wildcard-bssid_tods1_RP_035.txt
+
+uu_lmac_ff_data_null_RP_036 Nulldata_RP ./LMAC_testcases/testcases/data_ff/data_null_RP_036.txt ./LMAC_testcases/frameCapabilities/data_ff/data_null_RP_036.txt ./LMAC_testcases/frameInfo/data_ff/data_null_RP_036.txt
+
+uu_lmac_ff_nulldata_framebody_RP_037 Nulldata_framebody_RP ./LMAC_testcases/testcases/data_ff/nulldata_framebody_RP_037.txt ./LMAC_testcases/frameCapabilities/data_ff/nulldata_framebody_RP_037.txt ./LMAC_testcases/frameInfo/data_ff/nulldata_framebody_RP_037.txt
+
+uu_lmac_ff_data_seqno0_RP_038 Data_seqno0_RP ./LMAC_testcases/testcases/data_ff/data_seqno0_RP_038.txt ./LMAC_testcases/frameCapabilities/data_ff/data_seqno0_RP_038.txt ./LMAC_testcases/frameInfo/data_ff/data_seqno0_RP_038.txt
+
+uu_lmac_ff_data_valid-fcs_039 Data_validfcs_RP ./LMAC_testcases/testcases/data_ff/data_valid-fcs_039.txt ./LMAC_testcases/frameCapabilities/data_ff/data_valid-fcs_039.txt ./LMAC_testcases/frameInfo/data_ff/data_valid-fcs_039.txt
+
+uu_lmac_ff_data_invalid-fcs_rp_040 Data_invalidfcs_RP ./LMAC_testcases/testcases/data_ff/data_invalid-fcs_rp_040.txt ./LMAC_testcases/frameCapabilities/data_ff/data_invalid-fcs_rp_040.txt ./LMAC_testcases/frameInfo/data_ff/data_invalid-fcs_rp_040.txt
+
+
+
+
+
+
+
+
+

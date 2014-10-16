@@ -1,0 +1,26 @@
+@TEST tx_testfiles/tx_mpduclearfalse.txt
+@TEST tx_testfiles/tx_agg_ht_5.txt
+@TEST tx_testfiles/tx_agg_vht_retry.txt
+@TEST tx_testfiles/tx_agg_vht_retry_1.txt
+@TEST tx_testfiles/tx_agg_ht_retry.txt
+@TEST tx_testfiles/tx_agg_ht.txt
+@TEST tx_testfiles/tx_agg_nonht.txt
+@TEST tx_testfiles/tx_agg_vht.txt
+@TEST tx_testfiles/tx_agg_qosack.txt
+@TEST tx_testfiles/tx_threshold_highrts.txt
+@TEST tx_testfiles/tx_threshold_qosdatalowrts.txt
+@TEST tx_testfiles/tx_threshold_retry.txt
+@TEST tx_testfiles/tx_normaldata.txt
+@TEST tx_testfiles/tx_negcase_senddata.txt
+@TEST tx_testfiles/tx_send_qosdatamulti.txt
+@TEST tx_testfiles/tx_threshold_senddata.txt
+@TEST tx_testfiles/tx_negcase_ctl.txt
+@TEST tx_testfiles/tx_threshold_qosdatamulti.txt
+#While running this case, make the c_model_buf_size as 1k buffer.
+#@TEST tx_testfiles/tx_buf.txt
+@TEST tx_testfiles/tx_beacon.txt
+@TEST tx_testfiles/tx_normaldata_vht.txt
+@TEST tx_testfiles/tx_ps_qos_null_gen.txt
+@TEST tx_testfiles/tx_ps_qos_null_gen.txt
+@TEST tx_testfiles/tx_ps_qos_null_gen_1.txt
+@TEST tx_testfiles/tx_ps_poll_gen.txt

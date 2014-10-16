@@ -1,0 +1,2 @@
+88|00|0f|00|fc|f8|f0|10|20|02|fc|f8|f0|10|20|04|fc|f8|f0|10|20|02|c0|00|00|00|10|20|30|40|50|60|70|80|ff|ff|ff|ff|
+@@Qos data frame under implicit Ba with seqno 12

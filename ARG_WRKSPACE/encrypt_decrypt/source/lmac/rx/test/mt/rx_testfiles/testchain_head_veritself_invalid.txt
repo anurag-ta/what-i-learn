@@ -1,0 +1,4 @@
+#testcase for receiving of frame which has invalid version
+@TEST rx_testfiles/testcase_nonagg.txt
+@TEST rx_testfiles/testcase_header_veritself_invalid.txt
+@TEST rx_testfiles/testcase_ret0_ff0.txt

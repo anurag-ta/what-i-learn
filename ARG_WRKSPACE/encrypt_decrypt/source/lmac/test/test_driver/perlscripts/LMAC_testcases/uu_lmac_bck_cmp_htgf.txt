@@ -1,0 +1,25 @@
+uu_lmac_htgf_rts_001 htgf_rts ./LMAC_testcases/testcases/bck_comp/ht_gf/htgf_rts_001.txt ./LMAC_testcases/frameCapabilities/bck_comp/ht_gf/htgf_rts_001.txt ./LMAC_testcases/frameInfo/bck_comp/ht_gf/htgf_rts_001.txt ./LMAC_testcases/registers/bck_comp/ht_gf/htgf_rts_001.txt
+
+uu_lmac_htgf_rts_mcs1_002 rts_mcs1 ./LMAC_testcases/testcases/bck_comp/ht_gf/htgf_rts_mcs1_002.txt ./LMAC_testcases/frameCapabilities/bck_comp/ht_gf/htgf_rts_mcs1_002.txt ./LMAC_testcases/frameInfo/bck_comp/ht_gf/htgf_rts_mcs1_002.txt ./LMAC_testcases/registers/bck_comp/ht_gf/htgf_rts_mcs1_002.txt
+
+uu_lmac_htgf_rts_mcs35_003 mcs35 ./LMAC_testcases/testcases/bck_comp/ht_gf/htgf_rts_mcs35_003.txt ./LMAC_testcases/frameCapabilities/bck_comp/ht_gf/htgf_rts_mcs35_003.txt ./LMAC_testcases/frameInfo/bck_comp/ht_gf/htgf_rts_mcs35_003.txt ./LMAC_testcases/registers/bck_comp/ht_gf/htgf_rts_mcs35_003.txt
+
+uu_lmac_htgf_rts_mcs3_40bw_004 mcs3_40bw ./LMAC_testcases/testcases/bck_comp/ht_gf/htgf_rts_mcs3_40bw_004.txt ./LMAC_testcases/frameCapabilities/bck_comp/ht_gf/htgf_rts_mcs3_40bw_004.txt ./LMAC_testcases/frameInfo/bck_comp/ht_gf/htgf_rts_mcs3_40bw_004.txt ./LMAC_testcases/registers/bck_comp/ht_gf/htgf_rts_mcs3_40bw_004.txt
+
+uu_lmac_htgf_rts_mcs78_80bw_005 mcs78_80bw ./LMAC_testcases/testcases/bck_comp/ht_gf/htgf_rts_mcs78_80bw_005.txt ./LMAC_testcases/frameCapabilities/bck_comp/ht_gf/htgf_rts_mcs78_80bw_005.txt ./LMAC_testcases/frameInfo/bck_comp/ht_gf/htgf_rts_mcs78_80bw_005.txt ./LMAC_testcases/registers/bck_comp/ht_gf/htgf_rts_mcs78_80bw_005.txt
+
+uu_lmac_htgf_rts_40bw_gi1_006 40bw_gi1 ./LMAC_testcases/testcases/bck_comp/ht_gf/htgf_rts_40bw_gi1_006.txt ./LMAC_testcases/frameCapabilities/bck_comp/ht_gf/htgf_rts_40bw_gi1_006.txt ./LMAC_testcases/frameInfo/bck_comp/ht_gf/htgf_rts_40bw_gi1_006.txt ./LMAC_testcases/registers/bck_comp/ht_gf/htgf_rts_40bw_gi1_006.txt
+
+uu_lmac_htgf_rts_mcs3_gi1_007 mcs3_gi1 ./LMAC_testcases/testcases/bck_comp/ht_gf/htgf_rts_mcs3_gi1_007.txt ./LMAC_testcases/frameCapabilities/bck_comp/ht_gf/htgf_rts_mcs3_gi1_007.txt ./LMAC_testcases/frameInfo/bck_comp/ht_gf/htgf_rts_mcs3_gi1_007.txt ./LMAC_testcases/registers/bck_comp/ht_gf/htgf_rts_mcs3_gi1_007.txt
+
+uu_lmac_htgf_008 htgf ./LMAC_testcases/testcases/bck_comp/ht_gf/htgf_008.txt ./LMAC_testcases/frameCapabilities/bck_comp/ht_gf/htgf_008.txt ./LMAC_testcases/frameInfo/bck_comp/ht_gf/htgf_008.txt ./LMAC_testcases/registers/bck_comp/ht_gf/htgf_008.txt
+
+uu_lmac_htgf_40bw_009 40bw ./LMAC_testcases/testcases/bck_comp/ht_gf/htgf_40bw_009.txt ./LMAC_testcases/frameCapabilities/bck_comp/ht_gf/htgf_40bw_009.txt ./LMAC_testcases/frameInfo/bck_comp/ht_gf/htgf_40bw_009.txt ./LMAC_testcases/registers/bck_comp/ht_gf/htgf_40bw_009.txt
+
+uu_lmac_htgf_rp_010 htgf_rp ./LMAC_testcases/testcases/bck_comp/ht_gf/htgf_rp_010.txt ./LMAC_testcases/frameCapabilities/bck_comp/ht_gf/htgf_rp_010.txt ./LMAC_testcases/frameInfo/bck_comp/ht_gf/htgf_rp_010.txt ./LMAC_testcases/registers/bck_comp/ht_gf/htgf_rp_010.txt
+
+uu_lmac_htgf_rp_mcs1_011 rp_mcs1 ./LMAC_testcases/testcases/bck_comp/ht_gf/htgf_rp_mcs1_011.txt ./LMAC_testcases/frameCapabilities/bck_comp/ht_gf/htgf_rp_mcs1_011.txt ./LMAC_testcases/frameInfo/bck_comp/ht_gf/htgf_rp_mcs1_011.txt ./LMAC_testcases/registers/bck_comp/ht_gf/htgf_rp_mcs1_011.txt
+
+uu_lmac_htmf_rp_mcs79_012 rp_mcs79 ./LMAC_testcases/testcases/bck_comp/ht_gf/htmf_rp_mcs79_012.txt ./LMAC_testcases/frameCapabilities/bck_comp/ht_gf/htmf_rp_mcs79_012.txt ./LMAC_testcases/frameInfo/bck_comp/ht_gf/htmf_rp_mcs79_012.txt ./LMAC_testcases/registers/bck_comp/ht_gf/htmf_rp_mcs79_012.txt
+
+uu_lmac_htmf_rp_mcs80_013 rp_mcs80 ./LMAC_testcases/testcases/bck_comp/ht_gf/htmf_rp_mcs80_013.txt ./LMAC_testcases/frameCapabilities/bck_comp/ht_gf/htmf_rp_mcs80_013.txt ./LMAC_testcases/frameInfo/bck_comp/ht_gf/htmf_rp_mcs80_013.txt ./LMAC_testcases/registers/bck_comp/ht_gf/htmf_rp_mcs80_013.txt

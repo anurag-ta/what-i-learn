@@ -1,0 +1,2 @@
+# Event type 0 is for ADD-STA.
+testcaseid: 1 ev_type: 0 filename: addsta.txt

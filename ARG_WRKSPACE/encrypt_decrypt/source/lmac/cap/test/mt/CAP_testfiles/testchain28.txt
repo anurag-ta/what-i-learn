@@ -1,0 +1,13 @@
+#this testchain is for ac 2 and qos
+#idle-rx by phy_energy
+@TEST CAP_testfiles/idle18.txt
+#rx-contend by timer_ticks
+@TEST CAP_testfiles/receving15.txt
+#contend-txop by timer_ticks
+@TEST CAP_testfiles/contend13.txt
+#txop_init- wait_for_rx by txop_tx_start
+@TEST CAP_testfiles/txop29.txt
+#wait_for_rx-tx_nav_end by timer_ticks
+@TEST CAP_testfiles/txop30.txt
+#tx_nav_end - contend by timer_ticks
+@TEST CAP_testfiles/txop31.txt

@@ -1,0 +1,15 @@
+#idle-contend(energy)-Rx(sendResponse)-contend(timertick)-txop(tx_start)-txop_wait_for_rx-idle(received ack)
+#idle-tx_ready
+@TEST CAP_testchains/idle_tx_ready_multicast.txt
+#contend energy event
+@TEST CAP_testchains/contend_energy_high.txt
+#receving_start indication
+@TEST CAP_testchains/rx_start_ind.txt
+#receving_data indication
+@TEST CAP_testchains/rx_data_ind.txt
+#receving_data indication
+@TEST CAP_testchains/rx_end_ind_send_resp_to_contend.txt
+#contend_timer tick
+@TEST CAP_testchains/contend_timer_tick.txt
+#txop_tx_start event
+@TEST CAP_testchains/txop_tx_start_with_idle_end.txt

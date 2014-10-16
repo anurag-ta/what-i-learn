@@ -1,0 +1,9 @@
+Testcase 1
+
+GENERATE BEACON
+recv
+
+recv
+Endcase
+
+END

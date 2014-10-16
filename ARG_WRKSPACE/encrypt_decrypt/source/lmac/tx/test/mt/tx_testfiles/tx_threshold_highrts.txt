@@ -1,0 +1,2 @@
+#testcase for transmission of qos_data frame of length > rts_threahold
+testcaseid: 2 testcategory: 4 input: frame_info: tx_vector.txt frame: qosdata.txt rts_cts_frame: rts_frame1.txt nav: 1000 duration: 100 qos: 1 output: 0

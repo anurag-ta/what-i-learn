@@ -1,0 +1,36 @@
+#idle(energy)-receiving(navupdate)-idle
+#idle-energy event
+@TEST CAP_testchains/idle_energy_high_ampdu.txt
+@TEST CAP_testchains/receving_rx_tx_ready_ampdu.txt
+#receving_start indication
+@TEST CAP_testchains/rx_start_ind_ampdu.txt
+#receving_data indication
+@TEST CAP_testchains/rx_data_ind_ampdu.txt
+@TEST CAP_testchains/rx_end_ind_ff2_ampdu.txt
+#contend-txop by timer_ticks
+@TEST CAP_testchains/contend20_ampdu.txt
+@TEST CAP_testchains/txop32_ampdu.txt
+@TEST CAP_testchains/txop33_ampdu.txt
+@TEST CAP_testchains/txop34_ampdu.txt
+@TEST CAP_testchains/wait_tx_nav_end_timer_tick_ampdu.txt
+#contend-txop by timer_ticks
+@TEST CAP_testchains/contend220_ampdu.txt
+#txop_init-wait_for_rx by txop_tx_Start
+@TEST CAP_testchains/txop32_ampdu.txt
+#wait_for_rx-wait_for_rx by rx_start_ind
+@TEST CAP_testchains/txop33_ampdu.txt
+#rx_start tocontend by setting retry to 1
+@TEST CAP_testchains/txop34_ampdu.txt
+@TEST CAP_testchains/wait_tx_nav_end_timer_tick_ampdu.txt
+#retransmissions are done based on short_retry_count in registers
+@TEST CAP_testchains/contend220_ampdu.txt
+@TEST CAP_testchains/txop32_ampdu.txt
+@TEST CAP_testchains/txop33_ampdu.txt
+@TEST CAP_testchains/txop34_ampdu.txt
+@TEST CAP_testchains/wait_tx_nav_end_timer_tick_ampdu.txt
+@TEST CAP_testchains/contend220_ampdu.txt
+@TEST CAP_testchains/txop32_ampdu.txt
+@TEST CAP_testchains/txop33_ampdu.txt
+@TEST CAP_testchains/txop34_ampdu.txt
+@TEST CAP_testchains/wait_tx_nav_end_timer_tick_ampdu.txt
+@TEST CAP_testchains/contend15_ampdu.txt

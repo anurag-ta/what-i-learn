@@ -1,0 +1,8 @@
+#idle-contend-receving by tx_ready,phy_energy
+input1 ev_type: 2 pre_timer_tick_count: 0 post_timer_tick_count: 0 is_frame_available: 0 no.of_frames: 0 frame_input_file: no_file.txt frame_info_file: frame_info.txt precondition: main_state: 0 supp_state: 0 postcondition: main_state: 2 supp_state: 0 ac: 0 qos: 0 status: -1 ch_list: -1 vec_file: no_file.txt frame_file: no_file.txt rx_end_ret: -1 phy_end_ret: -1 
+#phy_emergy_indication with high energy on contend state
+input2 ev_type: 6 pre_timer_tick_count: 0 post_timer_tick_count: 0 is_frame_available: 0 no.of_frames: 0 frame_input_file: no_file.txt frame_info_file: frame_info.txt precondition: main_state: 2 supp_state: 0 postcondition: main_state: 4 supp_state: 0 ac: 0 qos: -1 status: 1 ch_list: 1 vec_file: no_file.txt frame_file: no_file.txt rx_end_ret: -1 phy_end_ret: -1 
+#phy_energy_indication with low energy on receiving state
+input3 ev_type: 6 pre_timer_tick_count: 0 post_timer_tick_count: 0 is_frame_available: 0 no.of_frames: 0 frame_input_file: no_file.txt frame_info_file: frame_info.txt precondition: main_state: 4 supp_state: 0 postcondition: main_state: 2 supp_state: 0 ac: 0 qos: -1 status: 0 ch_list: 0 vec_file: no_file.txt frame_file: no_file.txt rx_end_ret: -1 phy_end_ret: -1 
+#timer_ticks on contend state
+input4 ev_type: 1 pre_timer_tick_count: 65535 post_timer_tick_count: 0 is_frame_available: 0 no.of_frames: 0 frame_input_file: no_file.txt frame_info_file: frame_info.txt precondition: main_state: 2 supp_state: 0 postcondition: main_state: 0 supp_state: 0 ac: 0 qos: -1 status: -1 ch_list: -1 vec_file: no_file.txt frame_file: no_file.txt rx_end_ret: -1 phy_end_ret: -1 

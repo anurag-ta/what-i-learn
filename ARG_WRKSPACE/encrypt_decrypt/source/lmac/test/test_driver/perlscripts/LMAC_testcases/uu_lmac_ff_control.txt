@@ -1,0 +1,116 @@
+uu_lmac_ff_ctrl_rts-cts_nonqos_001 RTS/CTS_nonqos ./LMAC_testcases/testcases/control_ff/rts-cts_nonqos_001.txt ./LMAC_testcases/frameCapabilities/control_ff/rts-cts_nonqos_001.txt ./LMAC_testcases/frameInfo/control_ff/rts-cts_nonqos_001.txt ./LMAC_testcases/registers/control_ff/rts-cts_nonqos_001.txt
+
+uu_lmac_ff_ctrl_rts-cts_qos_002 RTS/CTS_qos ./LMAC_testcases/testcases/control_ff/ctrl_rts-cts_qos_002.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_rts-cts_qos_002.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_rts-cts_qos_002.txt ./LMAC_testcases/registers/control_ff/ctrl_rts-cts_qos_002.txt
+
+uu_lmac_ff_ctrl_rts-cts_mgmt_003 RTS/CTS_mgmt ./LMAC_testcases/testcases/control_ff/ctrl_rts-cts_mgmt_003.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_rts-cts_mgmt_003.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_rts-cts_mgmt_003.txt ./LMAC_testcases/registers/control_ff/ctrl_rts-cts_mgmt_003.txt
+
+#uu_lmac_ff_ctrl_rts-cts_cntrl_004 RTS/CTS_control ./LMAC_testcases/testcases/control_ff/ctrl_rts-cts_cntrl_004.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_rts-cts_cntrl_004.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_rts-cts_cntrl_004.txt ./LMAC_testcases/registers/control_ff/ctrl_rts-cts_cntrl_004.txt
+
+uu_lmac_ff_ctrl_rts-cts_gcast-data_005 RTS/CTS_gcast ./LMAC_testcases/testcases/control_ff/ctrl_rts-cts_gcast-data_005.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_rts-cts_gcast-data_005.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_rts-cts_gcast-data_005.txt ./LMAC_testcases/registers/control_ff/ctrl_rts-cts_gcast-data_005.txt
+
+uu_lmac_ff_ctrl_rts-cts_gcast-data-tods1_006 RTS/CTS_gcast_tods1 ./LMAC_testcases/testcases/control_ff/ctrl_rts-cts_gcast-data-tods1_006.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_rts-cts_gcast-data-tods1_006.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_rts-cts_gcast-data-tods1_006.txt ./LMAC_testcases/registers/control_ff/ctrl_rts-cts_gcast-data-tods1_006.txt
+
+uu_lmac_ff_ctrl_rts-cts_data-pwrmgmt1_007 RTS/CTS_pwrmgmt ./LMAC_testcases/testcases/control_ff/ctrl_rts-cts_data-pwrmgmt1_007.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_rts-cts_data-pwrmgmt1_007.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_rts-cts_data-pwrmgmt1_007.txt ./LMAC_testcases/registers/control_ff/ctrl_rts-cts_data-pwrmgmt1_007.txt
+ 
+uu_lmac_ff_ctrl_rts-cts_ac-qos_008 RTS/CTS_ac-qos ./LMAC_testcases/testcases/control_ff/ctrl_rts-cts_ac-qos_008.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_rts-cts_ac-qos_008.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_rts-cts_ac-qos_008.txt ./LMAC_testcases/registers/control_ff/ctrl_rts-cts_ac-qos_008.txt
+
+uu_lmac_ff_ctrl_rts-cts_ac-qos-null_009 RTS/CTS_ac-qos-null ./LMAC_testcases/testcases/control_ff/ctrl_rts-cts_ac-qos-null_009.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_rts-cts_ac-qos-null_009.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_rts-cts_ac-qos-null_009.txt ./LMAC_testcases/registers/control_ff/ctrl_rts-cts_ac-qos-null_009.txt
+
+uu_lmac_ff_ctrl_rts-cts_ac-mgmt_010 RTS/CTS_ac-mgmt ./LMAC_testcases/testcases/control_ff/ctrl_rts-cts_ac-mgmt_010.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_rts-cts_ac-mgmt_010.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_rts-cts_ac-mgmt_010.txt ./LMAC_testcases/registers/control_ff/ctrl_rts-cts_ac-mgmt_010.txt
+
+uu_lmac_ff_ctrl_rts-cts_gcast-mgmt_011 RTS/CTS_beacon ./LMAC_testcases/testcases/control_ff/ctrl_rts-cts_gcast-mgmt_011.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_rts-cts_gcast-mgmt_011.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_rts-cts_gcast-mgmt_011.txt ./LMAC_testcases/registers/control_ff/ctrl_rts-cts_gcast-mgmt_011.txt
+
+uu_lmac_ff_ctrl_rts-cts_dur-nonqos_012 RTS/CTS_dur-nonqos ./LMAC_testcases/testcases/control_ff/ctrl_rts-cts_dur-nonqos_012.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_rts-cts_dur-nonqos_012.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_rts-cts_dur-nonqos_012.txt ./LMAC_testcases/registers/control_ff/ctrl_rts-cts_dur-nonqos_012.txt
+
+uu_lmac_ff_ctrl_rts-cts_dur-qos_013 RTS/CTS_dur-qos ./LMAC_testcases/testcases/control_ff/ctrl_rts-cts_dur-qos_013.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_rts-cts_dur-qos_013.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_rts-cts_dur-qos_013.txt ./LMAC_testcases/registers/control_ff/ctrl_rts-cts_dur-qos_013.txt
+
+uu_lmac_ff_ctrl_rts-cts_dur-gcast-data-tods1_014 RTS/CTS_dur-gcastdata-tods1 ./LMAC_testcases/testcases/control_ff/ctrl_rts-cts_dur-gcast-data-tods1_014.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_rts-cts_dur-gcast-data-tods1_014.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_rts-cts_dur-gcast-data-tods1_014.txt ./LMAC_testcases/registers/control_ff/ctrl_rts-cts_dur-gcast-data-tods1_014.txt
+
+uu_lmac_ff_ctrl_rts-cts_dur-ampdu_015 RTS/CTS_dur-ampdu ./LMAC_testcases/testcases/control_ff/ctrl_rts-cts_dur-ampdu_015.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_rts-cts_dur-ampdu_015.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_rts-cts_dur-ampdu_015.txt ./LMAC_testcases/registers/control_ff/ctrl_rts-cts_dur-ampdu_015.txt
+
+uu_lmac_ff_ctrl_rts-cts_rts-rp_016 RTS/CTS_rp ./LMAC_testcases/testcases/control_ff/ctrl_rts-cts_rts-rp_016.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_rts-cts_rts-rp_016.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_rts-cts_rts-rp_016.txt ./LMAC_testcases/registers/control_ff/ctrl_rts-cts_rts-rp_016.txt
+
+#uu_lmac_ff_ctrl_dur-cts_017 CTS_dur-rp ./LMAC_testcases/testcases/control_ff/ctrl_dur-cts_017.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_dur-cts_017.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_dur-cts_017.txt ./LMAC_testcases/registers/control_ff/ctrl_dur-cts_017.txt
+
+#uu_lmac_ff_ctrl_dur-cts-firstframe_018 RTS/CTS_dur-selfcts ./LMAC_testcases/testcases/control_ff/ctrl_dur-cts-firstframe_018.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_dur-cts-firstframe_018.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_dur-cts-firstframe_018.txt ./LMAC_testcases/registers/control_ff/ctrl_dur-cts-firstframe_018.txt
+
+#uu_lmac_ff_ctrl_dur-cts-noresp_019 RTS/CTS_dur-noresp ./LMAC_testcases/testcases/control_ff/ctrl_dur-cts-noresp_019.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_dur-cts-noresp_019.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_dur-cts-noresp_019.txt ./LMAC_testcases/registers/control_ff/ctrl_dur-cts-noresp_019.txt
+
+uu_lmac_ff_ctrl_cts-ra-others_020 RTS/CTS_cts-raothers ./LMAC_testcases/testcases/control_ff/ctrl_cts-ra-others_020.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_cts-ra-others_020.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_cts-ra-others_020.txt ./LMAC_testcases/registers/control_ff/ctrl_cts-ra-others_020.txt
+
+uu_lmac_ff_ctrl_rts-ra-others_021 RTS/CTS_rts-raothers ./LMAC_testcases/testcases/control_ff/ctrl_rts-ra-others_021.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_rts-ra-others_021.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_rts-ra-others_021.txt ./LMAC_testcases/registers/control_ff/ctrl_rts-ra-others_021.txt
+
+uu_lmac_ff_ctrl_rts-ra-us_022 RTS/CTS_rts-ratous ./LMAC_testcases/testcases/control_ff/ctrl_rts-ra-us_022.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_rts-ra-us_022.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_rts-ra-us_022.txt ./LMAC_testcases/registers/control_ff/ctrl_rts-ra-us_022.txt
+
+uu_lmac_ff_ctrl_rts-dur0-rp_023 RTS/CTS_rts-dur0 ./LMAC_testcases/testcases/control_ff/ctrl_rts-dur0-rp_023.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_rts-dur0-rp_023.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_rts-dur0-rp_023.txt ./LMAC_testcases/registers/control_ff/ctrl_rts-dur0-rp_023.txt
+
+uu_lmac_ff_ctrl_rts-pwrmgmt1_024 RTS/CTS_rts-pwrmgmt ./LMAC_testcases/testcases/control_ff/ctrl_rts-pwrmgmt1_024.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_rts-pwrmgmt1_024.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_rts-pwrmgmt1_024.txt ./LMAC_testcases/registers/control_ff/ctrl_rts-pwrmgmt1_024.txt
+
+uu_lmac_ff_ctrl_rts-invalidfcs_025 RTS/CTS_rts-invalidifcs ./LMAC_testcases/testcases/control_ff/ctrl_rts-invalidfcs_025.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_rts-invalidfcs_025.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_rts-invalidfcs_025.txt ./LMAC_testcases/registers/control_ff/ctrl_rts-invalidfcs_025.txt
+
+uu_lmac_ff_ctrl_rts-invalidheader_026 RTS/CTS_rts-invalidheader ./LMAC_testcases/testcases/control_ff/ctrl_rts-invalidheader_026.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_rts-invalidheader_026.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_rts-invalidheader_026.txt ./LMAC_testcases/registers/control_ff/ctrl_rts-invalidheader_026.txt
+
+uu_lmac_ff_ctrl_rts_dur-fragmpdu_027 RTS/CTS_rts-fragmpdu ./LMAC_testcases/testcases/control_ff/ctrl_rts_dur-fragmpdu_027.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_rts_dur-fragmpdu_027.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_rts_dur-fragmpdu_027.txt ./LMAC_testcases/registers/control_ff/ctrl_rts_dur-fragmpdu_027.txt
+
+uu_lmac_ff_ctrl_rts_dur-fragmmpdu_028 RTS/CTS_rts-fragmmpdu ./LMAC_testcases/testcases/control_ff/ctrl_rts_dur-fragmmpdu_028.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_rts_dur-fragmmpdu_028.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_rts_dur-fragmmpdu_028.txt ./LMAC_testcases/registers/control_ff/ctrl_rts_dur-fragmmpdu_028.txt
+
+#uu_lmac_ff_ctrl_cts_selfcts-ra-others_029 RTS/CTS_selfcts-raothers ./LMAC_testcases/testcases/control_ff/ctrl_cts_selfcts-ra-others_029.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_cts_selfcts-ra-others_029.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_cts_selfcts-ra-others_029.txt ./LMAC_testcases/registers/control_ff/ctrl_cts_selfcts-ra-others_029.txt
+
+uu_lmac_ff_ctrl_rts_retry_030 RTS/CTS_retry ./LMAC_testcases/testcases/control_ff/ctrl_rts_retry_030.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_rts_retry_030.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_rts_retry_030.txt ./LMAC_testcases/registers/control_ff/ctrl_rts_retry_030.txt
+
+uu_lmac_ff_ctrl_rts_9M-rp_031 RTS/CTS_cts-rate ./LMAC_testcases/testcases/control_ff/ctrl_rts_9M-rp_031.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_rts_9M-rp_031.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_rts_9M-rp_031.txt ./LMAC_testcases/registers/control_ff/ctrl_rts_9M-rp_031.txt
+
+uu_lmac_ff_ctrl_ack_data-rp_033 ACK_gen ./LMAC_testcases/testcases/control_ff/ctrl_ack_data-rp_033.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_ack_data-rp_033.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_ack_data-rp_033.txt ./LMAC_testcases/registers/control_ff/ctrl_ack_data-rp_033.txt
+
+uu_lmac_ff_ctrl_ack_mgmt-rp_034 ACK_mgmt ./LMAC_testcases/testcases/control_ff/ctrl_ack_mgmt-rp_034.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_ack_mgmt-rp_034.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_ack_mgmt-rp_034.txt ./LMAC_testcases/registers/control_ff/ctrl_ack_mgmt-rp_034.txt
+
+uu_lmac_ff_ctrl_ack_qosdata-rp_035 ACK_qos ./LMAC_testcases/testcases/control_ff/ctrl_ack_qosdata-rp_035.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_ack_qosdata-rp_035.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_ack_qosdata-rp_035.txt ./LMAC_testcases/registers/control_ff/ctrl_ack_qosdata-rp_035.txt
+
+uu_lmac_ff_ctrl_ack_dur-data-morefrag0_036 ACK_data-morefrag0 ./LMAC_testcases/testcases/control_ff/ctrl_ack_dur-data-morefrag0_036.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_ack_dur-data-morefrag0_036.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_ack_dur-data-morefrag0_036.txt ./LMAC_testcases/registers/control_ff/ctrl_ack_dur-data-morefrag0_036.txt
+
+uu_lmac_ff_ctrl_ack_dur-data-pwrmgmt1_037 ACK_data-pwrmgmt1 ./LMAC_testcases/testcases/control_ff/ctrl_ack_dur-data-pwrmgmt1_037.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_ack_dur-data-pwrmgmt1_037.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_ack_dur-data-pwrmgmt1_037.txt ./LMAC_testcases/registers/control_ff/ctrl_ack_dur-data-pwrmgmt1_037.txt
+
+uu_lmac_ff_ctrl_ack_protect-data_038 ACK_data-protect1 ./LMAC_testcases/testcases/control_ff/ctrl_ack_protect-data_038.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_ack_protect-data_038.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_ack_protect-data_038.txt ./LMAC_testcases/registers/control_ff/ctrl_ack_protect-data_038.txt
+
+uu_lmac_ff_ctrl_ack_data-gcast-tods1_039 ACK_data-gcast-tods1 ./LMAC_testcases/testcases/control_ff/ctrl_ack_data-gcast-tods1_039.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_ack_data-gcast-tods1_039.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_ack_data-gcast-tods1_039.txt ./LMAC_testcases/registers/control_ff/ctrl_ack_data-gcast-tods1_039.txt
+
+uu_lmac_ff_ctrl_ack_data-gcast-tods0_040 ACK_gcast-tods0 ./LMAC_testcases/testcases/control_ff/ctrl_ack_data-gcast-tods0_040.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_ack_data-gcast-tods0_040.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_ack_data-gcast-tods0_040.txt ./LMAC_testcases/registers/control_ff/ctrl_ack_data-gcast-tods0_040.txt
+
+uu_lmac_ff_ctrl_ack_dur-morefrag1_041 ACK_data-morefrag1 ./LMAC_testcases/testcases/control_ff/ctrl_ack_dur-morefrag1_041.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_ack_dur-morefrag1_041.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_ack_dur-morefrag1_041.txt ./LMAC_testcases/registers/control_ff/ctrl_ack_dur-morefrag1_041.txt
+
+uu_lmac_ff_ctrl_ack_invalidfcs-rp_042 ACK_invalidfcs ./LMAC_testcases/testcases/control_ff/ctrl_ack_invalidfcs-rp_042.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_ack_invalidfcs-rp_042.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_ack_invalidfcs-rp_042.txt ./LMAC_testcases/registers/control_ff/ctrl_ack_invalidfcs-rp_042.txt
+
+uu_lmac_ff_ctrl_ack_actionnoack-rp_043 ACK_actionnoack ./LMAC_testcases/testcases/control_ff/ctrl_ack_actionnoack-rp_043.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_ack_actionnoack-rp_043.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_ack_actionnoack-rp_043.txt ./LMAC_testcases/registers/control_ff/ctrl_ack_actionnoack-rp_043.txt
+
+uu_lmac_ff_ctrl_ack_acktime0_044 ACK_timeout0 ./LMAC_testcases/testcases/control_ff/ctrl_ack_acktime0_044.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_ack_acktime0_044.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_ack_acktime0_044.txt ./LMAC_testcases/registers/control_ff/ctrl_ack_acktime0_044.txt
+
+uu_lmac_ff_ctrl_ack_data-fromds1-rp_045 ACK_data-fromds1 ./LMAC_testcases/testcases/control_ff/ctrl_ack_data-fromds1-rp_045.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_ack_data-fromds1-rp_045.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_ack_data-fromds1-rp_045.txt ./LMAC_testcases/registers/control_ff/ctrl_ack_data-fromds1-rp_045.txt
+
+#uu_lmac_ff_ctrl_ack_data-tods1fromds1-rp_046 ACK_data-tods1-fromds1 ./LMAC_testcases/testcases/control_ff/ctrl_ack_data-tods1fromds1-rp_046.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_ack_data-tods1fromds1-rp_046.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_ack_data-tods1fromds1-rp_046.txt ./LMAC_testcases/registers/control_ff/ctrl_ack_data-tods1fromds1-rp_046.txt
+
+uu_lmac_ff_ctrl_ack_retransmit-data_047 ACK_retry ./LMAC_testcases/testcases/control_ff/ctrl_ack_retransmit-data_047.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_ack_retransmit-data_047.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_ack_retransmit-data_047.txt ./LMAC_testcases/registers/control_ff/ctrl_ack_retransmit-data_047.txt
+
+#uu_lmac_ff_ctrl_ack_data-ta-ap_rp_048 ACK_ta-ap ./LMAC_testcases/testcases/control_ff/ctrl_ack_data-ta-ap_rp_048.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_ack_data-ta-ap_rp_048.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_ack_data-ta-ap_rp_048.txt ./LMAC_testcases/registers/control_ff/ctrl_ack_data-ta-ap_rp_048.txt
+
+uu_lmac_ff_ctrl_ack_data-dur_049 ACK_dur ./LMAC_testcases/testcases/control_ff/ctrl_ack_data-dur_049.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_ack_data-dur_049.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_ack_data-dur_049.txt ./LMAC_testcases/registers/control_ff/ctrl_ack_data-dur_049.txt
+
+#uu_lmac_ff_ctrl_ack_bar_050 ACK_BAR ./LMAC_testcases/testcases/control_ff/ctrl_ack_bar_050.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_ack_bar_050.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_ack_bar_050.txt ./LMAC_testcases/registers/control_ff/ctrl_ack_bar_050.txt
+
+#uu_lmac_ff_ctrl_ack_ba_051 ACK_BA ./LMAC_testcases/testcases/control_ff/ctrl_ack_ba_051.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_ack_ba_051.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_ack_ba_051.txt ./LMAC_testcases/registers/control_ff/ctrl_ack_ba_051.txt
+
+uu_lmac_ff_ctrl_ack_qos-ackpolicy-normal_052 ACK_qos-normalack ./LMAC_testcases/testcases/control_ff/ctrl_ack_qos-ackpolicy-normal_052.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_ack_qos-ackpolicy-normal_052.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_ack_qos-ackpolicy-normal_052.txt ./LMAC_testcases/registers/control_ff/ctrl_ack_qos-ackpolicy-normal_052.txt
+
+uu_lmac_ff_ctrl_ack_qos-ackpolicy-no_053 ACK_qos-noack ./LMAC_testcases/testcases/control_ff/ctrl_ack_qos-ackpolicy-no_053.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_ack_qos-ackpolicy-no_053.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_ack_qos-ackpolicy-no_053.txt ./LMAC_testcases/registers/control_ff/ctrl_ack_qos-ackpolicy-no_053.txt
+
+#uu_lmac_ff_ctrl_ack_qos-ackpolicy-no-explicit_054 ACK_qos-noexplicitack ./LMAC_testcases/testcases/control_ff/ctrl_ack_qos-ackpolicy-no-explicit_054.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_ack_qos-ackpolicy-no-explicit_054.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_ack_qos-ackpolicy-no-explicit_054.txt ./LMAC_testcases/registers/control_ff/ctrl_ack_qos-ackpolicy-no-explicit_054.txt
+
+#uu_lmac_ff_ctrl_ack_qos-ackpolicy-blockack_055 ACK_qos-blockack ./LMAC_testcases/testcases/control_ff/ctrl_ack_qos-ackpolicy-blockack_055.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_ack_qos-ackpolicy-blockack_055.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_ack_qos-ackpolicy-blockack_055.txt ./LMAC_testcases/registers/control_ff/ctrl_ack_qos-ackpolicy-blockack_055.txt
+
+#uu_lmac_ff_ctrl_ack_ampdu-ackpolicy-normal_056 ACK_ampdu-normal ./LMAC_testcases/testcases/control_ff/ctrl_ack_ampdu-ackpolicy-normal_056.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_ack_ampdu-ackpolicy-normal_056.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_ack_ampdu-ackpolicy-normal_056.txt ./LMAC_testcases/registers/control_ff/ctrl_ack_ampdu-ackpolicy-normal_056.txt
+
+#uu_lmac_ff_ctrl_ack_ampdu-ackpolicy-no_057 ACK_ampdu-no ./LMAC_testcases/testcases/control_ff/ctrl_ack_ampdu-ackpolicy-no_057.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_ack_ampdu-ackpolicy-no_057.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_ack_ampdu-ackpolicy-no_057.txt ./LMAC_testcases/registers/control_ff/ctrl_ack_ampdu-ackpolicy-no_057.txt
+
+#uu_lmac_ff_ctrl_ack_ampdu-ackpolicy-no-explicit_058 ACK_ampdu-noexp ./LMAC_testcases/testcases/control_ff/ctrl_ack_ampdu-ackpolicy-no-explicit_058.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_ack_ampdu-ackpolicy-no-explicit_058.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_ack_ampdu-ackpolicy-no-explicit_058.txt ./LMAC_testcases/registers/control_ff/ctrl_ack_ampdu-ackpolicy-no-explicit_058.txt
+
+#uu_lmac_ff_ctrl_ack_ampdu-ackpolicy-blockack_059 ACK_ampdu-ba ./LMAC_testcases/testcases/control_ff/ctrl_ack_ampdu-ackpolicy-blockack_059.txt ./LMAC_testcases/frameCapabilities/control_ff/ctrl_ack_ampdu-ackpolicy-blockack_059.txt ./LMAC_testcases/frameInfo/control_ff/ctrl_ack_ampdu-ackpolicy-blockack_059.txt ./LMAC_testcases/registers/control_ff/ctrl_ack_ampdu-ackpolicy-blockack_059.txt
+

@@ -1,0 +1,14 @@
+#array[0], rq_type, array[1], format, rate, is_aggregated, modulation, mcs, ac_g, cts_g, frame_input_file, rx_end_ind, array[2], array[3], post_condition[0], post_condition[1], post_condition[2], post_condition[3], post_condition[4], array[4], array[5], return_value.
+uu_wlan_cp_mt_1_id73 1 input: 0 1 0 0 0 0 0 TestFrames/mgmt_frame_input.txt 0 precondition: postcondition: output: return: ff1
+#format is vht
+#array[0], rq_type, array[1], format, rate, is_aggregated, modulation, mcs, ac_g, cts_g, frame_input_file, rx_end_ind, array[2], array[3], post_condition[0], post_condition[1], post_condition[2], post_condition[3], post_condition[4], array[4], array[5], return_value.
+uu_wlan_cp_mt_1_id74 1 input: 3 1 0 0 0 0 0 TestFrames/mgmt_frame_input.txt 0 precondition: postcondition: output: return: ff1
+#format is HT_MF
+#array[0], rq_type, array[1], format, rate, is_aggregated, modulation, mcs, ac_g, cts_g, frame_input_file, rx_end_ind, array[2], array[3], post_condition[0], post_condition[1], post_condition[2], post_condition[3], post_condition[4], array[4], array[5], return_value.
+uu_wlan_cp_mt_1_id75 1 input: 1 1 0 0 0 0 0 TestFrames/mgmt_frame_input.txt 0 precondition: postcondition: output: return: ff1
+#format is HT_GF
+#array[0], rq_type, array[1], format, rate, is_aggregated, modulation, mcs, ac_g, cts_g, frame_input_file, rx_end_ind, array[2], array[3], post_condition[0], post_condition[1], post_condition[2], post_condition[3], post_condition[4], array[4], array[5], return_value.
+uu_wlan_cp_mt_1_id76 1 input: 2 1 0 0 0 0 0 TestFrames/mgmt_frame_input.txt 0 precondition: postcondition: output: return: ff1
+#Action no ack frame.
+#array[0], rq_type, array[1], format, rate, is_aggregated, modulation, mcs, ac_g, cts_g, frame_input_file, rx_end_ind, array[2], array[3], post_condition[0], post_condition[1], post_condition[2], post_condition[3], post_condition[4], array[4], array[5], return_value.
+uu_wlan_cp_mt_1_id77 1 input: 0 1 0 0 0 0 0 TestFrames/mgmt_action_noack_frame_input.txt 0 precondition: postcondition: output: return: 0

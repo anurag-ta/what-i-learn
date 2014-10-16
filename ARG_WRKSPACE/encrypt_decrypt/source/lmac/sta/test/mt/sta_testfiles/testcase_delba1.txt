@@ -1,0 +1,2 @@
+# Event type 2 is for DEL-BA
+testcaseid: 1 ev_type: 2 filename: delba1.txt

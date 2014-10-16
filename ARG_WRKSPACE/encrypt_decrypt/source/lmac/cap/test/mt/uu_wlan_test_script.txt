@@ -1,0 +1,75 @@
+####################################################################################################
+#
+#               UURMI SYSTEMS
+#
+#  FRAME file Syntax
+#     "|"    -> Used in Frame file. Indicates frame byte delimiter.
+#     "@@"   -> Used in Frame file. Indicates the frame comments and It should be after Frame End.
+#
+#
+#  TEST Script file Syntax
+#     "#"                  -> Indicates comment line.
+#     "@TEST <Filename> "  -> Indicates run the given test file.
+#     <Test case syntax >  -> Test case syntax
+#
+######################################################################################################
+#uncomment and run the application for testing that case
+@TEST CAP_testchains/rtestchain_bw_80.txt
+@TEST CAP_testchains/testchain36.txt
+@TEST CAP_testchains/testchain37.txt
+@TEST CAP_testchains/testchain43.txt
+@TEST CAP_testchains/testchain44.txt
+@TEST CAP_testchains/testchain45.txt
+@TEST CAP_testchains/testchain46.txt
+@TEST CAP_testchains/testchain28.txt
+@TEST CAP_testchains/testchain39.txt
+@TEST CAP_testchains/testchain2.txt
+@TEST CAP_testchains/testchain1.txt
+@TEST CAP_testchains/testchain38.txt
+@TEST CAP_testchains/rtestchain7.txt
+@TEST CAP_testchains/rtestchain8.txt
+@TEST CAP_testchains/testchain29_ampdu.txt
+@TEST CAP_testchains/testchain56.txt
+@TEST CAP_testchains/testchain57.txt
+@TEST CAP_testchains/testchain52.txt
+@TEST CAP_testchains/testchain53.txt
+@TEST CAP_testchains/rtestchain4.txt
+@TEST CAP_testchains/testchain4.txt
+@TEST CAP_testchains/testchain42.txt
+@TEST CAP_testchains/testchain58.txt
+@TEST CAP_testchains/rtestchain3.txt
+@TEST CAP_testchains/rtestchain1.txt
+@TEST CAP_testchains/testchain62.txt
+@TEST CAP_testchains/rtestchain12.txt
+@TEST CAP_testchains/testchain64.txt
+@TEST CAP_testchains/testchain63.txt
+@TEST CAP_testchains/testchain60.txt
+@TEST CAP_testchains/testchain5.txt
+@TEST CAP_testchains/testchain7.txt
+@TEST CAP_testchains/testchain8.txt
+@TEST CAP_testchains/testchain61.txt
+@TEST CAP_testchains/testchain_collission_retry.txt
+@TEST CAP_testchains/testchain_collission_retry_threshold.txt
+@TEST CAP_testchains/testchain49.txt
+@TEST CAP_testchains/rtestchain10.txt
+@TEST CAP_testchains/testchain65.txt
+@TEST CAP_testchains/rtestchain9.txt
+@TEST CAP_testchains/testchain48.txt
+@TEST CAP_testchains/testchain34.txt
+@TEST CAP_testchains/rtestchain_bw_change.txt
+@TEST CAP_testchains/testchain_phy_ene_low_idle.txt
+@TEST CAP_testchains/rtestchain_senddatachain.txt
+@TEST CAP_testchains/rtestchain11.txt
+@TEST CAP_testchains/testchain9.txt
+@TEST CAP_testchains/testchain32.txt
+@TEST CAP_testchains/testchain33.txt
+@TEST CAP_testchains/rtestchain5.txt
+@TEST CAP_testchains/testchain_short_retry.txt
+@TEST CAP_testchains/testchain47.txt
+@TEST CAP_testchains/testchain30.txt
+@TEST CAP_testchains/rtestchain2.txt
+@TEST CAP_testchains/testchain54.txt
+@TEST CAP_testchains/testchain3.txt
+@TEST CAP_testchains/testchain35.txt
+@TEST CAP_testchains/rtestchain13.txt
+@TEST CAP_testchains/testchain6.txt

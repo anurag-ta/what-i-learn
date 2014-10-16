@@ -1,0 +1,3 @@
+CWMIN_AC[1] 01
+QOS_MODE 01
+

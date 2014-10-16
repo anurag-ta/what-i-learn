@@ -1,0 +1,4 @@
+@TEST CAP_testchains/idle_contend_tx_ready.txt
+@TEST CAP_testchains/contend16.txt
+@TEST CAP_testchains/txop_tx_start.txt
+@TEST CAP_testchains/rx_end_ind_ack_rcvdi_nq.txt

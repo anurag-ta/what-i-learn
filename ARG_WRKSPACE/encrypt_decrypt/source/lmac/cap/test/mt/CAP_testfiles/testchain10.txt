@@ -1,0 +1,6 @@
+#idle-contend by tx_ready
+@TEST CAP_testfiles/idle1.txt
+#contend-txop by timer-ticks
+@TEST CAP_testfiles/contend6.txt
+#txop(txop-init)-txop(wait_for_rx) by txop_tx_start
+@TEST CAP_testfiles/txop7.txt

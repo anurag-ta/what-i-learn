@@ -1,0 +1,16 @@
+#single protection frame duration calculation including rts and cts.
+#array[0], &rq_type, 
+#array[1], &format, &mcs, &modulation, &l_datarate, &l_length, &ht_length, &stbc, &ch_bw, &is_short_gi, 
+#                        &apep_length, &num_ext_ss, &is_long_preamble, &self_cts_flag, &exp_frame_length, rtscts_rate 
+#array[2], 
+#array[3], 
+#array[4], 
+#array[5], &return_value);
+#caluculating duration for sifs+cts+sifs+dataframe+sifs+response_frame.
+uu_wlan_duration_mt_1_id26 1 input: 0 0 0 13 1000 0 0 0 0 0 0 0 0 14 13 precondition: 0x03ff postcondition: output: return_value: 340 
+#caluculating duration for sifs+cts+sifs+dataframe(data size-132, rate 24)+sifs+(BA FRAME-34).
+uu_wlan_duration_mt_1_id27 1 input: 0 0 0 9 132 0 0 0 0 0 0 0 0 14 9 precondition: 0x01ff postcondition: output: return_value: 172 
+#caluculating duration for sifs+cts+sifs+dataframe(data size-132, rate 65mbps)+sifs+(BA FRAME-34).
+uu_wlan_duration_mt_1_id28 1 input: 1 7 0 0 0 132 1 0 0 0 1 0 0 34 9 precondition: 0x01ff postcondition: output: return_value: 184 
+#caluculating self cts duration for sifs+dataframe+sifs+response_frame.
+uu_wlan_duration_mt_1_id35 1 input: 0 0 0 13 1000 0 0 0 0 0 0 0 1 14 13 precondition: 0x03ff postcondition: output: return_value: 300 
